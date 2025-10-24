@@ -69,7 +69,7 @@ src/
 └── App.tsx
 ```
 
-## iNOV Brand Theme
+## Inov Brand Theme
 
 - **Primary**: Yellow #F5C344
 - **Secondary**: Navy #2C3E50

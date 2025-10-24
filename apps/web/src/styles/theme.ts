@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material/styles';
 
 /**
- * iNOV Research & Development Brand Theme
+ * Inov Research & Development Brand Theme
  * Primary: Yellow #F5C344 (CTAs, highlights, accents)
  * Secondary: Navy #2C3E50 (text, headers, navigation)
  */

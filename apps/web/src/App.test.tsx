@@ -11,10 +11,10 @@ describe('App', () => {
         <App />
       </ThemeProvider>
     );
-    expect(screen.getByText(/R&D Tax Relief Generator/i)).toBeInTheDocument();
+    expect(screen.getByText(/Generator Kart Projektów Ulga B\+R/i)).toBeInTheDocument();
   });
 
-  it('applies iNOV theme colors', () => {
+  it('applies Inov theme colors', () => {
     render(
       <ThemeProvider theme={inovTheme}>
         <App />
@@ -30,6 +30,6 @@ describe('App', () => {
         <App />
       </ThemeProvider>
     );
-    expect(screen.getByText(/Tailwind CSS is working/i)).toBeInTheDocument();
+    expect(screen.getByText(/Tailwind CSS działa/i)).toBeInTheDocument();
   });
 });

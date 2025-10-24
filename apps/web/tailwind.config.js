@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'inov-yellow': '#F5C344',
-        'inov-navy': '#2C3E50',
+        'inov-yellow': '#F5C344', // Inov brand primary
+        'inov-navy': '#2C3E50',   // Inov brand secondary
       },
     },
   },
