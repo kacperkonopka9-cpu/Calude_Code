@@ -1,0 +1,31 @@
+{
+  "name": "rnd-tax-relief-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "R&D Tax Relief Project Card Generator - AI-powered document generation for Polish Ulga B+R compliance",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "type-check": "npm run type-check --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "R&D",
+    "tax-relief",
+    "AI",
+    "document-generation",
+    "Polish",
+    "Ulga B+R"
+  ],
+  "author": "iNOV Research & Development",
+  "license": "UNLICENSED"
+}
