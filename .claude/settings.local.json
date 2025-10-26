@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/BMad:agents:qa:*)",
+      "SlashCommand(/BMad:agents:sm:*)",
+      "SlashCommand(/BMad:agents:dev:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(winget install:*)",
+      "Bash(where:*)",
+      "Bash(python -m ensurepip:*)",
+      "Bash(C:UsersACERDocumentsGitHubCalude_CodeScriptspip3.exe install -r requirements.txt)",
+      "Bash(py:*)",
+      "Bash(timeout 5 py:*)",
+      "Bash(if not exist scripts mkdir scripts)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
