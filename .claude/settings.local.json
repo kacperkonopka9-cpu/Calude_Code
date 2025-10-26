@@ -11,7 +11,10 @@
       "Bash(C:UsersACERDocumentsGitHubCalude_CodeScriptspip3.exe install -r requirements.txt)",
       "Bash(py:*)",
       "Bash(timeout 5 py:*)",
-      "Bash(if not exist scripts mkdir scripts)"
+      "Bash(if not exist scripts mkdir scripts)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: add FastAPI backend and update project configuration\n\n- Add FastAPI backend structure in apps/api/\n- Add BMad QA documentation and story files\n- Update .gitignore to exclude Python virtual environment directories\n- Add git push to Claude Code allow list\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
