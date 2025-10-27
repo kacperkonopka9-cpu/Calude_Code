@@ -34,7 +34,7 @@ Poland operates **six distinct innovation tax reliefs**, collectively representi
 
 **8-Year Trajectory (2017-2024):**
 - **Deduction value growth:** 1.01B PLN (2017) → **11.44B PLN (2024)**
-  - **42.5% CAGR** (compound annual growth rate)
+  - **41.4% CAGR** (compound annual growth rate)
 - **Peak participation:** 4,741 entities (2021)
 - **Current level:** 3,655 entities (2024) - **23% decline from peak**
 

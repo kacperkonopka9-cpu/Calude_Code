@@ -172,7 +172,7 @@ Poland operates **six distinct pro-innovation tax reliefs**, collectively repres
 | 2024 |     2,544 |    11,003,254,504 |       4,325,179 |              -10.5% |               3.8% |
 
 **CIT TOTAL (2017-2024):** 18,102 company-years | 48.05 billion PLN
-**8-year CAGR:** Companies 18.1% | Amount 42.5%
+**8-year CAGR:** Companies 18.1% | Amount 41.4%
 
 **Eight-Year Growth Trajectory (PIT - Personal Income Tax):**
 
