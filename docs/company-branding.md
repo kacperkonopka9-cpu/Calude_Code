@@ -1,4 +1,4 @@
-# iNOV Research & Development - Company Branding Guide
+# Inov Research & Development - Company Branding Guide
 
 **Document Version:** 1.1 (Refined)
 **Date:** October 27, 2025
