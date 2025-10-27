@@ -60,10 +60,10 @@
         h1 {
             font-size: 28pt;
             font-weight: bold;
-            color: #1a1a1a;
+            color: #2C3E50;
             margin-top: 1.5em;
             margin-bottom: 0.8em;
-            border-bottom: 3px solid #0066cc;
+            border-bottom: 3px solid #F5C344;
             padding-bottom: 0.3em;
         }
 
@@ -74,7 +74,7 @@
         h2 {
             font-size: 20pt;
             font-weight: bold;
-            color: #0066cc;
+            color: #F5C344;
             margin-top: 1.5em;
             margin-bottom: 0.6em;
         }
@@ -153,8 +153,8 @@
         blockquote {
             margin: 1.5em 2em;
             padding: 1em;
-            background-color: #f0f8ff;
-            border-left: 5px solid #0066cc;
+            background-color: #FFF9E6;
+            border-left: 5px solid #F5C344;
             font-style: italic;
         }
 
@@ -184,7 +184,7 @@
 
         /* Links */
         a {
-            color: #0066cc;
+            color: #F5C344;
             text-decoration: none;
         }
 
@@ -201,9 +201,9 @@
 
         /* Special boxes */
         .info-box {
-            background-color: #e6f2ff;
+            background-color: #FFF9E6;
             padding: 1.2em;
-            border-left: 5px solid #0066cc;
+            border-left: 5px solid #F5C344;
             margin: 1.5em 0;
         }
 
@@ -225,7 +225,7 @@
         .navigation {
             position: sticky;
             top: 0;
-            background: #0066cc;
+            background: #2C3E50;
             color: white;
             padding: 15px;
             margin: -40px -40px 30px -40px;
@@ -240,27 +240,29 @@
         }
 
         .navigation button {
-            background: white;
-            color: #0066cc;
+            background: #F5C344;
+            color: #2C3E50;
             border: none;
             padding: 10px 20px;
             margin-right: 10px;
             cursor: pointer;
             border-radius: 5px;
+            font-weight: 500;
             font-weight: bold;
         }
 
         .navigation button:hover {
-            background: #f0f8ff;
+            background: #D9A827;
+            color: white;
         }
 
         /* Chapter markers */
         .chapter-marker {
-            color: #0066cc;
+            color: #F5C344;
             font-weight: bold;
             margin-top: 3em;
             padding-top: 1em;
-            border-top: 3px solid #0066cc;
+            border-top: 3px solid #F5C344;
         }
 
         /* Footer */
@@ -279,10 +281,11 @@
         <div class="navigation no-print">
             <h3>📊 Polski Ekosystem Ulg Podatkowych na Innowacje</h3>
             <button onclick="window.print()">🖨️ Print to PDF (Ctrl+P)</button>
-            <button onclick="document.body.style.zoom='100%'">🔍 Reset Zoom</button>
-            <button onclick="document.body.style.zoom=(parseFloat(document.body.style.zoom||1)+0.1)*100+'%'">🔍+ Zoom In</button>
-            <button onclick="document.body.style.zoom=(parseFloat(document.body.style.zoom||1)-0.1)*100+'%'">🔍- Zoom Out</button>
         </div>
+
+<div style="text-align: center; margin: 2em 0;">
+    <img src="../../Inov logo (1800 x 1000 px) (10).png" alt="iNOV Research & Development" style="max-width: 400px; height: auto;">
+</div>
 
 <h1>Polski Ekosystem Ulg Podatkowych na Innowacje</h1>
 <h2>Analiza Danych 2017-2024 i Luka Raportowania Statystycznego</h2>
@@ -439,8 +442,8 @@ Inov Research &amp; Development</p>
 <h2>Kontakt</h2>
 <p>Dla pytań dotyczących metodologii, danych lub ustaleń, prosimy o kontakt:</p>
 <p><strong>Inov Research &amp; Development</strong><br />
-Email: research@inov.pl<br />
-Web: www.inov.pl</p>
+Email: kkonopka@inovgroup.pl<br />
+Web: www.inovgroup.pl</p>
 <hr />
 <p><strong>Data opracowania:</strong> Październik 2025<br />
 <strong>Wersja:</strong> 1.0<br />
@@ -555,25 +558,33 @@ Po konsekwentnym wzroście 2017-2021, uczestnictwo spadło, podczas gdy kwoty od
 <h3>Kwantyfikacja Luki</h3>
 <p><strong>Dane Ministerstwa Finansów (2024):</strong><br />
 - <strong>3,655 podmiotów</strong> korzystających z ulgi B+R (2,544 CIT + 1,111 PIT)</p>
-<p><strong>Oficjalne raportowanie GUS (2022, najnowsze dostępne):</strong><br />
-- Szacowane <strong>~2,100 firm</strong> raportujących działalność B+R*</p>
-<p>*Oszacowanie oparte na publikacjach GUS, badaniach akademickich i raportach branżowych (szczegóły: Rozdział 4.2.2, Appendix B.1)</p>
+<p><strong>Dane GUS (2022, najnowsze dostępne):</strong><br />
+- <strong>7,431 podmiotów</strong> ogółem realizujących działalność B+R (według GUS 2022)*<br />
+- Z tego: szacowane <strong>~2,100 firm raportujących do PNT-01**</strong> (formularz szczegółowy)</p>
+<p>*Źródło: GUS, Nauka i Technika w 2022 roku. Obejmuje wszystkie podmioty prowadzące działalność B+R, w tym te w fazie rozwojowej, które nie korzystają jeszcze z ulg podatkowych (brak generowanych podatków do odliczenia).<br />
+**Oszacowanie liczby podmiotów wypełniających szczegółowe formularze PNT-01 oparte na publikacjach GUS, badaniach akademickich i raportach branżowych (szczegóły: Rozdział 4.2.2, Appendix B.1)</p>
 <p><strong>Domniemana Luka:</strong><br />
-- <strong>~1,555 podmiotów (~29% wnioskodawców)</strong> nie raportuje do GUS<br />
+- <strong>~1,555 podmiotów (~29% wnioskodawców ulgi B+R)</strong> nie raportuje szczegółowo do GUS<br />
 - Nawet uwzględniając pracowników PIT i imputację GUS, luka jest znacząca</p>
 <h3>Wpływ na Wskaźniki</h3>
 <p><strong>Jeśli wszyscy wnioskodawcy B+R raportowali:</strong><br />
-- Wydatki Polski na B+R mogłyby wzrosnąć o <strong>50-100%</strong> w oficjalnych statystykach<br />
-- Wskaźnik B+R/PKB: 1,45% → <strong>1,8-2,0%</strong><br />
+- Wydatki Polski na B+R mogłyby wzrosnąć o <strong>20-30%</strong> w oficjalnych statystykach*<br />
+- Wskaźnik B+R/PKB: 1,45% → <strong>1,65-1,80%</strong><br />
+<p>*Kalkulacja oparta na danych Grant Thornton i różnicy między raportowanymi wydatkami. Szczegółowa metodologia w Rozdziale 4.2.3.</p>
 - <strong>Wpływ na ranking:</strong> Mogłaby przenieść Polskę z dolnego kwartyla do mediany UE</p>
 <h3>Główne Przyczyny Nieraportowania</h3>
-<p>Według analiz i badań, firmy nie raportują z powodu:</p>
+<p>Na podstawie badań OECD, Komisji Europejskiej oraz raportów Grant Thornton dotyczących obciążeń administracyjnych polskich MSP, zidentyfikowano następujące główne bariery w raportowaniu statystycznym B+R:</p>
 <ol>
-<li><strong>Brak świadomości (40%)</strong> - Wiele firm nie wie o istnieniu formularzy PNT-01/PNT-02</li>
-<li><strong>Obawy przed kontrolami (30%)</strong> - Przekonanie, że raportowanie zwiększa prawdopodobieństwo audytu (w dużej mierze nieuzasadnione)</li>
-<li><strong>Czasochłonność (20%)</strong> - Wypełnienie szczegółowych formularzy wymaga czasu i wiedzy</li>
-<li><strong>Brak konsekwencji (10%)</strong> - Minimalne egzekwowanie, symboliczne kary</li>
+<li><strong>Obciążenia administracyjne i czasochłonność (35-40%)</strong> - Według badań OECD SME and Entrepreneurship Outlook 2019 oraz European Commission Report, polskie firmy charakteryzują się wyższym poziomem obciążeń administracyjnych niż średnia UE (ocena 2.69 vs 3.87). Badania ResearchGate wskazują, że "10 procent przedsiębiorców identyfikuje biurokrację jako największe ograniczenie wzrostu". Wypełnienie formularzy PNT-01 wymaga dedykowanego czasu i wiedzy specjalistycznej.*</li>
+<li><strong>Brak świadomości i słaba komunikacja (25-30%)</strong> - Brak aktywnego informowania firm o obowiązkach sprawozdawczych do GUS oraz korzyściach z raportowania (np. dostęp do dotacji UE, benchmarking branżowy).**</li>
+<li><strong>Obawy przed kontrolami i konsekwencjami (20-25%)</strong> - Przekonanie, że szczegółowe raportowanie działalności B+R zwiększa prawdopodobieństwo kontroli podatkowej (częściowo uzasadnione wzrostem cyfryzacji i automatyzacji analiz przez organy podatkowe).**</li>
+<li><strong>Słabe egzekwowanie i minimalne konsekwencje (10-15%)</strong> - Ustawa o statystyce publicznej przewiduje kary do 5,000 PLN, jednak egzekwowanie jest minimalne, co zmniejsza motywację do przestrzegania obowiązku.***</li>
 </ol>
+<p><strong>Źródła:</strong><br />
+*OECD SME and Entrepreneurship Outlook 2019 (https://www.oecd-ilibrary.org); European Commission Report on Single Market and Competitiveness 2025; ResearchGate: "Key barriers to the development of effective innovative activity of Polish SME companies" (2014)<br />
+**Grant Thornton reports on Polish R&D tax compliance; trade.gov.pl: "Regulatory barriers and the competitiveness of Polish companies"<br />
+***Ustawa o statystyce publicznej (Public Statistics Act); Gov.pl: PNT-01 reporting requirements</p>
+<p><strong>Nota metodologiczna:</strong> Procentowe oszacowania oparte na triangulacji danych z wielu źródeł i nie reprezentują pojedynczego badania ankietowego. Szczegółowe badanie przyczyn nieraportowania wśród populacji wnioskodawców ulgi B+R byłoby wartościowym kierunkiem dalszych badań.</p>
 <hr />
 <h2>Konsekwencje dla Polski</h2>
 <h3>1. Szkody Wizerunkowe Międzynarodowe</h3>
@@ -1222,11 +1233,14 @@ https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS</p>
 - <strong>3,655 podmiotów</strong> korzystających z ulgi B+R (2,544 CIT + 1,111 PIT)<br />
 - <strong>11,44 miliarda PLN</strong> w odliczeniach podatkowych</p>
 <p><strong>Co pokazują oficjalne statystyki GUS (2022, najnowsze dostępne):</strong><br />
-- Szacowane <strong>~2,100 firm</strong> raportujących działalność B+R<br />
+- <strong>7,431 podmiotów</strong> ogółem realizujących działalność B+R*<br />
+- Szacowane <strong>~2,100 firm</strong> raportujących szczegółowo poprzez PNT-01**<br />
 - Oficjalne wydatki na B+R: <strong>~48 miliardów PLN</strong> (1,45% PKB)</p>
 <p><strong>Źródło danych GUS:</strong><br />
 - Nauka i Technika w 2022 roku: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/nauka-i-technika-w-2022-roku,1,18.html<br />
 - Baza danych GUS - Nauka i Technika: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/</p>
+<p>*Dane GUS obejmują wszystkie podmioty B+R, w tym te w fazie rozwojowej bez generowanych podatków (brak możliwości korzystania z ulg).<br />
+**Oszacowanie liczby wypełniających szczegółowe formularze PNT-01. Nie wszystkie z 7,431 podmiotów B+R korzystają z ulg podatkowych.</p>
 <p><strong>Domniemana Luka:</strong><br />
 - <strong>~1,555 podmiotów (~29% wnioskodawców ulgi B+R)</strong> nie raportujących do GUS<br />
 - Brakujące wydatki: potencjalnie <strong>10-20 miliardów PLN rocznie</strong> (jeśli odliczenia = 150-200% kosztów)</p>
@@ -3675,12 +3689,17 @@ GUS oficjalnie przyznaje, że <strong>imputuje (statystycznie szacuje)</strong> 
 <h2>4.3 Główne Przyczyny Nieraportowania</h2>
 <h3>4.3.1 Metodologia Analizy Przyczyn</h3>
 <p><strong>Źródła:</strong><br />
-- Badania Grant Thornton (2019-2024) - ankiety firm<br />
-- Badania akademickie (literatura o zachowaniach zgodności)<br />
-- Konsultacje z doradcami podatkowymi i konsultantami B+R<br />
-- Analiza struktury zachęt systemowych</p>
+- Badania OECD SME and Entrepreneurship Outlook 2019<br />
+- European Commission Report on Single Market and Competitiveness 2025<br />
+- ResearchGate: "Key barriers to the development of effective innovative activity of Polish SME companies" (2014)<br />
+- Grant Thornton reports on Polish R&D tax compliance<br />
+- Trade.gov.pl: "Regulatory barriers and the competitiveness of Polish companies"<br />
+- Ustawa o statystyce publicznej (Public Statistics Act)<br />
+- Gov.pl: PNT-01 reporting requirements<br />
+- Konsultacje z doradcami podatkowymi i konsultantami B+R</p>
 <p><strong>Podejście:</strong><br />
-Połączenie danych ilościowych (ankiety) z analizą jakościową (studia przypadków, wywiady) w celu zidentyfikowania głównych barier.</p>
+Triangulacja danych z wielu źródeł (badania międzynarodowe, raporty krajowe, literatura akademicka) oraz analiza jakościowa (studia przypadków, konsultacje eksperckie) w celu zidentyfikowania głównych barier w raportowaniu statystycznym.</p>
+<p><strong>Nota metodologiczna:</strong> Procentowe oszacowania nie pochodzą z pojedynczego badania ankietowego przeprowadzonego wśród populacji wnioskodawców ulgi B+R, ale są syntezą dostępnych źródeł dotyczących obciążeń administracyjnych polskich MSP. Dedykowane badanie przyczyn nieraportowania do GUS wśród beneficjentów ulgi B+R byłoby wartościowym kierunkiem dalszych badań.</p>
 <h3>4.3.2 Przyczyna 1: Brak Świadomości (Szacunkowo 35-40% Przypadków)</h3>
 <p><strong>Profil:</strong> Firmy <strong>nie wiedzą</strong>, że istnieje obowiązek raportowania do GUS.</p>
 <p><strong>Typowy scenariusz:</strong></p>
@@ -7919,7 +7938,7 @@ A: Polska będzie <strong>systematycznie tracić na reputacji innowacyjnej</stro
         });
 
         // Print instructions
-        console.log('%c📊 To convert this report to PDF:', 'font-size: 16px; font-weight: bold; color: #0066cc;');
+        console.log('%c📊 To convert this report to PDF:', 'font-size: 16px; font-weight: bold; color: #F5C344;');
         console.log('%c1. Press Ctrl+P (or Cmd+P on Mac)', 'font-size: 14px;');
         console.log('%c2. Select "Save as PDF" as printer', 'font-size: 14px;');
         console.log('%c3. Adjust settings: Margins (Default), Background graphics (enabled)', 'font-size: 14px;');
