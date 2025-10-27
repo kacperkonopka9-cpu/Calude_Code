@@ -34,7 +34,7 @@ Polska obsługuje **sześć odrębnych ulg podatkowych na innowacje**, reprezent
 
 **Trajektoria 8-letnia (2017-2024):**
 - **Wzrost wartości odliczeń:** 1,01 mld PLN (2017) → **11,44 mld PLN (2024)**
-  - **CAGR 42,5%** (składany roczny wzrost)
+  - **CAGR 41,4%** (składany roczny wzrost)
 - **Szczyt uczestnictwa:** 4,741 podmiotów (2021)
 - **Obecny poziom:** 3,655 podmiotów (2024) - **spadek o 23% od szczytu**
 

@@ -158,7 +158,7 @@ Ulga B+R (ulga badawczo-rozwojowa) pozwala podatnikom odliczyć **dodatkowe 100%
 | 2024 | 2,544 | 11,003 | 4,325,179 | **-10.5%** | +3.8% |
 
 **Łącznie CIT (2017-2024):** 18,102 lat firmowych | **48,055,254,504 PLN**
-**8-letni CAGR:** Firmy +18.1% | Kwota +42.5%
+**8-letni CAGR:** Firmy +18.1% | Kwota +41.4%
 
 **Wizualizacja:** Zobacz Wykres 1 - Wzrost liczby uczestników ulgi B+R (2017-2024)
 
@@ -775,7 +775,7 @@ Odliczenie kosztów związanych z rozwojem, wytworzeniem i testowaniem prototyp�
 | Różnica CIT vs PIT (B+R 2024) | 96.2% vs 3.8% |
 | Uczestników IP Box vs B+R (2024) | 7,931 vs 3,655 (2.2x) |
 | Wartość B+R vs IP Box (2024) | 11.4 mld vs 260 mln (44x) |
-| Wzrost CAGR ulgi B+R (kwota) | **42.5%** (2017-2024) |
+| Wzrost CAGR ulgi B+R (kwota) | **41.4%** (2017-2024) |
 | Spadek uczestnictwa B+R od szczytu | **-23%** (2021-2024) |
 | Szacowany koszt dla budżetu | **~10.4 mld PLN** (2017-2024) |
 | Potencjalny wzrost R&D/GDP | **+0.25 pp** (po zamknięciu luki) |
