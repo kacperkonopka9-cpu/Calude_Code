@@ -38,11 +38,15 @@ Polska obsługuje **sześć odrębnych ulg podatkowych na innowacje**, reprezent
 - **Szczyt uczestnictwa:** 4,741 podmiotów (2021)
 - **Obecny poziom:** 3,655 podmiotów (2024) - **spadek o 23% od szczytu**
 
-**Punkt przełomowy 2021:**
-Po konsekwentnym wzroście 2017-2021, uczestnictwo spadło, podczas gdy kwoty odliczeń nadal rosły. To sugeruje:
-- **Konsolidację:** Poważni wykonawcy B+R pozostają, ubiegając się o większe kwoty
-- **Wzrost bariery:** Kontrola administracyjna lub obciążenia odstraszają marginalnych wnioskodawców
-- **Nasycenie rynku:** Zdobyto wczesnych adoptatorów, potencjalni użytkownicy mają niejednoznaczne przypadki
+**Punkt przełomowy 2021/2022:**
+Po konsekwentnym wzroście 2017-2021, uczestnictwo spadło, ale kwoty odliczeń gwałtownie wzrosły. **Rok 2022 był przełomowy ze względu na Polski Ład**:
+- **Główna zmiana:** Zwiększenie odliczenia kosztów osobowych z 100% do **200%** (od 2022 r.)
+- **Znaczenie dla UBR:** Koszty osobowe stanowią **85% wszystkich kosztów kwalifikowanych** ulgi B+R (wzrost z 83% w 2023)*
+- **Nowe ulgi 2022:** Wprowadzono ulgę na robotyzację, prototyp, ekspansję - pakiet „Polskiego Ładu"
+- **Konsolidacja:** Poważni wykonawcy B+R pozostają, ubiegając się o znacznie większe kwoty (efekt 200%)
+- **Wzrost bariery:** Kontrola administracyjna odstraszająca marginalnych wnioskodawców
+
+*Źródło: Grant Thornton „Ulgi na innowacje", Edycja IV wrzesień 2025, dane Ministerstwa Finansów za 2024 r. (str. 7). Struktura kosztów kwalifikowanych: 85% wynagrodzenia pracowników, 10% materiały i surowce, 3% odpisy amortyzacyjne, 2% pozostałe.
 
 ### 3. Dominacja CIT Rośnie
 
