@@ -1,38 +1,53 @@
 """FastAPI application entry point."""
 
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy import text
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from .config import settings
-from .routes import templates
+from .database import get_db
 
 app = FastAPI(
     title="R&D Tax Relief API",
     version="1.0.0",
-    description="Backend API for Polish R&D Tax Relief Project Card Generator",
     docs_url="/docs",
     redoc_url="/redoc",
 )
 
-# CORS middleware for frontend
+# CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.frontend_url],
+    allow_origins=[settings.FRONTEND_URL],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Register routers
-app.include_router(templates.router, prefix="/v1/templates", tags=["templates"])
-
 
 @app.get("/health")
-async def health_check() -> dict[str, str]:
-    """
-    Health check endpoint.
+async def health(db: AsyncSession = Depends(get_db)) -> dict[str, str]:
+    """Health check endpoint with database connectivity verification.
 
     Returns:
-        dict: Health status.
+        dict: Status, version, and database connection status
+
+    Example response:
+        {
+            "status": "healthy",
+            "version": "1.0.0",
+            "database": "connected"
+        }
     """
-    return {"status": "healthy"}
+    # Verify database connectivity
+    try:
+        await db.execute(text("SELECT 1"))
+        database_status = "connected"
+    except Exception:
+        database_status = "disconnected"
+
+    return {
+        "status": "healthy" if database_status == "connected" else "degraded",
+        "version": "1.0.0",
+        "database": database_status,
+    }

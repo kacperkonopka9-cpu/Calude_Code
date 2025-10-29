@@ -9,10 +9,18 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=apps/web",
+    "dev:api": "cd apps/api && uvicorn src.main:app --reload --port 8000",
+    "dev:web": "npm run dev --workspace=apps/web",
     "build": "npm run build --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
+    "test:api": "cd apps/api && pytest tests/",
+    "test:web": "npm run test --workspace=apps/web",
     "lint": "npm run lint --workspaces --if-present",
-    "type-check": "npm run type-check --workspaces --if-present"
+    "lint:api": "cd apps/api && ruff check src/",
+    "lint:web": "npm run lint --workspace=apps/web",
+    "type-check": "npm run type-check --workspaces --if-present",
+    "type-check:api": "cd apps/api && mypy src/",
+    "type-check:web": "npm run type-check --workspace=apps/web"
   },
   "engines": {
     "node": ">=20.0.0",

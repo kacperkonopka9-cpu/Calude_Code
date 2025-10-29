@@ -1,138 +1,266 @@
 # R&D Tax Relief API
 
-Backend API dla Generatora Kart Projektów Ulga B+R (R&D Tax Relief Project Card Generator).
+FastAPI backend for the R&D Tax Relief Project Card Generator.
 
-## Tech Stack
+## Prerequisites
 
-- **Python 3.11+**
-- **FastAPI 0.104+** - Modern async web framework
-- **openpyxl 3.1+** - Excel file generation
-- **pytest 7.4+** - Testing framework
-- **uvicorn 0.24+** - ASGI server
+- Python 3.11+
+- pip 23+
+- PostgreSQL 15+ (for database)
 
-## Setup
+## Installation
 
-### 1. Create Virtual Environment
+### 1. Install PostgreSQL
+
+**Windows:**
+```bash
+# Using winget (Windows Package Manager)
+winget install PostgreSQL.PostgreSQL
+
+# Or download from: https://www.postgresql.org/download/windows/
+```
+
+**macOS:**
+```bash
+brew install postgresql@15
+```
+
+**Linux:**
+```bash
+sudo apt-get install postgresql-15
+```
+
+### 2. Create Databases
+
+```bash
+# Connect to PostgreSQL
+psql -U postgres
+
+# Create development database
+CREATE DATABASE rnd_cards;
+
+# Create test database
+CREATE DATABASE rnd_cards_test;
+
+# Exit psql
+\q
+```
+
+### 3. Create Virtual Environment
 
 ```bash
 cd apps/api
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### 2. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
+# On Windows, use: py -m pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 
-### 3. Configure Environment
+### 5. Configure Environment Variables
+
+Copy the example environment file and configure your settings:
 
 ```bash
 cp .env.example .env
-# Edit .env if needed
+```
+
+Edit `.env` with your database configuration:
+```bash
+DATABASE_URL=postgresql+asyncpg://postgres:postgres@localhost:5432/rnd_cards
+```
+
+### 6. Initialize Database
+
+Run Alembic migrations to create all tables:
+
+```bash
+# Using Alembic directly
+alembic upgrade head
+
+# Or using the initialization script
+py scripts/init_db.py
 ```
 
 ## Development
 
-### Run API Server
+### Start Development Server
 
 ```bash
-# From apps/api directory
-source venv/bin/activate
-uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn src.main:app --reload --port 8000
 ```
 
-API will be available at:
+The API will be available at:
 - API: http://localhost:8000
-- Interactive docs: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+- Interactive API docs (Swagger): http://localhost:8000/docs
+- Alternative API docs (ReDoc): http://localhost:8000/redoc
+- Health check: http://localhost:8000/health
 
 ### Run Tests
 
 ```bash
-# All tests
-pytest
+# Run all tests
+pytest tests/
 
-# With coverage
-pytest --cov=src --cov-report=html
+# Run with coverage
+pytest tests/ --cov=src
 
-# Unit tests only
-pytest tests/unit/
-
-# Integration tests only
-pytest tests/integration/
+# Run with HTML coverage report
+pytest tests/ --cov=src --cov-report=html
 ```
 
 ### Code Quality
 
-```bash
-# Type checking
-mypy src/
+#### Linting
 
-# Linting
-ruff check src/ tests/
+```bash
+# Check code
+ruff check src/
+
+# Auto-fix issues
+ruff check src/ --fix
 
 # Format code
-ruff format src/ tests/
+ruff format src/
 ```
 
-## API Endpoints
+#### Type Checking
 
-### GET /v1/templates/excel
-
-Download Excel template for R&D project data.
-
-**Response:**
-- Content-Type: `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`
-- Filename: `Szablon-Ulga-BR.xlsx`
-
-**Template Structure:**
-- Sheet 1: "Dane projektów" (6 Polish columns with example data)
-- Sheet 2: "Instrukcje" (Polish field descriptions)
-
-### GET /health
-
-Health check endpoint.
-
-**Response:**
-```json
-{
-  "status": "healthy"
-}
+```bash
+mypy src/
 ```
+
+## Environment Variables
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `API_HOST` | API server host | `0.0.0.0` |
+| `API_PORT` | API server port | `8000` |
+| `FRONTEND_URL` | Frontend URL for CORS | `http://localhost:5173` |
+| `DATABASE_URL` | PostgreSQL connection URL | `postgresql+asyncpg://postgres:postgres@localhost:5432/rnd_cards` |
+| `REDIS_URL` | Redis connection URL | `redis://localhost:6379/0` |
+| `AWS_REGION` | AWS region | `eu-central-1` |
+| `AWS_ACCESS_KEY_ID` | AWS access key | - |
+| `AWS_SECRET_ACCESS_KEY` | AWS secret key | - |
+| `COGNITO_USER_POOL_ID` | AWS Cognito user pool ID | - |
+| `COGNITO_CLIENT_ID` | AWS Cognito client ID | - |
+| `S3_BUCKET` | S3 bucket name | `rnd-cards-storage` |
+
+## Database
+
+### Database Migrations
+
+This project uses Alembic for database migrations:
+
+```bash
+# Create a new migration
+alembic revision --autogenerate -m "Description of changes"
+
+# Apply migrations
+alembic upgrade head
+
+# Rollback one migration
+alembic downgrade -1
+
+# View migration history
+alembic history
+
+# View current migration
+alembic current
+```
+
+### Repository Pattern
+
+The codebase uses the Repository pattern for data access:
+
+```python
+from src.database import get_db
+from src.repositories.user_repository import UserRepository
+from sqlalchemy.ext.asyncio import AsyncSession
+
+# In FastAPI route
+@app.get("/users/{user_id}")
+async def get_user(user_id: UUID, db: AsyncSession = Depends(get_db)):
+    repo = UserRepository(db)
+    user = await repo.get_by_id(user_id)
+    return user
+```
+
+**Available Repositories:**
+- `UserRepository`: User CRUD operations
+- `BatchRepository`: Batch CRUD operations and queries
+
+### Database Schema
+
+The database includes the following core tables:
+- `users`: Polish tax consultants
+- `batches`: Groups of 1-20 project cards
+- `projects`: Individual R&D project cards
+- `project_contents`: Generated content for 8 Ulga B+R sections
+- `generation_metadata`: AI usage tracking for cost monitoring
+
+See `docs/architecture/9-database-schema.md` for complete schema documentation.
 
 ## Project Structure
 
 ```
 apps/api/
 ├── src/
-│   ├── __init__.py
-│   ├── main.py              # FastAPI application
-│   ├── config.py            # Configuration
-│   ├── routes/
-│   │   └── templates.py     # Template endpoints
-│   └── services/
-│       └── template_service.py  # Excel generation logic
-├── tests/
-│   ├── __init__.py
-│   ├── unit/
-│   │   └── services/
-│   │       └── test_template_service.py
-│   └── integration/
-│       └── test_templates_api.py
-├── pyproject.toml
-├── requirements.txt
-├── .env.example
-└── README.md
+│   ├── main.py              # FastAPI app entry point
+│   ├── config.py            # Environment configuration
+│   ├── database.py          # Database connection and session
+│   ├── routes/              # API route handlers
+│   ├── services/            # Business logic
+│   ├── repositories/        # Data access layer
+│   ├── models/              # SQLAlchemy ORM models
+│   ├── schemas/             # Pydantic schemas (validation)
+│   ├── workers/             # Celery tasks
+│   ├── middleware/          # Custom middleware
+│   └── utils/               # Utilities
+├── alembic/                 # Database migrations
+│   ├── versions/            # Migration scripts
+│   └── env.py               # Alembic configuration
+├── scripts/                 # Utility scripts
+│   └── init_db.py           # Database initialization
+├── tests/                   # Backend tests
+│   ├── conftest.py          # pytest fixtures
+│   ├── test_main.py         # Health check tests
+│   ├── test_config.py       # Config tests
+│   ├── test_database.py     # Database connection tests
+│   ├── test_user_repository.py  # User repository tests
+│   └── test_batch_repository.py # Batch repository tests
+├── pyproject.toml           # Python project config
+├── requirements.txt         # Python dependencies
+├── pytest.ini               # pytest configuration
+├── ruff.toml                # Ruff linter config
+├── mypy.ini                 # mypy type checker config
+└── README.md                # This file
 ```
 
-## Environment Variables
+## Architecture
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `API_HOST` | `0.0.0.0` | API server host |
-| `API_PORT` | `8000` | API server port |
-| `FRONTEND_URL` | `http://localhost:5173` | Frontend URL for CORS |
-| `API_RELOAD` | `true` | Auto-reload on code changes |
+This backend follows a **layered architecture**:
+
+- **Routes**: Handle HTTP requests and responses
+- **Services**: Contain business logic
+- **Repositories**: Manage data access (database queries)
+- **Models**: Define database schema (SQLAlchemy ORM)
+- **Schemas**: Define request/response validation (Pydantic)
+- **Workers**: Handle background tasks (Celery)
+- **Middleware**: Handle cross-cutting concerns (auth, logging, etc.)
+- **Utils**: Shared utility functions
+
+## Development Commands (from root)
+
+When running from the project root, use these npm scripts:
+
+```bash
+npm run dev:api         # Start backend dev server
+npm run test:api        # Run backend tests
+npm run lint:api        # Run backend linting
+npm run type-check:api  # Run backend type checking
+```

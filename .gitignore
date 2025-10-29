@@ -42,19 +42,18 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 venv/
 ENV/
-env/
-.venv
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-.coverage
-htmlcov/
-*.egg-info/
-dist/
-build/
+env.bak/
+venv.bak/
+Lib/
+Scripts/
+Include/
+pip-selfcheck.json
+pyvenv.cfg
 
 # OS
 .DS_Store
 Thumbs.db
+nul

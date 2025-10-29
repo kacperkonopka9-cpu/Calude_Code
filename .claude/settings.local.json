@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/BMad:agents:qa:*)",
+      "SlashCommand(/BMad:agents:sm:*)",
+      "SlashCommand(/BMad:agents:dev:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(winget install:*)",
+      "Bash(where:*)",
+      "Bash(python -m ensurepip:*)",
+      "Bash(C:UsersACERDocumentsGitHubCalude_CodeScriptspip3.exe install -r requirements.txt)",
+      "Bash(py:*)",
+      "Bash(timeout 5 py:*)",
+      "Bash(if not exist scripts mkdir scripts)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: add FastAPI backend and update project configuration\n\n- Add FastAPI backend structure in apps/api/\n- Add BMad QA documentation and story files\n- Update .gitignore to exclude Python virtual environment directories\n- Add git push to Claude Code allow list\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "SlashCommand(/BMad:agents:analyst)",
+      "Bash(dir:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(copy:*)",
+      "Bash(npm run dev:*)",
+      "Bash(python:*)",
+      "Bash(npm install:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
