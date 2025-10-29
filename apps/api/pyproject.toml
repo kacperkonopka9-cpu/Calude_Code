@@ -1,0 +1,28 @@
+[project]
+name = "rnd-cards-api"
+version = "1.0.0"
+description = "R&D Tax Relief Project Card Generator - Backend API"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "openpyxl==3.1.2",
+    "python-multipart==0.0.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==7.4.3",
+    "pytest-asyncio==0.21.1",
+    "httpx==0.25.1",
+    "mypy==1.7.0",
+    "ruff==0.1.6",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
