@@ -1,0 +1,31 @@
+# AI Generation POC - Python Dependencies
+# R&D Tax Relief Project Card Generator
+
+# AI SDKs
+anthropic>=0.25.0           # Claude 3.5 Sonnet via AWS Bedrock or Anthropic API
+openai>=1.12.0              # GPT-4 via Azure OpenAI
+
+# Document Processing
+python-docx>=1.1.0          # Word document generation
+openpyxl>=3.1.2             # Excel file reading
+
+# Data Handling
+pandas>=2.2.0               # Test case data management
+pydantic>=2.6.0             # Data validation and settings
+
+# Language Processing
+language-tool-python>=2.8.0 # Polish grammar checking (requires Java)
+
+# Utilities
+python-dotenv>=1.0.0        # Environment variable management
+tiktoken>=0.6.0             # Token counting for cost estimation
+tqdm>=4.66.0                # Progress bars
+colorama>=0.4.6             # Colored console output
+
+# Testing & Validation
+pytest>=8.0.0               # Unit testing
+pytest-asyncio>=0.23.0      # Async test support
+
+# Optional: Advanced Features
+# boto3>=1.34.0             # AWS Bedrock (if using AWS instead of Anthropic API)
+# azure-identity>=1.15.0    # Azure authentication (if using Azure OpenAI)

@@ -1,0 +1,814 @@
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Tytuł projektu
+
+Implementacja systemu informatycznego Genetix do obsługi procesów logistyki sprzedażowej
+
+Numer ewidencyjny projektu: BR – logistyka – Genetix
+
+OPIS DZIAŁAŃ BADAWCZO ROZWOJOWYCH:
+
+OPIS DZIAŁAŃ BADAWCZO ROZWOJOWYCH:
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Celem projektu byłą pełna implementacja w Przedsiębiorstwie nowoczesnego, zintegrowanego systemu planowania i optymalizacji procesów logistycznych opartych na platformie Genetix. Rozwiązanie objęło cyfryzację oraz automatyzację kluczowych etapów obsługi zamówień handlowych tj. od momentu przyjęcia, poprzez proces kompletacji, tworzenia jednostek ładunkowych, planowania rozmieszczenia towarów w pojazdach, aż po generowanie tras i kontrolę prawidłowości transportu i ekspedycję załadunku.
+Proces spedycji w Spółce jest procesem czasochłonnym i kosztownym. Obejmuje on wszystkie czynności związane z przygotowaniem, załadunkiem i wysyłką gotowych wyrobów do klientów. Ze względu na specyfikę produkcji – okna, drzwi, rolety, konstrukcje aluminiowe i fasady – proces ten wymaga precyzyjnego planowania, odpowiedniego zabezpieczenia ładunków i ścisłej współpracy pomiędzy działem logistyki, magazynem, produkcją i transportem. Podstawowe fazy procesu spedycji wyrobów gotowych obejmują:
+1. Przyjęcie zleceń do wysyłki
+Informacje o zamówieniach trafiają do działu logistyki z systemu ERP po zakończeniu produkcji lub kompletacji wyrobów.
+Zamówienia są weryfikowane pod względem kompletności, zgodności z dokumentacją oraz terminu dostawy.
+2. Planowanie wysyłki
+Dział logistyki przygotowuje harmonogram wyjazdów i listę dostaw zgodnie z ustalonymi terminami.
+Ustalany jest optymalny dobór pojazdów i tras, z uwzględnieniem rodzaju towaru, wymiarów i miejsc rozładunku.
+W przypadku dużych lub niestandardowych konstrukcji stosuje się indywidualne rozwiązania logistyczne.
+3. Kompletacja jednostek ładunkowych
+Produkty są grupowane według tras i klientów.
+Wykorzystywane są specjalistyczne nośniki – stojaki transportowe, palety, kosze lub skrzynie.
+Na etapie kompletacji stosuje się materiały ochronne (folie, gąbki, przekładki) zapobiegające uszkodzeniom.
+4. Kontrola jakości przed załadunkiem
+Przed wysyłką każdy wyrób przechodzi kontrolę jakościową i ilościową.
+Sprawdzana jest zgodność z zamówieniem, stan techniczny oraz sposób zabezpieczenia.
+Tworzona jest dokumentacja wysyłkowa (listy przewozowe, specyfikacje).
+5. Załadunek
+Proces załadunku jest planowany tak, aby zapewnić optymalne wykorzystanie przestrzeni pojazdu, stabilność i bezpieczeństwo ładunku.
+Kolejność rozmieszczenia towarów w pojeździe uwzględnia harmonogram rozładunku u klientów.
+Przy załadunku dużych gabarytów stosuje się dźwigi, wózki widłowe lub specjalistyczne systemy podnośnikowe.
+6. Dokumentacja i przekazanie towaru
+Do każdej przesyłki dołączana jest pełna dokumentacja: faktura, list przewozowy, instrukcje montażu (jeśli wymagane).
+Kierowca otrzymuje również harmonogram dostaw i kontakty do odbiorców.
+7. Transport i dostawa
+Pojazdy realizują dostawy według ustalonego planu tras.
+Kierowcy są instruowani w zakresie obchodzenia się z towarem i procedur odbioru u klienta.
+W przypadku transportów międzynarodowych uwzględniane są procedury celne.
+8. Potwierdzenie dostawy i zamknięcie zlecenia
+Po dostarczeniu towaru odbiorca potwierdza odbiór w dokumentacji przewozowej.
+Informacja o realizacji dostawy jest przekazywana do systemu ERP.
+W przypadku uwag lub reklamacji uruchamiana jest procedura obsługi posprzedażowej.
+Projekt odpowiadał na rosnące wymagania Spółki w zakresie sprawnej realizacji rosnącej liczby dostaw produktów do klientów, optymalnego wykorzystania przestrzeni transportowej oraz minimalizacji kosztów transportu (poprzez optymalizację powierzchni załadunkowej) i eliminacji ryzyka błędów kompletacji. 
+System Genetix miał stanowić przeciwwagę dla obecnego w firmie manualnego planowania załadunków i umożliwił automatyczne przetwarzanie danych z systemów ERP i WMS, zastosowanie algorytmów optymalizacyjnych oraz wizualizacji 3D, co istotnie wpłynęło na usprawnienie procesów.
+Cele szczegółowe projektu:
+Cyfryzacja planowania kompletacji – zastąpienie manualnych operacji w pełni zautomatyzowanym procesem opartym na danych w czasie rzeczywistym.
+Integracja systemów IT – zapewnienie płynnej wymiany danych pomiędzy ERP, WMS a Genetix w celu eliminacji konieczności ręcznego wprowadzania informacji.
+Optymalizacja wykorzystania przestrzeni ładunkowej – wdrożenie algorytmów analizujących wymiary i wagę jednostek ładunkowych oraz proponujących ich najlepsze rozmieszczenie w pojeździe.
+Zwiększenie elastyczności – możliwość obsługi zamówień nietypowych, gabarytowych, wymagających indywidualnego planowania nośników i zabezpieczeń.
+Redukcja błędów i reklamacji – wprowadzenie mechanizmów kontroli poprawności kompletacji i zgodności załadunku z planem.
+Poprawa jakości obsługi klienta – zwiększenie terminowości dostaw, przewidywalności czasu dostawy i bezpieczeństwa transportu.
+
+System Genetix wprowadził zestaw innowacyjnych funkcji wspierających proces logistyczny:
+Automatyczny import zamówień – dane pobierane z ERP są przetwarzane w czasie rzeczywistym, co eliminuje ryzyko błędów i opóźnień.
+Inteligentne planowanie kompletacji – grupowanie produktów na odpowiednich nośnikach z uwzględnieniem wymiarów, wagi i zasad transportowych.
+Algorytmy optymalizacji 3D – analiza przestrzenna umożliwiająca maksymalne wykorzystanie przestrzeni pojazdu przy jednoczesnym zachowaniu bezpieczeństwa przewozu.
+Planowanie tras dostaw – generowanie optymalnych tras na podstawie lokalizacji punktów, dostępności pojazdów, czasu przejazdu i kosztów.
+Integracja z WMS – przekazywanie planów kompletacji do magazynu oraz pobieranie informacji o statusie realizacji.
+Weryfikacja załadunku – systemowa kontrola zgodności załadunku z planem, co zmniejsza liczbę pomyłek.
+Obsługa zamówień specjalnych – ręczne definiowanie parametrów dla niestandardowych ładunków i nośników.
+Raportowanie i analityka – tworzenie raportów dotyczących efektywności załadunków, wykorzystania pojazdów, błędów i reklamacji.
+Mierzalne rezultaty związane z implementacją systemu Genetix:
+Skrócenie czasu planowania kompletacji i załadunku o minimum 30%.
+Redukcja pustych przestrzeni w pojazdach o 15–20%.
+Obniżenie liczby błędów kompletacyjnych o co najmniej 50%.
+Zmniejszenie czasu dostaw poprzez lepsze planowanie tras.
+Wzrost satysfakcji klienta i spadek liczby reklamacji.
+Poprawa rentowności transportu dzięki optymalizacji zasobów.
+Bazy wiedzy o procesach logistycznych umożliwiająca dalszą analizę w celach ciągłej optymalizacji procesów logistyki.
+Wdrożenie systemu Genetix zostało realizowane w oparciu o iteracyjną metodykę zarządzania projektami, łączącą elementy podejścia klasycznego (waterfall) z elastycznością metodyk zwinnych (Agile). Podejście takie zapewniło możliwości bieżącej weryfikacji postępów, dostosowywania zakresu i funkcjonalności systemu do realnych potrzeb użytkowników oraz minimalizacja ryzyka niepowodzenia projektu. Projekt został dzielony jest na krótkie cykle realizacyjne (iteracje), w ramach których dostarczane były kolejne, działające komponenty systemu. Każda iteracja obejmuje analizę, projektowanie, konfigurację, testy oraz wdrożenie części funkcjonalności. Po zakończeniu iteracji następuje przegląd i odbiór wytworzonych elementów oraz ewentualne wprowadzenie poprawek i dostosowań. Harmonogram i priorytety funkcji były modyfikowane na podstawie wyników poprzednich iteracji i bieżących potrzeb biznesowych.
+Fazy projektu w ujęciu iteracyjnym
+Faza 1 – Analiza i planowanie
+Zebranie wymagań biznesowych od kluczowych użytkowników.
+Identyfikacja procesów logistycznych, które będą objęte cyfryzacją.
+Określenie priorytetów funkcjonalnych (np. moduł kompletacji, planowania tras, integracji z ERP/WMS).
+Opracowanie wstępnej mapy iteracji.
+Faza 2 – Projektowanie rozwiązania
+Przygotowanie architektury systemu i integracji.
+Zdefiniowanie struktur danych, mapowanie pól pomiędzy Genetix a ERP/WMS.
+Projektowanie interfejsów użytkownika.
+Faza 3 – Iteracyjne wdrożenia modułów
+Każda iteracja obejmuje:
+Konfigurację funkcjonalności w systemie Genetix.
+Integrację z wybranymi elementami ERP/WMS.
+Testy jednostkowe i testy akceptacyjne z udziałem użytkowników.
+Wdrożenie próbne w wybranym obszarze operacyjnym.
+Zbieranie feedbacku od zespołu operacyjnego i korekta ustawień.
+Faza 4 – Szkolenia
+W każdej iteracji, po wdrożeniu nowej funkcjonalności, prowadzone są krótkie sesje szkoleniowe dla użytkowników końcowych.
+Szkolenia mają charakter warsztatowy, oparte są na rzeczywistych danych i przypadkach.
+Faza 5 – Wdrożenie końcowe
+Po zakończeniu wszystkich iteracji system zostaje wdrożony w pełnym zakresie funkcjonalnym.
+Obejmuje to uruchomienie wszystkich modułów, integracji i mechanizmów raportowania.
+Wprowadzane są ostatnie poprawki i optymalizacje.
+Faza 6 – Stabilizacja i wsparcie powdrożeniowe
+Monitorowanie działania systemu w środowisku produkcyjnym.
+Bieżące usuwanie usterek i dostosowania na podstawie uwag użytkowników.
+Dokumentacja końcowa i przekazanie systemu do utrzymania.
+Harmonogram w modelu iteracyjnym
+Iteracja 1: Integracja z ERP, podstawowe moduły kompletacji.
+Iteracja 2: Moduł optymalizacji 3D i planowania tras.
+Iteracja 3: Moduł kontroli załadunku i raportowania.
+Iteracja 4: Obsługa zamówień specjalnych i pełna integracja z WMS.
+Iteracja 5: Rozszerzenia, optymalizacje, pełne uruchomienie.
+Fazy projektu w ujęciu iteracyjnym po Stronie Spółki
+Etap 1 – Przygotowanie integracji 
+Zaangażowane działy: IT, Logistyka, Produkcja, Magazyn, Administracja
+Dział IT: przygotowanie infrastruktury serwerowej i sieciowej, zapewnienie kompatybilności z systemem Kantor.
+Logistyka i Magazyn: dostarczenie map procesów, list towarowych, formatów etykiet i specyfikacji kompletacji.
+Produkcja: opisanie wymagań dot. przekazywania statusów produkcji do systemu Genetix.
+Administracja: wsparcie formalne, podpisanie dokumentów, ustalenie harmonogramu z wykonawcą.
+Etap 2 – Instalacja testowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: przygotowanie środowiska testowego (serwer, bazy danych, dostęp VPN).
+Magazyn: przygotowanie próbnych danych do testów (listy zamówień, numery partii).
+Logistyka: przygotowanie testowych tras i planów dostaw.
+Etap 3 – Konfiguracja wstępna 
+Zaangażowane działy: IT, Logistyka
+IT: ustawienie parametrów integracji, uruchomienie podstawowych modułów.
+Logistyka: weryfikacja ustawień kompletacji i tras.
+Etap 4 – Szkolenia użytkowników 
+Zaangażowane działy: Wszystkie działy operacyjne + Administracja
+Magazyn: szkolenie z obsługi terminali, skanerów i kompletacji w systemie Genetix.
+Logistyka: szkolenie z planowania tras i optymalizacji.
+IT: szkolenie administracyjne (backup, monitoring, nadawanie uprawnień).
+Administracja: szkolenie z raportów i zestawień.
+Etap 5 – Konfiguracja końcowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+Wprowadzanie uwag z testów i szkoleń.
+Dostosowanie ustawień do procesów Witraż (np. specyficzne etykiety, formaty raportów).
+Etap 6 – Moduły specjalne 
+Zaangażowane działy: Logistyka, Magazyn
+Konfiguracja modułów specjalnych, np. wizualizacja załadunku w 3D, obsługa zamówień niestandardowych.
+Etap 7 – Instalacja produkcyjna 
+Zaangażowane działy: IT, Magazyn
+IT: wdrożenie na serwerach produkcyjnych, uruchomienie systemu monitoringu i kopii zapasowych.
+Magazyn: przygotowanie do pracy w nowym systemie (rozmieszczenie stanowisk, terminali).
+Etap 8 – Start produkcyjny 
+Zaangażowane działy: Wszystkie operacyjne
+Pierwsze realizacje zleceń w Genetix w pełnej skali.
+Monitorowanie wydajności i eliminacja błędów.
+Etap 9 – Wsparcie powdrożeniowe 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: szybkie reagowanie na błędy, wsparcie przy awariach.
+Logistyka i Magazyn: zgłaszanie problemów i propozycji usprawnień.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Celem projektu byłą pełna implementacja w Przedsiębiorstwie nowoczesnego, zintegrowanego systemu planowania i optymalizacji procesów logistycznych opartych na platformie Genetix. Rozwiązanie objęło cyfryzację oraz automatyzację kluczowych etapów obsługi zamówień handlowych tj. od momentu przyjęcia, poprzez proces kompletacji, tworzenia jednostek ładunkowych, planowania rozmieszczenia towarów w pojazdach, aż po generowanie tras i kontrolę prawidłowości transportu i ekspedycję załadunku.
+Proces spedycji w Spółce jest procesem czasochłonnym i kosztownym. Obejmuje on wszystkie czynności związane z przygotowaniem, załadunkiem i wysyłką gotowych wyrobów do klientów. Ze względu na specyfikę produkcji – okna, drzwi, rolety, konstrukcje aluminiowe i fasady – proces ten wymaga precyzyjnego planowania, odpowiedniego zabezpieczenia ładunków i ścisłej współpracy pomiędzy działem logistyki, magazynem, produkcją i transportem. Podstawowe fazy procesu spedycji wyrobów gotowych obejmują:
+1. Przyjęcie zleceń do wysyłki
+Informacje o zamówieniach trafiają do działu logistyki z systemu ERP po zakończeniu produkcji lub kompletacji wyrobów.
+Zamówienia są weryfikowane pod względem kompletności, zgodności z dokumentacją oraz terminu dostawy.
+2. Planowanie wysyłki
+Dział logistyki przygotowuje harmonogram wyjazdów i listę dostaw zgodnie z ustalonymi terminami.
+Ustalany jest optymalny dobór pojazdów i tras, z uwzględnieniem rodzaju towaru, wymiarów i miejsc rozładunku.
+W przypadku dużych lub niestandardowych konstrukcji stosuje się indywidualne rozwiązania logistyczne.
+3. Kompletacja jednostek ładunkowych
+Produkty są grupowane według tras i klientów.
+Wykorzystywane są specjalistyczne nośniki – stojaki transportowe, palety, kosze lub skrzynie.
+Na etapie kompletacji stosuje się materiały ochronne (folie, gąbki, przekładki) zapobiegające uszkodzeniom.
+4. Kontrola jakości przed załadunkiem
+Przed wysyłką każdy wyrób przechodzi kontrolę jakościową i ilościową.
+Sprawdzana jest zgodność z zamówieniem, stan techniczny oraz sposób zabezpieczenia.
+Tworzona jest dokumentacja wysyłkowa (listy przewozowe, specyfikacje).
+5. Załadunek
+Proces załadunku jest planowany tak, aby zapewnić optymalne wykorzystanie przestrzeni pojazdu, stabilność i bezpieczeństwo ładunku.
+Kolejność rozmieszczenia towarów w pojeździe uwzględnia harmonogram rozładunku u klientów.
+Przy załadunku dużych gabarytów stosuje się dźwigi, wózki widłowe lub specjalistyczne systemy podnośnikowe.
+6. Dokumentacja i przekazanie towaru
+Do każdej przesyłki dołączana jest pełna dokumentacja: faktura, list przewozowy, instrukcje montażu (jeśli wymagane).
+Kierowca otrzymuje również harmonogram dostaw i kontakty do odbiorców.
+7. Transport i dostawa
+Pojazdy realizują dostawy według ustalonego planu tras.
+Kierowcy są instruowani w zakresie obchodzenia się z towarem i procedur odbioru u klienta.
+W przypadku transportów międzynarodowych uwzględniane są procedury celne.
+8. Potwierdzenie dostawy i zamknięcie zlecenia
+Po dostarczeniu towaru odbiorca potwierdza odbiór w dokumentacji przewozowej.
+Informacja o realizacji dostawy jest przekazywana do systemu ERP.
+W przypadku uwag lub reklamacji uruchamiana jest procedura obsługi posprzedażowej.
+Projekt odpowiadał na rosnące wymagania Spółki w zakresie sprawnej realizacji rosnącej liczby dostaw produktów do klientów, optymalnego wykorzystania przestrzeni transportowej oraz minimalizacji kosztów transportu (poprzez optymalizację powierzchni załadunkowej) i eliminacji ryzyka błędów kompletacji. 
+System Genetix miał stanowić przeciwwagę dla obecnego w firmie manualnego planowania załadunków i umożliwił automatyczne przetwarzanie danych z systemów ERP i WMS, zastosowanie algorytmów optymalizacyjnych oraz wizualizacji 3D, co istotnie wpłynęło na usprawnienie procesów.
+Cele szczegółowe projektu:
+Cyfryzacja planowania kompletacji – zastąpienie manualnych operacji w pełni zautomatyzowanym procesem opartym na danych w czasie rzeczywistym.
+Integracja systemów IT – zapewnienie płynnej wymiany danych pomiędzy ERP, WMS a Genetix w celu eliminacji konieczności ręcznego wprowadzania informacji.
+Optymalizacja wykorzystania przestrzeni ładunkowej – wdrożenie algorytmów analizujących wymiary i wagę jednostek ładunkowych oraz proponujących ich najlepsze rozmieszczenie w pojeździe.
+Zwiększenie elastyczności – możliwość obsługi zamówień nietypowych, gabarytowych, wymagających indywidualnego planowania nośników i zabezpieczeń.
+Redukcja błędów i reklamacji – wprowadzenie mechanizmów kontroli poprawności kompletacji i zgodności załadunku z planem.
+Poprawa jakości obsługi klienta – zwiększenie terminowości dostaw, przewidywalności czasu dostawy i bezpieczeństwa transportu.
+
+System Genetix wprowadził zestaw innowacyjnych funkcji wspierających proces logistyczny:
+Automatyczny import zamówień – dane pobierane z ERP są przetwarzane w czasie rzeczywistym, co eliminuje ryzyko błędów i opóźnień.
+Inteligentne planowanie kompletacji – grupowanie produktów na odpowiednich nośnikach z uwzględnieniem wymiarów, wagi i zasad transportowych.
+Algorytmy optymalizacji 3D – analiza przestrzenna umożliwiająca maksymalne wykorzystanie przestrzeni pojazdu przy jednoczesnym zachowaniu bezpieczeństwa przewozu.
+Planowanie tras dostaw – generowanie optymalnych tras na podstawie lokalizacji punktów, dostępności pojazdów, czasu przejazdu i kosztów.
+Integracja z WMS – przekazywanie planów kompletacji do magazynu oraz pobieranie informacji o statusie realizacji.
+Weryfikacja załadunku – systemowa kontrola zgodności załadunku z planem, co zmniejsza liczbę pomyłek.
+Obsługa zamówień specjalnych – ręczne definiowanie parametrów dla niestandardowych ładunków i nośników.
+Raportowanie i analityka – tworzenie raportów dotyczących efektywności załadunków, wykorzystania pojazdów, błędów i reklamacji.
+Mierzalne rezultaty związane z implementacją systemu Genetix:
+Skrócenie czasu planowania kompletacji i załadunku o minimum 30%.
+Redukcja pustych przestrzeni w pojazdach o 15–20%.
+Obniżenie liczby błędów kompletacyjnych o co najmniej 50%.
+Zmniejszenie czasu dostaw poprzez lepsze planowanie tras.
+Wzrost satysfakcji klienta i spadek liczby reklamacji.
+Poprawa rentowności transportu dzięki optymalizacji zasobów.
+Bazy wiedzy o procesach logistycznych umożliwiająca dalszą analizę w celach ciągłej optymalizacji procesów logistyki.
+Wdrożenie systemu Genetix zostało realizowane w oparciu o iteracyjną metodykę zarządzania projektami, łączącą elementy podejścia klasycznego (waterfall) z elastycznością metodyk zwinnych (Agile). Podejście takie zapewniło możliwości bieżącej weryfikacji postępów, dostosowywania zakresu i funkcjonalności systemu do realnych potrzeb użytkowników oraz minimalizacja ryzyka niepowodzenia projektu. Projekt został dzielony jest na krótkie cykle realizacyjne (iteracje), w ramach których dostarczane były kolejne, działające komponenty systemu. Każda iteracja obejmuje analizę, projektowanie, konfigurację, testy oraz wdrożenie części funkcjonalności. Po zakończeniu iteracji następuje przegląd i odbiór wytworzonych elementów oraz ewentualne wprowadzenie poprawek i dostosowań. Harmonogram i priorytety funkcji były modyfikowane na podstawie wyników poprzednich iteracji i bieżących potrzeb biznesowych.
+Fazy projektu w ujęciu iteracyjnym
+Faza 1 – Analiza i planowanie
+Zebranie wymagań biznesowych od kluczowych użytkowników.
+Identyfikacja procesów logistycznych, które będą objęte cyfryzacją.
+Określenie priorytetów funkcjonalnych (np. moduł kompletacji, planowania tras, integracji z ERP/WMS).
+Opracowanie wstępnej mapy iteracji.
+Faza 2 – Projektowanie rozwiązania
+Przygotowanie architektury systemu i integracji.
+Zdefiniowanie struktur danych, mapowanie pól pomiędzy Genetix a ERP/WMS.
+Projektowanie interfejsów użytkownika.
+Faza 3 – Iteracyjne wdrożenia modułów
+Każda iteracja obejmuje:
+Konfigurację funkcjonalności w systemie Genetix.
+Integrację z wybranymi elementami ERP/WMS.
+Testy jednostkowe i testy akceptacyjne z udziałem użytkowników.
+Wdrożenie próbne w wybranym obszarze operacyjnym.
+Zbieranie feedbacku od zespołu operacyjnego i korekta ustawień.
+Faza 4 – Szkolenia
+W każdej iteracji, po wdrożeniu nowej funkcjonalności, prowadzone są krótkie sesje szkoleniowe dla użytkowników końcowych.
+Szkolenia mają charakter warsztatowy, oparte są na rzeczywistych danych i przypadkach.
+Faza 5 – Wdrożenie końcowe
+Po zakończeniu wszystkich iteracji system zostaje wdrożony w pełnym zakresie funkcjonalnym.
+Obejmuje to uruchomienie wszystkich modułów, integracji i mechanizmów raportowania.
+Wprowadzane są ostatnie poprawki i optymalizacje.
+Faza 6 – Stabilizacja i wsparcie powdrożeniowe
+Monitorowanie działania systemu w środowisku produkcyjnym.
+Bieżące usuwanie usterek i dostosowania na podstawie uwag użytkowników.
+Dokumentacja końcowa i przekazanie systemu do utrzymania.
+Harmonogram w modelu iteracyjnym
+Iteracja 1: Integracja z ERP, podstawowe moduły kompletacji.
+Iteracja 2: Moduł optymalizacji 3D i planowania tras.
+Iteracja 3: Moduł kontroli załadunku i raportowania.
+Iteracja 4: Obsługa zamówień specjalnych i pełna integracja z WMS.
+Iteracja 5: Rozszerzenia, optymalizacje, pełne uruchomienie.
+Fazy projektu w ujęciu iteracyjnym po Stronie Spółki
+Etap 1 – Przygotowanie integracji 
+Zaangażowane działy: IT, Logistyka, Produkcja, Magazyn, Administracja
+Dział IT: przygotowanie infrastruktury serwerowej i sieciowej, zapewnienie kompatybilności z systemem Kantor.
+Logistyka i Magazyn: dostarczenie map procesów, list towarowych, formatów etykiet i specyfikacji kompletacji.
+Produkcja: opisanie wymagań dot. przekazywania statusów produkcji do systemu Genetix.
+Administracja: wsparcie formalne, podpisanie dokumentów, ustalenie harmonogramu z wykonawcą.
+Etap 2 – Instalacja testowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: przygotowanie środowiska testowego (serwer, bazy danych, dostęp VPN).
+Magazyn: przygotowanie próbnych danych do testów (listy zamówień, numery partii).
+Logistyka: przygotowanie testowych tras i planów dostaw.
+Etap 3 – Konfiguracja wstępna 
+Zaangażowane działy: IT, Logistyka
+IT: ustawienie parametrów integracji, uruchomienie podstawowych modułów.
+Logistyka: weryfikacja ustawień kompletacji i tras.
+Etap 4 – Szkolenia użytkowników 
+Zaangażowane działy: Wszystkie działy operacyjne + Administracja
+Magazyn: szkolenie z obsługi terminali, skanerów i kompletacji w systemie Genetix.
+Logistyka: szkolenie z planowania tras i optymalizacji.
+IT: szkolenie administracyjne (backup, monitoring, nadawanie uprawnień).
+Administracja: szkolenie z raportów i zestawień.
+Etap 5 – Konfiguracja końcowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+Wprowadzanie uwag z testów i szkoleń.
+Dostosowanie ustawień do procesów Witraż (np. specyficzne etykiety, formaty raportów).
+Etap 6 – Moduły specjalne 
+Zaangażowane działy: Logistyka, Magazyn
+Konfiguracja modułów specjalnych, np. wizualizacja załadunku w 3D, obsługa zamówień niestandardowych.
+Etap 7 – Instalacja produkcyjna 
+Zaangażowane działy: IT, Magazyn
+IT: wdrożenie na serwerach produkcyjnych, uruchomienie systemu monitoringu i kopii zapasowych.
+Magazyn: przygotowanie do pracy w nowym systemie (rozmieszczenie stanowisk, terminali).
+Etap 8 – Start produkcyjny 
+Zaangażowane działy: Wszystkie operacyjne
+Pierwsze realizacje zleceń w Genetix w pełnej skali.
+Monitorowanie wydajności i eliminacja błędów.
+Etap 9 – Wsparcie powdrożeniowe 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: szybkie reagowanie na błędy, wsparcie przy awariach.
+Logistyka i Magazyn: zgłaszanie problemów i propozycji usprawnień.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Celem projektu byłą pełna implementacja w Przedsiębiorstwie nowoczesnego, zintegrowanego systemu planowania i optymalizacji procesów logistycznych opartych na platformie Genetix. Rozwiązanie objęło cyfryzację oraz automatyzację kluczowych etapów obsługi zamówień handlowych tj. od momentu przyjęcia, poprzez proces kompletacji, tworzenia jednostek ładunkowych, planowania rozmieszczenia towarów w pojazdach, aż po generowanie tras i kontrolę prawidłowości transportu i ekspedycję załadunku.
+Proces spedycji w Spółce jest procesem czasochłonnym i kosztownym. Obejmuje on wszystkie czynności związane z przygotowaniem, załadunkiem i wysyłką gotowych wyrobów do klientów. Ze względu na specyfikę produkcji – okna, drzwi, rolety, konstrukcje aluminiowe i fasady – proces ten wymaga precyzyjnego planowania, odpowiedniego zabezpieczenia ładunków i ścisłej współpracy pomiędzy działem logistyki, magazynem, produkcją i transportem. Podstawowe fazy procesu spedycji wyrobów gotowych obejmują:
+1. Przyjęcie zleceń do wysyłki
+Informacje o zamówieniach trafiają do działu logistyki z systemu ERP po zakończeniu produkcji lub kompletacji wyrobów.
+Zamówienia są weryfikowane pod względem kompletności, zgodności z dokumentacją oraz terminu dostawy.
+2. Planowanie wysyłki
+Dział logistyki przygotowuje harmonogram wyjazdów i listę dostaw zgodnie z ustalonymi terminami.
+Ustalany jest optymalny dobór pojazdów i tras, z uwzględnieniem rodzaju towaru, wymiarów i miejsc rozładunku.
+W przypadku dużych lub niestandardowych konstrukcji stosuje się indywidualne rozwiązania logistyczne.
+3. Kompletacja jednostek ładunkowych
+Produkty są grupowane według tras i klientów.
+Wykorzystywane są specjalistyczne nośniki – stojaki transportowe, palety, kosze lub skrzynie.
+Na etapie kompletacji stosuje się materiały ochronne (folie, gąbki, przekładki) zapobiegające uszkodzeniom.
+4. Kontrola jakości przed załadunkiem
+Przed wysyłką każdy wyrób przechodzi kontrolę jakościową i ilościową.
+Sprawdzana jest zgodność z zamówieniem, stan techniczny oraz sposób zabezpieczenia.
+Tworzona jest dokumentacja wysyłkowa (listy przewozowe, specyfikacje).
+5. Załadunek
+Proces załadunku jest planowany tak, aby zapewnić optymalne wykorzystanie przestrzeni pojazdu, stabilność i bezpieczeństwo ładunku.
+Kolejność rozmieszczenia towarów w pojeździe uwzględnia harmonogram rozładunku u klientów.
+Przy załadunku dużych gabarytów stosuje się dźwigi, wózki widłowe lub specjalistyczne systemy podnośnikowe.
+6. Dokumentacja i przekazanie towaru
+Do każdej przesyłki dołączana jest pełna dokumentacja: faktura, list przewozowy, instrukcje montażu (jeśli wymagane).
+Kierowca otrzymuje również harmonogram dostaw i kontakty do odbiorców.
+7. Transport i dostawa
+Pojazdy realizują dostawy według ustalonego planu tras.
+Kierowcy są instruowani w zakresie obchodzenia się z towarem i procedur odbioru u klienta.
+W przypadku transportów międzynarodowych uwzględniane są procedury celne.
+8. Potwierdzenie dostawy i zamknięcie zlecenia
+Po dostarczeniu towaru odbiorca potwierdza odbiór w dokumentacji przewozowej.
+Informacja o realizacji dostawy jest przekazywana do systemu ERP.
+W przypadku uwag lub reklamacji uruchamiana jest procedura obsługi posprzedażowej.
+Projekt odpowiadał na rosnące wymagania Spółki w zakresie sprawnej realizacji rosnącej liczby dostaw produktów do klientów, optymalnego wykorzystania przestrzeni transportowej oraz minimalizacji kosztów transportu (poprzez optymalizację powierzchni załadunkowej) i eliminacji ryzyka błędów kompletacji. 
+System Genetix miał stanowić przeciwwagę dla obecnego w firmie manualnego planowania załadunków i umożliwił automatyczne przetwarzanie danych z systemów ERP i WMS, zastosowanie algorytmów optymalizacyjnych oraz wizualizacji 3D, co istotnie wpłynęło na usprawnienie procesów.
+Cele szczegółowe projektu:
+Cyfryzacja planowania kompletacji – zastąpienie manualnych operacji w pełni zautomatyzowanym procesem opartym na danych w czasie rzeczywistym.
+Integracja systemów IT – zapewnienie płynnej wymiany danych pomiędzy ERP, WMS a Genetix w celu eliminacji konieczności ręcznego wprowadzania informacji.
+Optymalizacja wykorzystania przestrzeni ładunkowej – wdrożenie algorytmów analizujących wymiary i wagę jednostek ładunkowych oraz proponujących ich najlepsze rozmieszczenie w pojeździe.
+Zwiększenie elastyczności – możliwość obsługi zamówień nietypowych, gabarytowych, wymagających indywidualnego planowania nośników i zabezpieczeń.
+Redukcja błędów i reklamacji – wprowadzenie mechanizmów kontroli poprawności kompletacji i zgodności załadunku z planem.
+Poprawa jakości obsługi klienta – zwiększenie terminowości dostaw, przewidywalności czasu dostawy i bezpieczeństwa transportu.
+
+System Genetix wprowadził zestaw innowacyjnych funkcji wspierających proces logistyczny:
+Automatyczny import zamówień – dane pobierane z ERP są przetwarzane w czasie rzeczywistym, co eliminuje ryzyko błędów i opóźnień.
+Inteligentne planowanie kompletacji – grupowanie produktów na odpowiednich nośnikach z uwzględnieniem wymiarów, wagi i zasad transportowych.
+Algorytmy optymalizacji 3D – analiza przestrzenna umożliwiająca maksymalne wykorzystanie przestrzeni pojazdu przy jednoczesnym zachowaniu bezpieczeństwa przewozu.
+Planowanie tras dostaw – generowanie optymalnych tras na podstawie lokalizacji punktów, dostępności pojazdów, czasu przejazdu i kosztów.
+Integracja z WMS – przekazywanie planów kompletacji do magazynu oraz pobieranie informacji o statusie realizacji.
+Weryfikacja załadunku – systemowa kontrola zgodności załadunku z planem, co zmniejsza liczbę pomyłek.
+Obsługa zamówień specjalnych – ręczne definiowanie parametrów dla niestandardowych ładunków i nośników.
+Raportowanie i analityka – tworzenie raportów dotyczących efektywności załadunków, wykorzystania pojazdów, błędów i reklamacji.
+Mierzalne rezultaty związane z implementacją systemu Genetix:
+Skrócenie czasu planowania kompletacji i załadunku o minimum 30%.
+Redukcja pustych przestrzeni w pojazdach o 15–20%.
+Obniżenie liczby błędów kompletacyjnych o co najmniej 50%.
+Zmniejszenie czasu dostaw poprzez lepsze planowanie tras.
+Wzrost satysfakcji klienta i spadek liczby reklamacji.
+Poprawa rentowności transportu dzięki optymalizacji zasobów.
+Bazy wiedzy o procesach logistycznych umożliwiająca dalszą analizę w celach ciągłej optymalizacji procesów logistyki.
+Wdrożenie systemu Genetix zostało realizowane w oparciu o iteracyjną metodykę zarządzania projektami, łączącą elementy podejścia klasycznego (waterfall) z elastycznością metodyk zwinnych (Agile). Podejście takie zapewniło możliwości bieżącej weryfikacji postępów, dostosowywania zakresu i funkcjonalności systemu do realnych potrzeb użytkowników oraz minimalizacja ryzyka niepowodzenia projektu. Projekt został dzielony jest na krótkie cykle realizacyjne (iteracje), w ramach których dostarczane były kolejne, działające komponenty systemu. Każda iteracja obejmuje analizę, projektowanie, konfigurację, testy oraz wdrożenie części funkcjonalności. Po zakończeniu iteracji następuje przegląd i odbiór wytworzonych elementów oraz ewentualne wprowadzenie poprawek i dostosowań. Harmonogram i priorytety funkcji były modyfikowane na podstawie wyników poprzednich iteracji i bieżących potrzeb biznesowych.
+Fazy projektu w ujęciu iteracyjnym
+Faza 1 – Analiza i planowanie
+Zebranie wymagań biznesowych od kluczowych użytkowników.
+Identyfikacja procesów logistycznych, które będą objęte cyfryzacją.
+Określenie priorytetów funkcjonalnych (np. moduł kompletacji, planowania tras, integracji z ERP/WMS).
+Opracowanie wstępnej mapy iteracji.
+Faza 2 – Projektowanie rozwiązania
+Przygotowanie architektury systemu i integracji.
+Zdefiniowanie struktur danych, mapowanie pól pomiędzy Genetix a ERP/WMS.
+Projektowanie interfejsów użytkownika.
+Faza 3 – Iteracyjne wdrożenia modułów
+Każda iteracja obejmuje:
+Konfigurację funkcjonalności w systemie Genetix.
+Integrację z wybranymi elementami ERP/WMS.
+Testy jednostkowe i testy akceptacyjne z udziałem użytkowników.
+Wdrożenie próbne w wybranym obszarze operacyjnym.
+Zbieranie feedbacku od zespołu operacyjnego i korekta ustawień.
+Faza 4 – Szkolenia
+W każdej iteracji, po wdrożeniu nowej funkcjonalności, prowadzone są krótkie sesje szkoleniowe dla użytkowników końcowych.
+Szkolenia mają charakter warsztatowy, oparte są na rzeczywistych danych i przypadkach.
+Faza 5 – Wdrożenie końcowe
+Po zakończeniu wszystkich iteracji system zostaje wdrożony w pełnym zakresie funkcjonalnym.
+Obejmuje to uruchomienie wszystkich modułów, integracji i mechanizmów raportowania.
+Wprowadzane są ostatnie poprawki i optymalizacje.
+Faza 6 – Stabilizacja i wsparcie powdrożeniowe
+Monitorowanie działania systemu w środowisku produkcyjnym.
+Bieżące usuwanie usterek i dostosowania na podstawie uwag użytkowników.
+Dokumentacja końcowa i przekazanie systemu do utrzymania.
+Harmonogram w modelu iteracyjnym
+Iteracja 1: Integracja z ERP, podstawowe moduły kompletacji.
+Iteracja 2: Moduł optymalizacji 3D i planowania tras.
+Iteracja 3: Moduł kontroli załadunku i raportowania.
+Iteracja 4: Obsługa zamówień specjalnych i pełna integracja z WMS.
+Iteracja 5: Rozszerzenia, optymalizacje, pełne uruchomienie.
+Fazy projektu w ujęciu iteracyjnym po Stronie Spółki
+Etap 1 – Przygotowanie integracji 
+Zaangażowane działy: IT, Logistyka, Produkcja, Magazyn, Administracja
+Dział IT: przygotowanie infrastruktury serwerowej i sieciowej, zapewnienie kompatybilności z systemem Kantor.
+Logistyka i Magazyn: dostarczenie map procesów, list towarowych, formatów etykiet i specyfikacji kompletacji.
+Produkcja: opisanie wymagań dot. przekazywania statusów produkcji do systemu Genetix.
+Administracja: wsparcie formalne, podpisanie dokumentów, ustalenie harmonogramu z wykonawcą.
+Etap 2 – Instalacja testowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: przygotowanie środowiska testowego (serwer, bazy danych, dostęp VPN).
+Magazyn: przygotowanie próbnych danych do testów (listy zamówień, numery partii).
+Logistyka: przygotowanie testowych tras i planów dostaw.
+Etap 3 – Konfiguracja wstępna 
+Zaangażowane działy: IT, Logistyka
+IT: ustawienie parametrów integracji, uruchomienie podstawowych modułów.
+Logistyka: weryfikacja ustawień kompletacji i tras.
+Etap 4 – Szkolenia użytkowników 
+Zaangażowane działy: Wszystkie działy operacyjne + Administracja
+Magazyn: szkolenie z obsługi terminali, skanerów i kompletacji w systemie Genetix.
+Logistyka: szkolenie z planowania tras i optymalizacji.
+IT: szkolenie administracyjne (backup, monitoring, nadawanie uprawnień).
+Administracja: szkolenie z raportów i zestawień.
+Etap 5 – Konfiguracja końcowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+Wprowadzanie uwag z testów i szkoleń.
+Dostosowanie ustawień do procesów Witraż (np. specyficzne etykiety, formaty raportów).
+Etap 6 – Moduły specjalne 
+Zaangażowane działy: Logistyka, Magazyn
+Konfiguracja modułów specjalnych, np. wizualizacja załadunku w 3D, obsługa zamówień niestandardowych.
+Etap 7 – Instalacja produkcyjna 
+Zaangażowane działy: IT, Magazyn
+IT: wdrożenie na serwerach produkcyjnych, uruchomienie systemu monitoringu i kopii zapasowych.
+Magazyn: przygotowanie do pracy w nowym systemie (rozmieszczenie stanowisk, terminali).
+Etap 8 – Start produkcyjny 
+Zaangażowane działy: Wszystkie operacyjne
+Pierwsze realizacje zleceń w Genetix w pełnej skali.
+Monitorowanie wydajności i eliminacja błędów.
+Etap 9 – Wsparcie powdrożeniowe 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: szybkie reagowanie na błędy, wsparcie przy awariach.
+Logistyka i Magazyn: zgłaszanie problemów i propozycji usprawnień.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Celem projektu byłą pełna implementacja w Przedsiębiorstwie nowoczesnego, zintegrowanego systemu planowania i optymalizacji procesów logistycznych opartych na platformie Genetix. Rozwiązanie objęło cyfryzację oraz automatyzację kluczowych etapów obsługi zamówień handlowych tj. od momentu przyjęcia, poprzez proces kompletacji, tworzenia jednostek ładunkowych, planowania rozmieszczenia towarów w pojazdach, aż po generowanie tras i kontrolę prawidłowości transportu i ekspedycję załadunku.
+Proces spedycji w Spółce jest procesem czasochłonnym i kosztownym. Obejmuje on wszystkie czynności związane z przygotowaniem, załadunkiem i wysyłką gotowych wyrobów do klientów. Ze względu na specyfikę produkcji – okna, drzwi, rolety, konstrukcje aluminiowe i fasady – proces ten wymaga precyzyjnego planowania, odpowiedniego zabezpieczenia ładunków i ścisłej współpracy pomiędzy działem logistyki, magazynem, produkcją i transportem. Podstawowe fazy procesu spedycji wyrobów gotowych obejmują:
+1. Przyjęcie zleceń do wysyłki
+Informacje o zamówieniach trafiają do działu logistyki z systemu ERP po zakończeniu produkcji lub kompletacji wyrobów.
+Zamówienia są weryfikowane pod względem kompletności, zgodności z dokumentacją oraz terminu dostawy.
+2. Planowanie wysyłki
+Dział logistyki przygotowuje harmonogram wyjazdów i listę dostaw zgodnie z ustalonymi terminami.
+Ustalany jest optymalny dobór pojazdów i tras, z uwzględnieniem rodzaju towaru, wymiarów i miejsc rozładunku.
+W przypadku dużych lub niestandardowych konstrukcji stosuje się indywidualne rozwiązania logistyczne.
+3. Kompletacja jednostek ładunkowych
+Produkty są grupowane według tras i klientów.
+Wykorzystywane są specjalistyczne nośniki – stojaki transportowe, palety, kosze lub skrzynie.
+Na etapie kompletacji stosuje się materiały ochronne (folie, gąbki, przekładki) zapobiegające uszkodzeniom.
+4. Kontrola jakości przed załadunkiem
+Przed wysyłką każdy wyrób przechodzi kontrolę jakościową i ilościową.
+Sprawdzana jest zgodność z zamówieniem, stan techniczny oraz sposób zabezpieczenia.
+Tworzona jest dokumentacja wysyłkowa (listy przewozowe, specyfikacje).
+5. Załadunek
+Proces załadunku jest planowany tak, aby zapewnić optymalne wykorzystanie przestrzeni pojazdu, stabilność i bezpieczeństwo ładunku.
+Kolejność rozmieszczenia towarów w pojeździe uwzględnia harmonogram rozładunku u klientów.
+Przy załadunku dużych gabarytów stosuje się dźwigi, wózki widłowe lub specjalistyczne systemy podnośnikowe.
+6. Dokumentacja i przekazanie towaru
+Do każdej przesyłki dołączana jest pełna dokumentacja: faktura, list przewozowy, instrukcje montażu (jeśli wymagane).
+Kierowca otrzymuje również harmonogram dostaw i kontakty do odbiorców.
+7. Transport i dostawa
+Pojazdy realizują dostawy według ustalonego planu tras.
+Kierowcy są instruowani w zakresie obchodzenia się z towarem i procedur odbioru u klienta.
+W przypadku transportów międzynarodowych uwzględniane są procedury celne.
+8. Potwierdzenie dostawy i zamknięcie zlecenia
+Po dostarczeniu towaru odbiorca potwierdza odbiór w dokumentacji przewozowej.
+Informacja o realizacji dostawy jest przekazywana do systemu ERP.
+W przypadku uwag lub reklamacji uruchamiana jest procedura obsługi posprzedażowej.
+Projekt odpowiadał na rosnące wymagania Spółki w zakresie sprawnej realizacji rosnącej liczby dostaw produktów do klientów, optymalnego wykorzystania przestrzeni transportowej oraz minimalizacji kosztów transportu (poprzez optymalizację powierzchni załadunkowej) i eliminacji ryzyka błędów kompletacji. 
+System Genetix miał stanowić przeciwwagę dla obecnego w firmie manualnego planowania załadunków i umożliwił automatyczne przetwarzanie danych z systemów ERP i WMS, zastosowanie algorytmów optymalizacyjnych oraz wizualizacji 3D, co istotnie wpłynęło na usprawnienie procesów.
+Cele szczegółowe projektu:
+Cyfryzacja planowania kompletacji – zastąpienie manualnych operacji w pełni zautomatyzowanym procesem opartym na danych w czasie rzeczywistym.
+Integracja systemów IT – zapewnienie płynnej wymiany danych pomiędzy ERP, WMS a Genetix w celu eliminacji konieczności ręcznego wprowadzania informacji.
+Optymalizacja wykorzystania przestrzeni ładunkowej – wdrożenie algorytmów analizujących wymiary i wagę jednostek ładunkowych oraz proponujących ich najlepsze rozmieszczenie w pojeździe.
+Zwiększenie elastyczności – możliwość obsługi zamówień nietypowych, gabarytowych, wymagających indywidualnego planowania nośników i zabezpieczeń.
+Redukcja błędów i reklamacji – wprowadzenie mechanizmów kontroli poprawności kompletacji i zgodności załadunku z planem.
+Poprawa jakości obsługi klienta – zwiększenie terminowości dostaw, przewidywalności czasu dostawy i bezpieczeństwa transportu.
+
+System Genetix wprowadził zestaw innowacyjnych funkcji wspierających proces logistyczny:
+Automatyczny import zamówień – dane pobierane z ERP są przetwarzane w czasie rzeczywistym, co eliminuje ryzyko błędów i opóźnień.
+Inteligentne planowanie kompletacji – grupowanie produktów na odpowiednich nośnikach z uwzględnieniem wymiarów, wagi i zasad transportowych.
+Algorytmy optymalizacji 3D – analiza przestrzenna umożliwiająca maksymalne wykorzystanie przestrzeni pojazdu przy jednoczesnym zachowaniu bezpieczeństwa przewozu.
+Planowanie tras dostaw – generowanie optymalnych tras na podstawie lokalizacji punktów, dostępności pojazdów, czasu przejazdu i kosztów.
+Integracja z WMS – przekazywanie planów kompletacji do magazynu oraz pobieranie informacji o statusie realizacji.
+Weryfikacja załadunku – systemowa kontrola zgodności załadunku z planem, co zmniejsza liczbę pomyłek.
+Obsługa zamówień specjalnych – ręczne definiowanie parametrów dla niestandardowych ładunków i nośników.
+Raportowanie i analityka – tworzenie raportów dotyczących efektywności załadunków, wykorzystania pojazdów, błędów i reklamacji.
+Mierzalne rezultaty związane z implementacją systemu Genetix:
+Skrócenie czasu planowania kompletacji i załadunku o minimum 30%.
+Redukcja pustych przestrzeni w pojazdach o 15–20%.
+Obniżenie liczby błędów kompletacyjnych o co najmniej 50%.
+Zmniejszenie czasu dostaw poprzez lepsze planowanie tras.
+Wzrost satysfakcji klienta i spadek liczby reklamacji.
+Poprawa rentowności transportu dzięki optymalizacji zasobów.
+Bazy wiedzy o procesach logistycznych umożliwiająca dalszą analizę w celach ciągłej optymalizacji procesów logistyki.
+Wdrożenie systemu Genetix zostało realizowane w oparciu o iteracyjną metodykę zarządzania projektami, łączącą elementy podejścia klasycznego (waterfall) z elastycznością metodyk zwinnych (Agile). Podejście takie zapewniło możliwości bieżącej weryfikacji postępów, dostosowywania zakresu i funkcjonalności systemu do realnych potrzeb użytkowników oraz minimalizacja ryzyka niepowodzenia projektu. Projekt został dzielony jest na krótkie cykle realizacyjne (iteracje), w ramach których dostarczane były kolejne, działające komponenty systemu. Każda iteracja obejmuje analizę, projektowanie, konfigurację, testy oraz wdrożenie części funkcjonalności. Po zakończeniu iteracji następuje przegląd i odbiór wytworzonych elementów oraz ewentualne wprowadzenie poprawek i dostosowań. Harmonogram i priorytety funkcji były modyfikowane na podstawie wyników poprzednich iteracji i bieżących potrzeb biznesowych.
+Fazy projektu w ujęciu iteracyjnym
+Faza 1 – Analiza i planowanie
+Zebranie wymagań biznesowych od kluczowych użytkowników.
+Identyfikacja procesów logistycznych, które będą objęte cyfryzacją.
+Określenie priorytetów funkcjonalnych (np. moduł kompletacji, planowania tras, integracji z ERP/WMS).
+Opracowanie wstępnej mapy iteracji.
+Faza 2 – Projektowanie rozwiązania
+Przygotowanie architektury systemu i integracji.
+Zdefiniowanie struktur danych, mapowanie pól pomiędzy Genetix a ERP/WMS.
+Projektowanie interfejsów użytkownika.
+Faza 3 – Iteracyjne wdrożenia modułów
+Każda iteracja obejmuje:
+Konfigurację funkcjonalności w systemie Genetix.
+Integrację z wybranymi elementami ERP/WMS.
+Testy jednostkowe i testy akceptacyjne z udziałem użytkowników.
+Wdrożenie próbne w wybranym obszarze operacyjnym.
+Zbieranie feedbacku od zespołu operacyjnego i korekta ustawień.
+Faza 4 – Szkolenia
+W każdej iteracji, po wdrożeniu nowej funkcjonalności, prowadzone są krótkie sesje szkoleniowe dla użytkowników końcowych.
+Szkolenia mają charakter warsztatowy, oparte są na rzeczywistych danych i przypadkach.
+Faza 5 – Wdrożenie końcowe
+Po zakończeniu wszystkich iteracji system zostaje wdrożony w pełnym zakresie funkcjonalnym.
+Obejmuje to uruchomienie wszystkich modułów, integracji i mechanizmów raportowania.
+Wprowadzane są ostatnie poprawki i optymalizacje.
+Faza 6 – Stabilizacja i wsparcie powdrożeniowe
+Monitorowanie działania systemu w środowisku produkcyjnym.
+Bieżące usuwanie usterek i dostosowania na podstawie uwag użytkowników.
+Dokumentacja końcowa i przekazanie systemu do utrzymania.
+Harmonogram w modelu iteracyjnym
+Iteracja 1: Integracja z ERP, podstawowe moduły kompletacji.
+Iteracja 2: Moduł optymalizacji 3D i planowania tras.
+Iteracja 3: Moduł kontroli załadunku i raportowania.
+Iteracja 4: Obsługa zamówień specjalnych i pełna integracja z WMS.
+Iteracja 5: Rozszerzenia, optymalizacje, pełne uruchomienie.
+Fazy projektu w ujęciu iteracyjnym po Stronie Spółki
+Etap 1 – Przygotowanie integracji 
+Zaangażowane działy: IT, Logistyka, Produkcja, Magazyn, Administracja
+Dział IT: przygotowanie infrastruktury serwerowej i sieciowej, zapewnienie kompatybilności z systemem Kantor.
+Logistyka i Magazyn: dostarczenie map procesów, list towarowych, formatów etykiet i specyfikacji kompletacji.
+Produkcja: opisanie wymagań dot. przekazywania statusów produkcji do systemu Genetix.
+Administracja: wsparcie formalne, podpisanie dokumentów, ustalenie harmonogramu z wykonawcą.
+Etap 2 – Instalacja testowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: przygotowanie środowiska testowego (serwer, bazy danych, dostęp VPN).
+Magazyn: przygotowanie próbnych danych do testów (listy zamówień, numery partii).
+Logistyka: przygotowanie testowych tras i planów dostaw.
+Etap 3 – Konfiguracja wstępna 
+Zaangażowane działy: IT, Logistyka
+IT: ustawienie parametrów integracji, uruchomienie podstawowych modułów.
+Logistyka: weryfikacja ustawień kompletacji i tras.
+Etap 4 – Szkolenia użytkowników 
+Zaangażowane działy: Wszystkie działy operacyjne + Administracja
+Magazyn: szkolenie z obsługi terminali, skanerów i kompletacji w systemie Genetix.
+Logistyka: szkolenie z planowania tras i optymalizacji.
+IT: szkolenie administracyjne (backup, monitoring, nadawanie uprawnień).
+Administracja: szkolenie z raportów i zestawień.
+Etap 5 – Konfiguracja końcowa 
+Zaangażowane działy: IT, Logistyka, Magazyn
+Wprowadzanie uwag z testów i szkoleń.
+Dostosowanie ustawień do procesów Witraż (np. specyficzne etykiety, formaty raportów).
+Etap 6 – Moduły specjalne 
+Zaangażowane działy: Logistyka, Magazyn
+Konfiguracja modułów specjalnych, np. wizualizacja załadunku w 3D, obsługa zamówień niestandardowych.
+Etap 7 – Instalacja produkcyjna 
+Zaangażowane działy: IT, Magazyn
+IT: wdrożenie na serwerach produkcyjnych, uruchomienie systemu monitoringu i kopii zapasowych.
+Magazyn: przygotowanie do pracy w nowym systemie (rozmieszczenie stanowisk, terminali).
+Etap 8 – Start produkcyjny 
+Zaangażowane działy: Wszystkie operacyjne
+Pierwsze realizacje zleceń w Genetix w pełnej skali.
+Monitorowanie wydajności i eliminacja błędów.
+Etap 9 – Wsparcie powdrożeniowe 
+Zaangażowane działy: IT, Logistyka, Magazyn
+IT: szybkie reagowanie na błędy, wsparcie przy awariach.
+Logistyka i Magazyn: zgłaszanie problemów i propozycji usprawnień.
+
+Podstawowe etapy projektu
+
+Numer etapu
+Nazwa etapu
+Data realizacji
+
+1.
+Analiza przedwdrożeniowa i Przygotowanie integracji
+01.2024 – 05.2024
+
+2.
+Projektowanie integracji – Instalacja testowa
+06.2024 – 07.2024
+
+3.
+Konfiguracja i personalizacja modułów - wstępna
+08.2024 – 08.2024
+
+4.
+Budowa bazy parametrów logistycznych
+08.2024 – 11.2024
+
+5.
+Testy funkcjonalne i integracyjne
+08.2024 – 11.2024
+
+6.
+Szkolenie pracowników
+10.2024 – 11.2024
+
+7.
+Instalacja produkcyjna
+10.2024
+
+8.
+Start produktowy
+11.2024
+
+9.
+Testowanie powdrożeniowe
+08.2024 – 11.2024
+
+Wykaz najważniejszych problemów badawczych oraz sposób ich rozwiązania: Wykaz najważniejszych problemów badawczych oraz sposób ich rozwiązania
+1. Integracja z istniejącymi systemami (ERP/Kantor)
+Problem: Dotychczasowe systemy wykorzystywane w firmie Witraż nie posiadały natywnych interfejsów do wymiany danych z Genetix. Istniało ryzyko braku spójności danych między modułami magazynowymi, produkcyjnymi i księgowymi.
+Rozwiązanie: Przeprowadzono szczegółową analizę interfejsów API i struktur baz danych obu systemów. Stworzono dedykowaną warstwę integracyjną, umożliwiającą automatyczne przesyłanie zamówień, statusów produkcji i informacji o zapasach w czasie rzeczywistym.
+2. Odwzorowanie procesów logistycznych w systemie
+Problem: Procesy kompletacji i ekspedycji w Witraż są częściowo niestandardowe (m.in. obsługa zamówień niestandardowych, pakowanie elementów o dużych gabarytach). Istniało ryzyko, że standardowe moduły Genetix nie będą w pełni odpowiadały specyfice pracy.
+Rozwiązanie: Wdrożono dodatkowe moduły konfiguracyjne oraz wprowadzono reguły biznesowe dostosowane do specyficznych scenariuszy, takich jak kompletacja wieloetapowa czy pakowanie elementów o zmiennej masie i objętości.
+3. Optymalizacja rozmieszczenia towarów w magazynie
+Problem: Brak systematycznych narzędzi do analizy rotacji towarów powodował, że część magazynu była wykorzystywana nieefektywnie, a proces kompletacji zajmował zbyt dużo czasu.
+Rozwiązanie: Zaimplementowano algorytmy optymalizacji lokalizacji towarów na podstawie historii zamówień i prognoz sprzedaży. System automatycznie proponuje rozmieszczenie, skracając ścieżki kompletacyjne o ok. 15–20%.
+4. Wsparcie procesów załadunku i transportu
+Problem: Brak narzędzia do automatycznej optymalizacji załadunku pojazdów powodował, że proces ten był czasochłonny i obarczony ryzykiem błędów (np. przekroczenie masy, nieoptymalne rozmieszczenie ładunku).
+Rozwiązanie: Wdrożono moduł wizualizacji załadunku 3D w Genetix, pozwalający planować rozmieszczenie palet i towarów w przestrzeni ładunkowej z uwzględnieniem kolejności rozładunku.
+5. Akceptacja i szkolenie pracowników
+Problem: Część pracowników miała ograniczone doświadczenie w pracy z nowoczesnymi systemami WMS/TMS, co mogło wydłużyć czas adaptacji.
+Rozwiązanie: Wdrożono cykl szkoleń praktycznych i warsztatów w magazynie, w których pracownicy ćwiczyli scenariusze kompletacji i ekspedycji na rzeczywistych zamówieniach testowych.
+6. Zapewnienie ciągłości pracy podczas migracji
+Problem: Ryzyko zakłóceń w obsłudze zamówień podczas przejścia ze starego systemu na Genetix.
+Rozwiązanie: Wprowadzono strategię równoległej pracy systemów przez okres przejściowy, co pozwoliło płynnie przenieść procesy i zweryfikować ich poprawność przed pełnym przełączeniem.
+
+Podstawowe prace o charakterze twórczym w projekcie: Podstawowe prace o charakterze twórczym w projekcie
+Opracowanie i dostosowanie modelu integracji systemów IT
+Stworzenie dedykowanej architektury wymiany danych pomiędzy istniejącym systemem ERP/Kantor a 4LS Genetix, obejmującej mechanizmy mapowania pól, konwersji danych oraz obsługi wyjątków.
+Implementacja nowatorskich rozwiązań do synchronizacji informacji w trybie niemal rzeczywistym, minimalizujących opóźnienia w aktualizacji statusów zamówień, produkcji i stanów magazynowych.
+Projektowanie reguł biznesowych i scenariuszy procesowych w Genetix
+Stworzenie niestandardowych algorytmów kompletacji towarów uwzględniających zmienność zamówień, specyfikę gabarytów i wymogi transportowe.
+Opracowanie logiki obsługi zamówień specjalnych (np. produkty wielkogabarytowe, zestawy niestandardowe, towar wymagający specjalnego opakowania).
+Tworzenie i konfiguracja modułu optymalizacji załadunku 3D
+Implementacja algorytmu automatycznej wizualizacji i rozmieszczenia towaru w przestrzeni ładunkowej z uwzględnieniem kolejności rozładunku, masy, wymiarów i ograniczeń bezpieczeństwa.
+Wprowadzenie rozwiązań minimalizujących puste przestrzenie oraz liczbę kursów transportowych.
+Rozwój metod analizy rotacji i rozmieszczenia towarów
+Zbudowanie modelu analitycznego na bazie danych historycznych, prognoz sprzedaży i sezonowości popytu.
+Opracowanie autorskich procedur rekomendacji rozmieszczenia towarów w magazynie, które skracają ścieżki kompletacyjne i redukują czas realizacji zamówienia.
+Projektowanie interfejsów użytkownika i ergonomii pracy
+Stworzenie ekranów i raportów dopasowanych do realnych warunków pracy w magazynie, uwzględniających minimalną liczbę kliknięć i intuicyjne rozmieszczenie funkcji.
+Udoskonalenie modułów mobilnych dla pracowników magazynu w oparciu o obserwacje z fazy testowej.
+Testowanie i walidacja innowacyjnych rozwiązań w warunkach rzeczywistych
+Prowadzenie serii eksperymentów w magazynie z wykorzystaniem danych operacyjnych.
+Iteracyjne poprawki na podstawie obserwacji, raportów wydajności i sugestii użytkowników.
+Stworzenie dokumentacji wdrożeniowej i procedur operacyjnych
+Opracowanie unikalnych instrukcji i procedur wspierających użytkowników w pracy z nowym systemem.
+Włączenie do dokumentacji wyników analiz, konfiguracji modułów i rekomendacji dla dalszego rozwoju systemu.
+
+Poziom innowacyjności projektu
+Innowacja w skali przedsiębiorstwa
+Innowacja w skali kraju
+
+Poziom innowacyjności projektu
+Tak
+Nie
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Podsumowanie projektu: Projekt implementacji systemu Genetix stanowił kompleksowe przedsięwzięcie mające na celu pełną cyfryzację i optymalizację procesów logistycznych związanych z realizacją dostaw wyrobów gotowych.
+
+Rozwiązanie wprowadziło zintegrowany ekosystem informatyczny, w którym dane z systemów ERP i WMS są automatycznie przetwarzane przez moduły optymalizacyjne Genetix, umożliwiające m.in. planowanie przestrzenne załadunków w technologii 3D, generowanie optymalnych tras dostaw oraz systemową weryfikację poprawności kompletacji.
+
+Najważniejsze osiągnięcia projektu:
+Pełna cyfryzacja planowania kompletacji – eliminacja ręcznych operacji na rzecz automatycznego przetwarzania danych w czasie rzeczywistym.
+Integracja systemów IT – płynny przepływ informacji między ERP, WMS i Genetix, bez konieczności ręcznego wprowadzania danych.
+Rozwój narzędzi analitycznych – dostęp do raportów i analiz efektywności procesów, umożliwiających dalszą optymalizację logistyki.
+
+Projekt został realizowany w metodyce iteracyjnej, łączącej zalety podejścia tradycyjnego i zwinnego. Dzięki temu możliwe było bieżące dostosowywanie funkcjonalności do realnych potrzeb operacyjnych, testowanie rozwiązań w warunkach rzeczywistych oraz stopniowe wdrażanie kolejnych modułów w środowisku produkcyjnym.
+
+Wdrożenie zaangażowało kluczowe działy firmy – IT, logistykę, magazyn, produkcję i administrację – co zapewniło nie tylko wysoką jakość konfiguracji systemu, ale też lepsze dostosowanie narzędzia do specyfiki przedsiębiorstwa.
+
+Efektem końcowym jest sprawny, zintegrowany system zarządzania procesem ekspedycji, który znacząco zwiększył wydajność operacyjną, zredukował koszty transportu oraz podniósł satysfakcję klientów.
+
+Dokumentacja projektowa (załączniki do karty projektu)
+
+Analiza przedwdrożeniowa - SYSTEM GENETIX DLA FIRMY WITRAŻ v 1.0 i v 1.1
+
+Umowa współpracy z firmą informatyczną 4LS z dnia 16.07.2024
+
+Oferta z dnia 28.05.2024
+
+Protokół szkolenia z dn. 06.12.2024

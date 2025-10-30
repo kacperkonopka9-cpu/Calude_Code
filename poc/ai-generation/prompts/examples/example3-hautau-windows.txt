@@ -1,0 +1,443 @@
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Tytuł projektu
+
+Opracowanie i wdrożenie technologii montażu mechanizmów HAUTAU do okien PVC na linii STD
+
+Numer ewidencyjny projektu: BR - HAUTAU
+
+OPIS DZIAŁAŃ BADAWCZO ROZWOJOWYCH:
+
+OPIS DZIAŁAŃ BADAWCZO ROZWOJOWYCH:
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Marka HAUTAU to międzynarodowa marka znana z okuć okiennych i rozwiązań automatyki budowlanej. Okucia HAUTAU to zaawansowane rozwiązania dla okien i drzwi przesuwnych/uchylno-przesuwnych, oferujące komfort, wytrzymałość i estetykę. Wyróżniają się zaawansowanymi mechanizmami, automatyzacją ruchu i wysoką izolacyjnością oraz ergonomią użytkowania. Montaż okuć jest bardziej złożony niż w klasycznych systemach, ale efektem są innowacyjne funkcjonalności i wyjątkowa jakość.
+Celem projektu badawczo-rozwojowego było opracowanie i wdrożenie technologii montażu mechanizmów nawierzchniowych do okien uchylnych z PVC na linii STD, opracowanie optymalnych procesów technologicznych i sterowania maszynami, które pozwolą na pełną integrację tych produktów z istniejącym ciągiem produkcyjnym. Działania te miały na celu podniesienie wydajności montażu i standaryzację procesu, przy zagwarantowaniu jakości, ergonomii montażu i wykonania oraz rozszerzenie funkcjonalności oferowanych ram okiennych. Wdrożenie nowego rodzaju okucia HAUTAU pozwoliło na zaoferowanie okien z uchylaniem górnego skrzydła z poziomu podłogi, co jest istotne w przypadku okien montowanych w budynkach użyteczności publicznej (łatwość obsługi i bezpieczeństwo użytkowników). Rozwiązanie HAUTAU pozwala na obsługę okna przez osoby nie sięgające do górnych mechanizmów, przy zapewnieniu działanie mechanizmu w długim okresie eksploatacji.
+
+Rysunek 1. Okucia nawierzchniowe HAUTAU – zamontowane na oknach PCV Witraż
+Dotychczasowym problemem technologicznym przy montażu okuć w oknach PVC była trudność w zachowaniu idealnej zgodności odwiertów z elementami nożycy, klamki i dźwigni. Warsztatowe metody wykonywania otworów mogły prowadzić do przesunięć pozycjonujących, co skutkowało nieprawidłowym działaniem mechanizmu, oporem przy otwieraniu oraz ryzykiem szybszego zużycia okuć. Brak dedykowanych szablonów powodował wydłużony czas montażu i większą zależność od doświadczenia operatora. W ramach opracowanej technologii wprowadzono dedykowane szablony do odwiertów na ramach, które umożliwiały precyzyjne prowadzenie narzędzi i gwarantowały zgodność otworów z układem okuć. Szablony pozwoliły na uzyskanie powtarzalność montażu, niezależnie od zmiennych gabarytów okien. Zdefiniowano procedury pozycjonowania dla klamek i dźwigni, co pozwoliło na prawidłowe zakotwienie mechanizmów i zapewnienie ich płynnej pracy. Rozwiązania technologiczno-montażowe wyeliminowały wcześniejsze problemy z brakiem precyzji, ale także poprawiło ergonomię pracy operatorów i skróciło czas montażu. Opracowany schemat montażowo – produkcyjny dotyczył operacji: 
+Przyjęcie zlecenia i generacja danych produkcyjnych
+– Import konstrukcji z Cantora; wyliczenie długości, dedukcji pod zgrzew i lokalizacji obróbek; eksport plików na maszyny (SBZ 609/615, piły).
+Rozkrój profili
+– Piły dwugłowicowe (Federhenn/Elumatec): cięcia proste/skośne wg pliku; znakowanie elementów (ID, pozycja).
+Obróbki CNC profili (przed zgrzewem)
+– Elumatec SBZ 609/615: odwodnienia, frezy technologiczne, otwory pod wzmocnienia i łączniki.
+– Kontrola baz i kompensacji (dedukcje) zgodnie z kartą technologii.
+Wprowadzenie wzmocnień stalowych (jeśli wymagane przez system)
+– Docinanie, perforacja, nitowanie/śruby wg specyfikacji; kontrola luzów i podparć.
+Zgrzewanie ramy/skrzydła
+– Zgrzewarki GRAF SL4 FF/EVO z dedykowanymi fingerami; parametry: temp., czas uplastyczniania, dociski; rejestracja partii.
+Oczyszczanie naroży i wykończenie powierzchni
+– Oczyszczarki naroży: program pod dany profil; inspekcja wizualna mostków i geometrii naroży.
+Przygotowanie stanowiska pod okucie 
+– Montaż/kalibracja szablonu do odwiertów na ramie (odniesienie do bazy „0” i krawędzi referencyjnych); sprawdzenie zgodności z wersją profilu.
+Odwierty pod nożycę (mechanizm górny naświetla)
+– Wykonanie otworów prowadzących i mocujących przez szablon; kontrola średnic i rozstawów; gratowanie krawędzi.
+Odwierty pod klamkę i dźwignię sterującą (obsługa z poziomu podłogi)
+– Szablon pod klamkę/dźwignię: wiercenia przelotowe i pod wkręty; zachowanie osiowości z trasą cięgna/pręta.
+Montaż nożycy na skrzydle/ramie naświetla
+– Pozycjonowanie wg otworów szablonu; wkręty o zadanym momencie (karta momentów); test pracy zawiasowania bez cięgna.
+Montaż przekazania ruchu (cięgno/pręt/łańcuch)
+– Docięcie na długość; prowadzenie przez przepusty/rolki prowadzące; zabezpieczenia przeciwrozpinające.
+Montaż klamki i dźwigni nawierzchniowej (punkt obsługi)
+– Ustawienie kąta start/koniec; wkręty wg momentu; sprawdzenie luzów roboczych i pozycji „zamknięte/uchylone”.
+Regulacja zestawu
+– Ustawienie skoku cięgna, docisku uszczelki i ograniczników; smarowanie punktów tarcia (wg karty smarów).
+Uszczelnienia i akcesoria
+– Wprowadzenie wkładek/uszczelek w strefie połączeń; kontrola ciągłości uszczelnienia i docisku na całym obwodzie.
+Kontrola funkcjonalna (QC-F1)
+– Test pełnego cyklu: zamknięcie → uchył → powrót; pomiar siły operacyjnej (dźwignia/klamka); brak kolizji z profilem/uszczelką.
+Kontrola wymiarowa i zgodności odwiertów (QC-D1)
+– Sprawdzenie rozstawów otworów i odległości od bazy; tolerancje wg karty (np. ±0,5 mm dla otworów mocujących).
+Kontrola szczelności (opcjonalnie dla serii pilotażowych)
+– Test natryskowy/ciśnieniowy próbki referencyjnej; weryfikacja docisku uszczelki w stanie „zamknięte”.
+Oznakowanie, traceability, dokumentacja
+– Naklejki/QR partii okuć; zapis momentów, sił operacyjnych, operatora i daty.
+Okucie pozostałe i finalny montaż
+– Dołożenie ograniczników, osłon i zaślepek; finalne spasowanie skrzydło–rama; kontrola estetyczna.
+Pakowanie i przekazanie na logistykę
+– Zabezpieczenia transportowe mechanizmu; instrukcja użytkowania/serwisu dołączona do produktu.
+Punkty krytyczne i uwagi technologiczne
+Szablony do odwiertów muszą zgrywać się z konkretną nożycą i układem dźwigni (różne warianty = różne szablony/pozycje baz).
+Długość i prowadzenie cięgna determinują siłę operacyjną i domknięcie – błędna długość powoduje brak ryglowania lub nadmierny opór.
+Kontrola momentów dokręcania eliminuje luzowanie się okuć w eksploatacji.
+Smarowanie i ochrona krawędzi otworów (gratowanie) ograniczają zużycie i hałas pracy mechanizmu.
+Zapewnienie ciągłości uszczelki w strefie uchyłu jest kluczowe dla szczelności i akustyki.
+Prace realizowane w ramach projektu były prowadzone zgodnie ze ściśle określoną metodyką, w sposób sekwencyjny i uporządkowany, co pozwalało na zachowanie pełnej kontroli nad przebiegiem działań. Każdy etap był domykany i weryfikowany przed rozpoczęciem kolejnego, co minimalizowało ryzyko przenoszenia błędów na dalsze fazy oraz zapewniało wysoką jakość opracowywanych rozwiązań. Dzięki temu możliwe było nie tylko sprawne wdrażanie nowych technologii i urządzeń, ale także bieżące dostosowywanie dokumentacji oraz standardów pracy do realnych potrzeb produkcji. Przyjęte podejście miało charakter waterfallowy – obejmowało kolejne, jasno zdefiniowane fazy, które krok po kroku prowadziły do osiągnięcia założonego celu projektu:
+Faza 1 – Analiza i planowanie
+Przeprowadzono analizę procesów, zidentyfikowano ograniczenia i określono wymagania techniczne dla wdrożenia technologii HAUTAU na linii STD.
+Faza 2 – Opracowanie technologii i dobór wyposażenie
+Zaprojektowano procesy cięcia i obróbki w centrach Elumatec SBZ 609, Stürtz i Federhenn oraz wybrano dodatkowe maszyny (ukośnica, szablony do okuwania).
+Faza 3 – Integracja z linią STD
+Dostosowano układ produkcyjny, zapewniając płynne przejście półproduktów między stanowiskami.
+Faza 4 – Wdrożenie nowych okuć i szablonów
+Zaimplementowano szablony do okuwania oraz okucie HAUTAU, co umożliwiło standaryzację i uproszczenie montażu.
+Faza 5 – Walidacja prototypów i testy jakościowe
+Nowe rozwiązania zostały przetestowane w warunkach produkcji seryjnej – linia STD. Zespół jakości zweryfikował powtarzalności i szczelności konstrukcji.
+Faza 6 – Szkolenia i uruchomienie pełnoskalowe
+Pracownicy zostali przeszkoleni z obsługi maszyn i standardów montażu.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Marka HAUTAU to międzynarodowa marka znana z okuć okiennych i rozwiązań automatyki budowlanej. Okucia HAUTAU to zaawansowane rozwiązania dla okien i drzwi przesuwnych/uchylno-przesuwnych, oferujące komfort, wytrzymałość i estetykę. Wyróżniają się zaawansowanymi mechanizmami, automatyzacją ruchu i wysoką izolacyjnością oraz ergonomią użytkowania. Montaż okuć jest bardziej złożony niż w klasycznych systemach, ale efektem są innowacyjne funkcjonalności i wyjątkowa jakość.
+Celem projektu badawczo-rozwojowego było opracowanie i wdrożenie technologii montażu mechanizmów nawierzchniowych do okien uchylnych z PVC na linii STD, opracowanie optymalnych procesów technologicznych i sterowania maszynami, które pozwolą na pełną integrację tych produktów z istniejącym ciągiem produkcyjnym. Działania te miały na celu podniesienie wydajności montażu i standaryzację procesu, przy zagwarantowaniu jakości, ergonomii montażu i wykonania oraz rozszerzenie funkcjonalności oferowanych ram okiennych. Wdrożenie nowego rodzaju okucia HAUTAU pozwoliło na zaoferowanie okien z uchylaniem górnego skrzydła z poziomu podłogi, co jest istotne w przypadku okien montowanych w budynkach użyteczności publicznej (łatwość obsługi i bezpieczeństwo użytkowników). Rozwiązanie HAUTAU pozwala na obsługę okna przez osoby nie sięgające do górnych mechanizmów, przy zapewnieniu działanie mechanizmu w długim okresie eksploatacji.
+
+Rysunek 1. Okucia nawierzchniowe HAUTAU – zamontowane na oknach PCV Witraż
+Dotychczasowym problemem technologicznym przy montażu okuć w oknach PVC była trudność w zachowaniu idealnej zgodności odwiertów z elementami nożycy, klamki i dźwigni. Warsztatowe metody wykonywania otworów mogły prowadzić do przesunięć pozycjonujących, co skutkowało nieprawidłowym działaniem mechanizmu, oporem przy otwieraniu oraz ryzykiem szybszego zużycia okuć. Brak dedykowanych szablonów powodował wydłużony czas montażu i większą zależność od doświadczenia operatora. W ramach opracowanej technologii wprowadzono dedykowane szablony do odwiertów na ramach, które umożliwiały precyzyjne prowadzenie narzędzi i gwarantowały zgodność otworów z układem okuć. Szablony pozwoliły na uzyskanie powtarzalność montażu, niezależnie od zmiennych gabarytów okien. Zdefiniowano procedury pozycjonowania dla klamek i dźwigni, co pozwoliło na prawidłowe zakotwienie mechanizmów i zapewnienie ich płynnej pracy. Rozwiązania technologiczno-montażowe wyeliminowały wcześniejsze problemy z brakiem precyzji, ale także poprawiło ergonomię pracy operatorów i skróciło czas montażu. Opracowany schemat montażowo – produkcyjny dotyczył operacji: 
+Przyjęcie zlecenia i generacja danych produkcyjnych
+– Import konstrukcji z Cantora; wyliczenie długości, dedukcji pod zgrzew i lokalizacji obróbek; eksport plików na maszyny (SBZ 609/615, piły).
+Rozkrój profili
+– Piły dwugłowicowe (Federhenn/Elumatec): cięcia proste/skośne wg pliku; znakowanie elementów (ID, pozycja).
+Obróbki CNC profili (przed zgrzewem)
+– Elumatec SBZ 609/615: odwodnienia, frezy technologiczne, otwory pod wzmocnienia i łączniki.
+– Kontrola baz i kompensacji (dedukcje) zgodnie z kartą technologii.
+Wprowadzenie wzmocnień stalowych (jeśli wymagane przez system)
+– Docinanie, perforacja, nitowanie/śruby wg specyfikacji; kontrola luzów i podparć.
+Zgrzewanie ramy/skrzydła
+– Zgrzewarki GRAF SL4 FF/EVO z dedykowanymi fingerami; parametry: temp., czas uplastyczniania, dociski; rejestracja partii.
+Oczyszczanie naroży i wykończenie powierzchni
+– Oczyszczarki naroży: program pod dany profil; inspekcja wizualna mostków i geometrii naroży.
+Przygotowanie stanowiska pod okucie 
+– Montaż/kalibracja szablonu do odwiertów na ramie (odniesienie do bazy „0” i krawędzi referencyjnych); sprawdzenie zgodności z wersją profilu.
+Odwierty pod nożycę (mechanizm górny naświetla)
+– Wykonanie otworów prowadzących i mocujących przez szablon; kontrola średnic i rozstawów; gratowanie krawędzi.
+Odwierty pod klamkę i dźwignię sterującą (obsługa z poziomu podłogi)
+– Szablon pod klamkę/dźwignię: wiercenia przelotowe i pod wkręty; zachowanie osiowości z trasą cięgna/pręta.
+Montaż nożycy na skrzydle/ramie naświetla
+– Pozycjonowanie wg otworów szablonu; wkręty o zadanym momencie (karta momentów); test pracy zawiasowania bez cięgna.
+Montaż przekazania ruchu (cięgno/pręt/łańcuch)
+– Docięcie na długość; prowadzenie przez przepusty/rolki prowadzące; zabezpieczenia przeciwrozpinające.
+Montaż klamki i dźwigni nawierzchniowej (punkt obsługi)
+– Ustawienie kąta start/koniec; wkręty wg momentu; sprawdzenie luzów roboczych i pozycji „zamknięte/uchylone”.
+Regulacja zestawu
+– Ustawienie skoku cięgna, docisku uszczelki i ograniczników; smarowanie punktów tarcia (wg karty smarów).
+Uszczelnienia i akcesoria
+– Wprowadzenie wkładek/uszczelek w strefie połączeń; kontrola ciągłości uszczelnienia i docisku na całym obwodzie.
+Kontrola funkcjonalna (QC-F1)
+– Test pełnego cyklu: zamknięcie → uchył → powrót; pomiar siły operacyjnej (dźwignia/klamka); brak kolizji z profilem/uszczelką.
+Kontrola wymiarowa i zgodności odwiertów (QC-D1)
+– Sprawdzenie rozstawów otworów i odległości od bazy; tolerancje wg karty (np. ±0,5 mm dla otworów mocujących).
+Kontrola szczelności (opcjonalnie dla serii pilotażowych)
+– Test natryskowy/ciśnieniowy próbki referencyjnej; weryfikacja docisku uszczelki w stanie „zamknięte”.
+Oznakowanie, traceability, dokumentacja
+– Naklejki/QR partii okuć; zapis momentów, sił operacyjnych, operatora i daty.
+Okucie pozostałe i finalny montaż
+– Dołożenie ograniczników, osłon i zaślepek; finalne spasowanie skrzydło–rama; kontrola estetyczna.
+Pakowanie i przekazanie na logistykę
+– Zabezpieczenia transportowe mechanizmu; instrukcja użytkowania/serwisu dołączona do produktu.
+Punkty krytyczne i uwagi technologiczne
+Szablony do odwiertów muszą zgrywać się z konkretną nożycą i układem dźwigni (różne warianty = różne szablony/pozycje baz).
+Długość i prowadzenie cięgna determinują siłę operacyjną i domknięcie – błędna długość powoduje brak ryglowania lub nadmierny opór.
+Kontrola momentów dokręcania eliminuje luzowanie się okuć w eksploatacji.
+Smarowanie i ochrona krawędzi otworów (gratowanie) ograniczają zużycie i hałas pracy mechanizmu.
+Zapewnienie ciągłości uszczelki w strefie uchyłu jest kluczowe dla szczelności i akustyki.
+Prace realizowane w ramach projektu były prowadzone zgodnie ze ściśle określoną metodyką, w sposób sekwencyjny i uporządkowany, co pozwalało na zachowanie pełnej kontroli nad przebiegiem działań. Każdy etap był domykany i weryfikowany przed rozpoczęciem kolejnego, co minimalizowało ryzyko przenoszenia błędów na dalsze fazy oraz zapewniało wysoką jakość opracowywanych rozwiązań. Dzięki temu możliwe było nie tylko sprawne wdrażanie nowych technologii i urządzeń, ale także bieżące dostosowywanie dokumentacji oraz standardów pracy do realnych potrzeb produkcji. Przyjęte podejście miało charakter waterfallowy – obejmowało kolejne, jasno zdefiniowane fazy, które krok po kroku prowadziły do osiągnięcia założonego celu projektu:
+Faza 1 – Analiza i planowanie
+Przeprowadzono analizę procesów, zidentyfikowano ograniczenia i określono wymagania techniczne dla wdrożenia technologii HAUTAU na linii STD.
+Faza 2 – Opracowanie technologii i dobór wyposażenie
+Zaprojektowano procesy cięcia i obróbki w centrach Elumatec SBZ 609, Stürtz i Federhenn oraz wybrano dodatkowe maszyny (ukośnica, szablony do okuwania).
+Faza 3 – Integracja z linią STD
+Dostosowano układ produkcyjny, zapewniając płynne przejście półproduktów między stanowiskami.
+Faza 4 – Wdrożenie nowych okuć i szablonów
+Zaimplementowano szablony do okuwania oraz okucie HAUTAU, co umożliwiło standaryzację i uproszczenie montażu.
+Faza 5 – Walidacja prototypów i testy jakościowe
+Nowe rozwiązania zostały przetestowane w warunkach produkcji seryjnej – linia STD. Zespół jakości zweryfikował powtarzalności i szczelności konstrukcji.
+Faza 6 – Szkolenia i uruchomienie pełnoskalowe
+Pracownicy zostali przeszkoleni z obsługi maszyn i standardów montażu.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Marka HAUTAU to międzynarodowa marka znana z okuć okiennych i rozwiązań automatyki budowlanej. Okucia HAUTAU to zaawansowane rozwiązania dla okien i drzwi przesuwnych/uchylno-przesuwnych, oferujące komfort, wytrzymałość i estetykę. Wyróżniają się zaawansowanymi mechanizmami, automatyzacją ruchu i wysoką izolacyjnością oraz ergonomią użytkowania. Montaż okuć jest bardziej złożony niż w klasycznych systemach, ale efektem są innowacyjne funkcjonalności i wyjątkowa jakość.
+Celem projektu badawczo-rozwojowego było opracowanie i wdrożenie technologii montażu mechanizmów nawierzchniowych do okien uchylnych z PVC na linii STD, opracowanie optymalnych procesów technologicznych i sterowania maszynami, które pozwolą na pełną integrację tych produktów z istniejącym ciągiem produkcyjnym. Działania te miały na celu podniesienie wydajności montażu i standaryzację procesu, przy zagwarantowaniu jakości, ergonomii montażu i wykonania oraz rozszerzenie funkcjonalności oferowanych ram okiennych. Wdrożenie nowego rodzaju okucia HAUTAU pozwoliło na zaoferowanie okien z uchylaniem górnego skrzydła z poziomu podłogi, co jest istotne w przypadku okien montowanych w budynkach użyteczności publicznej (łatwość obsługi i bezpieczeństwo użytkowników). Rozwiązanie HAUTAU pozwala na obsługę okna przez osoby nie sięgające do górnych mechanizmów, przy zapewnieniu działanie mechanizmu w długim okresie eksploatacji.
+
+Rysunek 1. Okucia nawierzchniowe HAUTAU – zamontowane na oknach PCV Witraż
+Dotychczasowym problemem technologicznym przy montażu okuć w oknach PVC była trudność w zachowaniu idealnej zgodności odwiertów z elementami nożycy, klamki i dźwigni. Warsztatowe metody wykonywania otworów mogły prowadzić do przesunięć pozycjonujących, co skutkowało nieprawidłowym działaniem mechanizmu, oporem przy otwieraniu oraz ryzykiem szybszego zużycia okuć. Brak dedykowanych szablonów powodował wydłużony czas montażu i większą zależność od doświadczenia operatora. W ramach opracowanej technologii wprowadzono dedykowane szablony do odwiertów na ramach, które umożliwiały precyzyjne prowadzenie narzędzi i gwarantowały zgodność otworów z układem okuć. Szablony pozwoliły na uzyskanie powtarzalność montażu, niezależnie od zmiennych gabarytów okien. Zdefiniowano procedury pozycjonowania dla klamek i dźwigni, co pozwoliło na prawidłowe zakotwienie mechanizmów i zapewnienie ich płynnej pracy. Rozwiązania technologiczno-montażowe wyeliminowały wcześniejsze problemy z brakiem precyzji, ale także poprawiło ergonomię pracy operatorów i skróciło czas montażu. Opracowany schemat montażowo – produkcyjny dotyczył operacji: 
+Przyjęcie zlecenia i generacja danych produkcyjnych
+– Import konstrukcji z Cantora; wyliczenie długości, dedukcji pod zgrzew i lokalizacji obróbek; eksport plików na maszyny (SBZ 609/615, piły).
+Rozkrój profili
+– Piły dwugłowicowe (Federhenn/Elumatec): cięcia proste/skośne wg pliku; znakowanie elementów (ID, pozycja).
+Obróbki CNC profili (przed zgrzewem)
+– Elumatec SBZ 609/615: odwodnienia, frezy technologiczne, otwory pod wzmocnienia i łączniki.
+– Kontrola baz i kompensacji (dedukcje) zgodnie z kartą technologii.
+Wprowadzenie wzmocnień stalowych (jeśli wymagane przez system)
+– Docinanie, perforacja, nitowanie/śruby wg specyfikacji; kontrola luzów i podparć.
+Zgrzewanie ramy/skrzydła
+– Zgrzewarki GRAF SL4 FF/EVO z dedykowanymi fingerami; parametry: temp., czas uplastyczniania, dociski; rejestracja partii.
+Oczyszczanie naroży i wykończenie powierzchni
+– Oczyszczarki naroży: program pod dany profil; inspekcja wizualna mostków i geometrii naroży.
+Przygotowanie stanowiska pod okucie 
+– Montaż/kalibracja szablonu do odwiertów na ramie (odniesienie do bazy „0” i krawędzi referencyjnych); sprawdzenie zgodności z wersją profilu.
+Odwierty pod nożycę (mechanizm górny naświetla)
+– Wykonanie otworów prowadzących i mocujących przez szablon; kontrola średnic i rozstawów; gratowanie krawędzi.
+Odwierty pod klamkę i dźwignię sterującą (obsługa z poziomu podłogi)
+– Szablon pod klamkę/dźwignię: wiercenia przelotowe i pod wkręty; zachowanie osiowości z trasą cięgna/pręta.
+Montaż nożycy na skrzydle/ramie naświetla
+– Pozycjonowanie wg otworów szablonu; wkręty o zadanym momencie (karta momentów); test pracy zawiasowania bez cięgna.
+Montaż przekazania ruchu (cięgno/pręt/łańcuch)
+– Docięcie na długość; prowadzenie przez przepusty/rolki prowadzące; zabezpieczenia przeciwrozpinające.
+Montaż klamki i dźwigni nawierzchniowej (punkt obsługi)
+– Ustawienie kąta start/koniec; wkręty wg momentu; sprawdzenie luzów roboczych i pozycji „zamknięte/uchylone”.
+Regulacja zestawu
+– Ustawienie skoku cięgna, docisku uszczelki i ograniczników; smarowanie punktów tarcia (wg karty smarów).
+Uszczelnienia i akcesoria
+– Wprowadzenie wkładek/uszczelek w strefie połączeń; kontrola ciągłości uszczelnienia i docisku na całym obwodzie.
+Kontrola funkcjonalna (QC-F1)
+– Test pełnego cyklu: zamknięcie → uchył → powrót; pomiar siły operacyjnej (dźwignia/klamka); brak kolizji z profilem/uszczelką.
+Kontrola wymiarowa i zgodności odwiertów (QC-D1)
+– Sprawdzenie rozstawów otworów i odległości od bazy; tolerancje wg karty (np. ±0,5 mm dla otworów mocujących).
+Kontrola szczelności (opcjonalnie dla serii pilotażowych)
+– Test natryskowy/ciśnieniowy próbki referencyjnej; weryfikacja docisku uszczelki w stanie „zamknięte”.
+Oznakowanie, traceability, dokumentacja
+– Naklejki/QR partii okuć; zapis momentów, sił operacyjnych, operatora i daty.
+Okucie pozostałe i finalny montaż
+– Dołożenie ograniczników, osłon i zaślepek; finalne spasowanie skrzydło–rama; kontrola estetyczna.
+Pakowanie i przekazanie na logistykę
+– Zabezpieczenia transportowe mechanizmu; instrukcja użytkowania/serwisu dołączona do produktu.
+Punkty krytyczne i uwagi technologiczne
+Szablony do odwiertów muszą zgrywać się z konkretną nożycą i układem dźwigni (różne warianty = różne szablony/pozycje baz).
+Długość i prowadzenie cięgna determinują siłę operacyjną i domknięcie – błędna długość powoduje brak ryglowania lub nadmierny opór.
+Kontrola momentów dokręcania eliminuje luzowanie się okuć w eksploatacji.
+Smarowanie i ochrona krawędzi otworów (gratowanie) ograniczają zużycie i hałas pracy mechanizmu.
+Zapewnienie ciągłości uszczelki w strefie uchyłu jest kluczowe dla szczelności i akustyki.
+Prace realizowane w ramach projektu były prowadzone zgodnie ze ściśle określoną metodyką, w sposób sekwencyjny i uporządkowany, co pozwalało na zachowanie pełnej kontroli nad przebiegiem działań. Każdy etap był domykany i weryfikowany przed rozpoczęciem kolejnego, co minimalizowało ryzyko przenoszenia błędów na dalsze fazy oraz zapewniało wysoką jakość opracowywanych rozwiązań. Dzięki temu możliwe było nie tylko sprawne wdrażanie nowych technologii i urządzeń, ale także bieżące dostosowywanie dokumentacji oraz standardów pracy do realnych potrzeb produkcji. Przyjęte podejście miało charakter waterfallowy – obejmowało kolejne, jasno zdefiniowane fazy, które krok po kroku prowadziły do osiągnięcia założonego celu projektu:
+Faza 1 – Analiza i planowanie
+Przeprowadzono analizę procesów, zidentyfikowano ograniczenia i określono wymagania techniczne dla wdrożenia technologii HAUTAU na linii STD.
+Faza 2 – Opracowanie technologii i dobór wyposażenie
+Zaprojektowano procesy cięcia i obróbki w centrach Elumatec SBZ 609, Stürtz i Federhenn oraz wybrano dodatkowe maszyny (ukośnica, szablony do okuwania).
+Faza 3 – Integracja z linią STD
+Dostosowano układ produkcyjny, zapewniając płynne przejście półproduktów między stanowiskami.
+Faza 4 – Wdrożenie nowych okuć i szablonów
+Zaimplementowano szablony do okuwania oraz okucie HAUTAU, co umożliwiło standaryzację i uproszczenie montażu.
+Faza 5 – Walidacja prototypów i testy jakościowe
+Nowe rozwiązania zostały przetestowane w warunkach produkcji seryjnej – linia STD. Zespół jakości zweryfikował powtarzalności i szczelności konstrukcji.
+Faza 6 – Szkolenia i uruchomienie pełnoskalowe
+Pracownicy zostali przeszkoleni z obsługi maszyn i standardów montażu.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Marka HAUTAU to międzynarodowa marka znana z okuć okiennych i rozwiązań automatyki budowlanej. Okucia HAUTAU to zaawansowane rozwiązania dla okien i drzwi przesuwnych/uchylno-przesuwnych, oferujące komfort, wytrzymałość i estetykę. Wyróżniają się zaawansowanymi mechanizmami, automatyzacją ruchu i wysoką izolacyjnością oraz ergonomią użytkowania. Montaż okuć jest bardziej złożony niż w klasycznych systemach, ale efektem są innowacyjne funkcjonalności i wyjątkowa jakość.
+Celem projektu badawczo-rozwojowego było opracowanie i wdrożenie technologii montażu mechanizmów nawierzchniowych do okien uchylnych z PVC na linii STD, opracowanie optymalnych procesów technologicznych i sterowania maszynami, które pozwolą na pełną integrację tych produktów z istniejącym ciągiem produkcyjnym. Działania te miały na celu podniesienie wydajności montażu i standaryzację procesu, przy zagwarantowaniu jakości, ergonomii montażu i wykonania oraz rozszerzenie funkcjonalności oferowanych ram okiennych. Wdrożenie nowego rodzaju okucia HAUTAU pozwoliło na zaoferowanie okien z uchylaniem górnego skrzydła z poziomu podłogi, co jest istotne w przypadku okien montowanych w budynkach użyteczności publicznej (łatwość obsługi i bezpieczeństwo użytkowników). Rozwiązanie HAUTAU pozwala na obsługę okna przez osoby nie sięgające do górnych mechanizmów, przy zapewnieniu działanie mechanizmu w długim okresie eksploatacji.
+
+Rysunek 1. Okucia nawierzchniowe HAUTAU – zamontowane na oknach PCV Witraż
+Dotychczasowym problemem technologicznym przy montażu okuć w oknach PVC była trudność w zachowaniu idealnej zgodności odwiertów z elementami nożycy, klamki i dźwigni. Warsztatowe metody wykonywania otworów mogły prowadzić do przesunięć pozycjonujących, co skutkowało nieprawidłowym działaniem mechanizmu, oporem przy otwieraniu oraz ryzykiem szybszego zużycia okuć. Brak dedykowanych szablonów powodował wydłużony czas montażu i większą zależność od doświadczenia operatora. W ramach opracowanej technologii wprowadzono dedykowane szablony do odwiertów na ramach, które umożliwiały precyzyjne prowadzenie narzędzi i gwarantowały zgodność otworów z układem okuć. Szablony pozwoliły na uzyskanie powtarzalność montażu, niezależnie od zmiennych gabarytów okien. Zdefiniowano procedury pozycjonowania dla klamek i dźwigni, co pozwoliło na prawidłowe zakotwienie mechanizmów i zapewnienie ich płynnej pracy. Rozwiązania technologiczno-montażowe wyeliminowały wcześniejsze problemy z brakiem precyzji, ale także poprawiło ergonomię pracy operatorów i skróciło czas montażu. Opracowany schemat montażowo – produkcyjny dotyczył operacji: 
+Przyjęcie zlecenia i generacja danych produkcyjnych
+– Import konstrukcji z Cantora; wyliczenie długości, dedukcji pod zgrzew i lokalizacji obróbek; eksport plików na maszyny (SBZ 609/615, piły).
+Rozkrój profili
+– Piły dwugłowicowe (Federhenn/Elumatec): cięcia proste/skośne wg pliku; znakowanie elementów (ID, pozycja).
+Obróbki CNC profili (przed zgrzewem)
+– Elumatec SBZ 609/615: odwodnienia, frezy technologiczne, otwory pod wzmocnienia i łączniki.
+– Kontrola baz i kompensacji (dedukcje) zgodnie z kartą technologii.
+Wprowadzenie wzmocnień stalowych (jeśli wymagane przez system)
+– Docinanie, perforacja, nitowanie/śruby wg specyfikacji; kontrola luzów i podparć.
+Zgrzewanie ramy/skrzydła
+– Zgrzewarki GRAF SL4 FF/EVO z dedykowanymi fingerami; parametry: temp., czas uplastyczniania, dociski; rejestracja partii.
+Oczyszczanie naroży i wykończenie powierzchni
+– Oczyszczarki naroży: program pod dany profil; inspekcja wizualna mostków i geometrii naroży.
+Przygotowanie stanowiska pod okucie 
+– Montaż/kalibracja szablonu do odwiertów na ramie (odniesienie do bazy „0” i krawędzi referencyjnych); sprawdzenie zgodności z wersją profilu.
+Odwierty pod nożycę (mechanizm górny naświetla)
+– Wykonanie otworów prowadzących i mocujących przez szablon; kontrola średnic i rozstawów; gratowanie krawędzi.
+Odwierty pod klamkę i dźwignię sterującą (obsługa z poziomu podłogi)
+– Szablon pod klamkę/dźwignię: wiercenia przelotowe i pod wkręty; zachowanie osiowości z trasą cięgna/pręta.
+Montaż nożycy na skrzydle/ramie naświetla
+– Pozycjonowanie wg otworów szablonu; wkręty o zadanym momencie (karta momentów); test pracy zawiasowania bez cięgna.
+Montaż przekazania ruchu (cięgno/pręt/łańcuch)
+– Docięcie na długość; prowadzenie przez przepusty/rolki prowadzące; zabezpieczenia przeciwrozpinające.
+Montaż klamki i dźwigni nawierzchniowej (punkt obsługi)
+– Ustawienie kąta start/koniec; wkręty wg momentu; sprawdzenie luzów roboczych i pozycji „zamknięte/uchylone”.
+Regulacja zestawu
+– Ustawienie skoku cięgna, docisku uszczelki i ograniczników; smarowanie punktów tarcia (wg karty smarów).
+Uszczelnienia i akcesoria
+– Wprowadzenie wkładek/uszczelek w strefie połączeń; kontrola ciągłości uszczelnienia i docisku na całym obwodzie.
+Kontrola funkcjonalna (QC-F1)
+– Test pełnego cyklu: zamknięcie → uchył → powrót; pomiar siły operacyjnej (dźwignia/klamka); brak kolizji z profilem/uszczelką.
+Kontrola wymiarowa i zgodności odwiertów (QC-D1)
+– Sprawdzenie rozstawów otworów i odległości od bazy; tolerancje wg karty (np. ±0,5 mm dla otworów mocujących).
+Kontrola szczelności (opcjonalnie dla serii pilotażowych)
+– Test natryskowy/ciśnieniowy próbki referencyjnej; weryfikacja docisku uszczelki w stanie „zamknięte”.
+Oznakowanie, traceability, dokumentacja
+– Naklejki/QR partii okuć; zapis momentów, sił operacyjnych, operatora i daty.
+Okucie pozostałe i finalny montaż
+– Dołożenie ograniczników, osłon i zaślepek; finalne spasowanie skrzydło–rama; kontrola estetyczna.
+Pakowanie i przekazanie na logistykę
+– Zabezpieczenia transportowe mechanizmu; instrukcja użytkowania/serwisu dołączona do produktu.
+Punkty krytyczne i uwagi technologiczne
+Szablony do odwiertów muszą zgrywać się z konkretną nożycą i układem dźwigni (różne warianty = różne szablony/pozycje baz).
+Długość i prowadzenie cięgna determinują siłę operacyjną i domknięcie – błędna długość powoduje brak ryglowania lub nadmierny opór.
+Kontrola momentów dokręcania eliminuje luzowanie się okuć w eksploatacji.
+Smarowanie i ochrona krawędzi otworów (gratowanie) ograniczają zużycie i hałas pracy mechanizmu.
+Zapewnienie ciągłości uszczelki w strefie uchyłu jest kluczowe dla szczelności i akustyki.
+Prace realizowane w ramach projektu były prowadzone zgodnie ze ściśle określoną metodyką, w sposób sekwencyjny i uporządkowany, co pozwalało na zachowanie pełnej kontroli nad przebiegiem działań. Każdy etap był domykany i weryfikowany przed rozpoczęciem kolejnego, co minimalizowało ryzyko przenoszenia błędów na dalsze fazy oraz zapewniało wysoką jakość opracowywanych rozwiązań. Dzięki temu możliwe było nie tylko sprawne wdrażanie nowych technologii i urządzeń, ale także bieżące dostosowywanie dokumentacji oraz standardów pracy do realnych potrzeb produkcji. Przyjęte podejście miało charakter waterfallowy – obejmowało kolejne, jasno zdefiniowane fazy, które krok po kroku prowadziły do osiągnięcia założonego celu projektu:
+Faza 1 – Analiza i planowanie
+Przeprowadzono analizę procesów, zidentyfikowano ograniczenia i określono wymagania techniczne dla wdrożenia technologii HAUTAU na linii STD.
+Faza 2 – Opracowanie technologii i dobór wyposażenie
+Zaprojektowano procesy cięcia i obróbki w centrach Elumatec SBZ 609, Stürtz i Federhenn oraz wybrano dodatkowe maszyny (ukośnica, szablony do okuwania).
+Faza 3 – Integracja z linią STD
+Dostosowano układ produkcyjny, zapewniając płynne przejście półproduktów między stanowiskami.
+Faza 4 – Wdrożenie nowych okuć i szablonów
+Zaimplementowano szablony do okuwania oraz okucie HAUTAU, co umożliwiło standaryzację i uproszczenie montażu.
+Faza 5 – Walidacja prototypów i testy jakościowe
+Nowe rozwiązania zostały przetestowane w warunkach produkcji seryjnej – linia STD. Zespół jakości zweryfikował powtarzalności i szczelności konstrukcji.
+Faza 6 – Szkolenia i uruchomienie pełnoskalowe
+Pracownicy zostali przeszkoleni z obsługi maszyn i standardów montażu.
+
+Podstawowe etapy projektu
+
+Numer etapu
+Nazwa etapu
+Data realizacji
+
+1.
+Analiza i planowanie
+01-2023
+
+2.
+Opracowanie technologii i dobór wyposażenia
+01-2023
+
+3.
+Integracja z linią produkcyjną STD
+01-2023 – 02-2023
+
+4.
+Wdrożenie nowych okuć i szablonów
+01-2023 – 02-2023
+
+5.
+Walidacja prototypów i testy jakościowe
+01-2023 – 02-2023
+
+6.
+Szkolenie i uruchomienie pełnoskalowe
+01-2023 – 02-2023
+
+Wykaz najważniejszych problemów badawczych oraz sposób ich rozwiązania: Problem: brak precyzyjnego zgrania odwiertów z układem nożycy, klamki i dźwigni
+– Dotychczasowe, warsztatowe metody wiercenia powodowały przesunięcia pozycjonujące i losową powtarzalność.
+Sposób rozwiązania: zaprojektowano i wdrożono dedykowane szablony do odwiertów na ramach i skrzydłach, z bazą „0” i punktami referencyjnymi profilu. Zdefiniowano tolerancje procesowe (np. rozstawy otworów, odległość od krawędzi) oraz obowiązek gratowania krawędzi. Szablony kalibrowano cyklicznie, a wyniki wpisywano do karty kontroli.
+Problem: wysokie siły operacyjne i niestabilna praca mechanizmu z powodu błędnej długości/prowadzenia cięgna
+– Różnice gabarytów i geometrii utrudniały ustawienie skoku i domknięcia.
+Sposób rozwiązania: opracowano algorytm doboru długości cięgna/pręta i jego prowadzenia (rolki prowadzące, przepusty), wraz z listą nastaw skoku i docisku uszczelki dla wariantów. Wprowadzono pomiar siły operacyjnej na stanowisku regulacji i progi akceptacji.
+Problem: brak integracji danych technologicznych z systemem Cantor i CNC
+– Ręczne przenoszenie danych generowało błędy i straty czasu.
+Sposób rozwiązania: utworzono biblioteki okuć HAUTAU w Cantorze (punkty odwiertów, dedukcje, makra obróbkowe) oraz postprocesy do Elumatec SBZ 609/615 i pił Federhenn/Elumatec. Dane produkcyjne eksportowano bezpośrednio na maszyny, co zapewniło spójność odwiertów i obróbek z projektem.
+Problem: odkształcenia po zgrzewaniu i rozbieżności wymiarowe w narożach
+– Wpływały na pozycje otworów i pracę mechanizmu.
+Sposób rozwiązania: ustabilizowano parametry zgrzewania na GRAF SL4 FF/EVO (temperatura, czasy, dociski) oraz zastosowano dedykowane fingery dla poszczególnych profili. Wdrążono kontrolę naroży po oczyszczaniu i kompensacje w dedukcjach Cantora.
+Problem: szczelność i akustyka w strefie uchyłu
+– Nieciągłości uszczelki obniżały parametry użytkowe.
+Sposób rozwiązania: dobrano i zwalidowano materiały uszczelniające kompatybilne z PVC, zaprojektowano gniazda i wkładki w miejscach przejścia cięgna, a wzorcowe próbki poddano testom natryskowym/ciśnieniowym. Wprowadzono smarowanie punktów tarcia zgodnie z kartą smarów.
+Problem: czas montażu i duża zmienność cyklu
+– Montaż otwieraczy naświetli był wrażliwy na błędy i poprawki.
+Sposób rozwiązania: przeprojektowano przepływ materiału (bufory międzyobróbkowe, podajniki rolkowe), ujednolicono zestawy montażowe (kity: nożyca, cięgno, osprzęt) i skrócono czas przezbrojeń. W efekcie ustabilizowano czas cyklu i ograniczono poprawki.
+
+Podstawowe prace o charakterze twórczym w projekcie: Poniżej zebrano kluczowe prace twórcze – wykonane i zwalidowane w warunkach produkcyjnych.
+
+zaprojektowano i wykonano dedykowane szablony do odwiertów (rama/skrzydło) z bazą referencyjną „0”, wymiennymi wkładkami pod różne warianty profili oraz systemem szybkiej kalibracji; zestaw szablonów zapewnił zgranie otworów z nożycą, klamką i dźwignią oraz powtarzalność pozycjonowania,
+opracowano biblioteki okuć HAUTAU w systemie Cantor (obiekty, reguły doboru, dedukcje długości, makra obróbkowe) wraz z wariantami konstrukcyjnymi; automatyzacja generowała komplet danych produkcyjnych bez ręcznej ingerencji,
+przygotowano i przetestowano postprocesy CAM do Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec (mapowanie cech z Cantora na operacje CNC, definicje narzędzi, kolejności obróbek, kompensacje), co wyeliminowało błędy transferu danych,
+opracowano metodykę wyznaczania długości i prowadzenia cięgna/pręta (kinematyka mechanizmu, tabele nastaw skoku i docisku, szablony do cięcia cięgien), zapewniając niskie siły operacyjne i pewne domknięcie,
+zdefiniowano standard pracy stanowiska (SOP): kolejność operacji, punkty regulacyjne, karta momentów dokręcania, karta smarów, plan kalibracji szablonów; powstały instrukcje obrazkowe i karty przezbrojenia,
+wdrożono oprzyrządowanie montażowe: uchwyty i ograniczniki pozycjonujące, prowadnice dla cięgna, wzorce kontrolne do szybkiej weryfikacji rozstawów; zmodernizowano ergonomię stanowiska (5S) i bezpieczeństwo pracy,
+wykonano serie prototypów A/B oraz walidacje: pomiary siły operacyjnej, testy funkcjonalne cykli otwarcia/uchyłu, testy natryskowe/ciśnieniowe szczelności oraz audyty akustyczne; wyniki posłużyły do korekt szablonów, dedukcji i nastaw CNC,
+opracowano system kontroli jakości i traceability: QC-D1 (wymiarowa), QC-F1 (funkcjonalna), okresowe próby szczelności, etykiety/QR partii, rejestr momentów i sił, ścieżka audytowa w dokumentacji partii,
+przeprowadzono szkolenia operatorów i utrzymania ruchu (obsługa szablonów, regulacja mechanizmu, kontrola jakości), uzupełnione materiałami wideo i szybkim przewodnikiem usterek,
+wykonano PFMEA procesu i Plan Kontroli (CP) oraz MSA dla pomiaru siły operacyjnej, co ustabilizowało parametry jakościowe i ograniczyło zmienność procesu.
+
+Efektem tych prac było powstanie kompletnej, autorskiej technologii montażu okuć naczynowych – zintegrowanej z cyfrowym przepływem danych (Cantor → CNC).
+
+Poziom innowacyjności projektu
+Innowacja w skali przedsiębiorstwa
+Innowacja w skali kraju
+
+Poziom innowacyjności projektu
+Tak
+Nie
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Podsumowanie projektu: Projekt zakończył się pełnym opracowaniem i wdrożeniem technologii montażu okuć typu HAUTAU na linii STD dla okien PVC. Opracowano i zastosowano dedykowane szablony do odwiertów z kalibracją względem baz profilu, zbudowano biblioteki okuć w systemie Cantor (reguły doboru, dedukcje, makra), przygotowano postprocesy CAM dla Elumatec SBZ 609/615 oraz pił Federhenn/Elumatec, a także ustabilizowano zgrzewanie (zastosowanie fingerów GRAF) i wdrożono standardy stanowiskowe (SOP, karta momentów, karta smarów).
+
+Walidacja prototypów oraz testy funkcjonalne i szczelności potwierdziły poprawność rozwiązań: uzyskano powtarzalne zgranie nożycy, klamki i dźwigni, niskie siły operacyjne oraz ciągłość uszczelnień w strefie uchyłu. Wprowadzenie traceability (QC-D1, QC-F1, etykiety/QR) i szkoleń operatorów przełożyło się na stabilny czas cyklu, ograniczenie poprawek oraz wyższą jakość i estetykę montażu.
+
+Efektem było rozszerzenie funkcjonalności wyrobów o okucia HAUTAU, pełna integracja procesu z istniejącym ciągiem produkcyjnym oraz wzrost elastyczności i ergonomii wytwarzania. 
+
+Projekt dostarczył unikatowej w skali przedsiębiorstwa, znormalizowanej technologii montażu otwieraczy naświetli, stanowiącej bazę dla dalszej automatyzacji i rozwoju wariantów produktowych.
+
+Dokumentacja projektowa (załączniki do karty projektu)
+
+1.: Dokumentacja techniczna
+
+2.: Dokumentacja produkcyjna
+
+3.
+
+4.

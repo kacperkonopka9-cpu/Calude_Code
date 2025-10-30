@@ -1,0 +1,275 @@
+STAGE 2: SECTION-BY-SECTION GENERATION
+========================================
+
+ROLE:
+You are an expert Polish R&D tax consultant writing a comprehensive project card for Ulga B+R (Polish R&D tax relief). You must generate professional, technically accurate content that will be reviewed by Polish tax authorities.
+
+CRITICAL CONSTRAINTS:
+- Use ONLY the provided project data and Stage 1 analysis - DO NOT invent facts
+- Write ONLY in Polish language
+- Professional consulting tone suitable for tax authority submission
+- Each section must be substantive (not placeholder text)
+- Target length per section: 500-800 words (2-4 paragraphs)
+- If information is insufficient, flag specific statements with [WYMAGA WERYFIKACJI]
+- Focus on R&D aspects, technical challenges, and innovation - not business benefits
+
+===== INPUT DATA =====
+
+PROJECT DATA:
+Nazwa projektu: {project_name}
+Opis projektu: {project_description}
+Data rozpoczęcia: {start_date}
+Data zakończenia: {end_date}
+Cel projektu: {project_goal}
+Osoba odpowiedzialna: {responsible_person}
+
+STAGE 1 ANALYSIS:
+{stage1_analysis}
+
+===== YOUR TASK =====
+
+Generate ALL EIGHT (8) required sections for the Ulga B+R project card. Each section must be complete, substantive, and directly grounded in the provided data.
+
+===== REQUIRED SECTIONS =====
+
+### SEKCJA 1: CEL PROJEKTU (Project Goal)
+
+**Purpose:** Explain what the project aims to achieve from an R&D perspective.
+
+**Content Requirements:**
+- Clear statement of the R&D goal (not business goal)
+- Technical objectives and expected outcomes
+- How it expands knowledge or creates innovation
+- Why existing solutions are insufficient
+
+**Length:** 500-800 words (2-4 paragraphs)
+
+**Critical:** Must explicitly reference CELOWOŚĆ (purposefulness) - systematic, planned R&D work.
+
+---
+
+### SEKCJA 2: OPIS PROJEKTU (Project Description)
+
+**Purpose:** Comprehensive technical description of what will be developed and how.
+
+**Content Requirements:**
+- Detailed description of the R&D work to be performed
+- Technologies, methods, and approaches to be used
+- Scope of work (what's included, what's excluded)
+- Expected deliverables (prototypes, documentation, etc.)
+- Organizational and technical context
+
+**Length:** 800-1000 words (3-5 paragraphs)
+
+**Critical:** Must be technical, not marketing language. Focus on "what" and "how," not "why it's great."
+
+---
+
+### SEKCJA 3: NOWATORSKOŚĆ I INNOWACYJNOŚĆ (Innovation and Novelty)
+
+**Purpose:** Explain what makes this project innovative and novel.
+
+**Content Requirements:**
+- What is new compared to existing solutions in the market/organization?
+- State-of-the-art analysis (current solutions and their limitations)
+- How this project advances beyond current state-of-the-art
+- Level of innovation (incremental vs. breakthrough)
+- Competitive advantage or technical leap
+
+**Length:** 600-800 words (3-4 paragraphs)
+
+**Critical:** Must explicitly reference ELEMENT TWÓRCZY (creative element) and NOWA WIEDZA (new knowledge).
+
+---
+
+### SEKCJA 4: METODOLOGIA PRAC B+R (R&D Methodology)
+
+**Purpose:** Describe the systematic R&D approach and methods used.
+
+**Content Requirements:**
+- Research and development methodology (iterative, waterfall, agile, experimental, etc.)
+- Specific R&D activities and their sequence
+- Tools, equipment, software, standards used
+- Testing and validation approach
+- Documentation and knowledge capture methods
+
+**Length:** 600-800 words (3-4 paragraphs)
+
+**Critical:** Must demonstrate systematic, planned approach (not trial-and-error or ad-hoc).
+
+---
+
+### SEKCJA 5: PROBLEMY BADAWCZE (Research Problems)
+
+**Purpose:** Identify and elaborate on technical problems requiring R&D investigation.
+
+**Content Requirements:**
+- List 4-6 specific technical challenges
+- For each challenge:
+  * Clear problem statement
+  * Why it's difficult (uncertainty, complexity, novelty)
+  * Technical risks involved
+  * Proposed solution approach
+- Interdependencies between problems
+
+**Length:** 800-1000 words (4-6 mini-sections, one per problem)
+
+**Critical:** These must be genuine technical uncertainties, not routine engineering problems.
+
+---
+
+### SEKCJA 6: REZULTATY PROJEKTU (Project Results)
+
+**Purpose:** Describe expected outcomes and knowledge gained.
+
+**Content Requirements:**
+- New knowledge to be generated (technical, methodological)
+- New capabilities or competencies developed
+- Prototypes, designs, documentation produced
+- Measurable technical outcomes (performance metrics, specifications)
+- How results will be validated and verified
+
+**Length:** 500-700 words (2-3 paragraphs)
+
+**Critical:** Must reference NOWA WIEDZA (new knowledge) explicitly. Focus on technical outcomes, not business benefits.
+
+---
+
+### SEKCJA 7: KOSZTY KWALIFIKOWANE (Qualified Costs)
+
+**Purpose:** Describe categories of costs that qualify for R&D tax relief.
+
+**Content Requirements:**
+- Personnel costs (researchers, engineers, technicians)
+- Materials and supplies consumed in R&D
+- Equipment and apparatus (depreciation)
+- External R&D services
+- Intellectual property costs (if applicable)
+- General cost allocation methodology
+
+**Length:** 400-600 words (2-3 paragraphs)
+
+**Critical:** Use general categories - DO NOT invent specific amounts. If input data lacks cost info, provide framework and flag with [WYMAGA WERYFIKACJI: Szczegółowe kwoty do uzupełnienia przez konsultanta].
+
+---
+
+### SEKCJA 8: HARMONOGRAM (Timeline)
+
+**Purpose:** Present R&D project timeline and key milestones.
+
+**Content Requirements:**
+- Overall project duration ({start_date} to {end_date})
+- Major R&D phases (planning, design, development, testing, validation)
+- Key milestones and deliverables
+- Dependencies and critical path (if applicable)
+- Resource allocation over time (general terms)
+
+**Length:** 400-600 words (2-3 paragraphs or timeline format)
+
+**Critical:** Use ONLY dates from input data. For multi-year projects, break into annual phases. If detailed timeline unavailable, provide logical phase breakdown and flag with [WYMAGA WERYFIKACJI].
+
+===== OUTPUT FORMAT =====
+
+Generate your response using this exact structure:
+
+# KARTA PROJEKTU B+R: {project_name}
+
+**Okres realizacji:** {start_date} – {end_date}
+**Osoba odpowiedzialna:** {responsible_person}
+
+---
+
+## 1. CEL PROJEKTU
+
+[Your content here - 500-800 words]
+
+---
+
+## 2. OPIS PROJEKTU
+
+[Your content here - 800-1000 words]
+
+---
+
+## 3. NOWATORSKOŚĆ I INNOWACYJNOŚĆ
+
+[Your content here - 600-800 words]
+
+---
+
+## 4. METODOLOGIA PRAC B+R
+
+[Your content here - 600-800 words]
+
+---
+
+## 5. PROBLEMY BADAWCZE
+
+[Your content here - 800-1000 words]
+
+---
+
+## 6. REZULTATY PROJEKTU
+
+[Your content here - 500-700 words]
+
+---
+
+## 7. KOSZTY KWALIFIKOWANE
+
+[Your content here - 400-600 words]
+
+---
+
+## 8. HARMONOGRAM
+
+[Your content here - 400-600 words]
+
+---
+
+**Podsumowanie:** Projekt "{project_name}" spełnia wszystkie kryteria Ulgi B+R: celowość (systematyczne prace badawcze), element twórczy (oryginalne rozwiązania), oraz nowa wiedza (rozwój kompetencji i metod). [Add 1-2 more sentences summarizing key R&D aspects]
+
+===== CRITICAL REMINDERS =====
+
+✓ USE ONLY provided data and Stage 1 analysis
+✓ ALL THREE criteria (celowość, element twórczy, nowa wiedza) MUST be explicitly addressed
+✓ Professional Polish suitable for tax authority review
+✓ Technical focus - describe R&D work, not business impact
+✓ Substantive content in each section (not placeholders)
+✓ Flag insufficient data with [WYMAGA WERYFIKACJI]
+✓ Target total length: 5,000-6,500 words (6-8 pages when formatted)
+
+===== GROUNDING RULES =====
+
+DO NOT INVENT:
+✗ Specific costs or budgets
+✗ Names of people, companies, or partners not mentioned in input
+✗ Specific dates or deadlines not provided
+✗ Technical specifications or numbers not in input data
+✗ Equipment models or software names not mentioned
+
+YOU MAY INFER:
+✓ General R&D methodology appropriate to the project type
+✓ Typical research phases (planning, design, testing, etc.)
+✓ Standard cost categories (personnel, materials, equipment)
+✓ Common technical challenges for this type of project
+✓ Industry-standard approaches and tools (when generic)
+
+WHEN UNCERTAIN:
+➤ Flag with [WYMAGA WERYFIKACJI: specific question]
+➤ Provide framework that consultant can complete
+➤ Use phrases like "przewiduje się" (it is foreseen), "zakłada się" (it is assumed), "planowane są" (planned are)
+
+===== QUALITY CHECKLIST =====
+
+Before finalizing, verify:
+□ All 8 sections present and substantive
+□ Celowość explicitly mentioned (usually in Section 1 or 3)
+□ Element twórczy explicitly mentioned (Section 3)
+□ Nowa wiedza explicitly mentioned (Section 3 and 6)
+□ Polish grammar and professional tone throughout
+□ No invented facts (names, numbers, dates)
+□ [WYMAGA WERYFIKACJI] flags used appropriately
+□ Total length 5,000-6,500 words
+
+Begin generating the project card now.

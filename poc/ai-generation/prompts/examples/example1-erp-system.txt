@@ -1,0 +1,690 @@
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Karta projektu badawczo-rozwojowego
+
+Tytuł projektu
+
+Implementacja i integracja Systemu ERP+ w celu cyfryzacji i automatyzowania 
+procesu zarządzania dokumentacji handlowo-magazynowej w firmie Witraż Sp. z o.o.
+
+Numer ewidencyjny projektu: BR – ERP
+
+OPIS DZIAŁAŃ BADAWCZO ROZWOJOWYCH:
+
+OPIS DZIAŁAŃ BADAWCZO ROZWOJOWYCH:
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Głównym celem projektu była implementacja zaawansowanego, zintegrowanego środowiska informatycznego opartego na systemie ERP Symfonia, dostosowanego do specyficznych potrzeb i procesów biznesowych, produkcyjnych i logistycznych Witraż Sp. z o.o. Firma działa w branży produkcji stolarki okiennej i drzwiowej w modelu zleceń, a to oznacza:
+
+1. Produkcja jednostkowa, małoseryjna, seryjna
+okno lub drzwi są projektowane i wytwarzane według indywidualnych konfiguracji zamówionej przez klienta.
+proces wymaga ścisłego śledzenia numerów referencyjnych zleceń od momentu przyjęcia zamówienia, przez produkcję, aż po dostawę i montaż.
+2. Duża zmienność materiałów i komponentów
+szeroka gama profili, okuć, szyb o różnych parametrach (energooszczędne, akustyczne, antywłamaniowe), wykończenia (kolory, forniry, struktury).
+zmiany dostawców lub parametrów technicznych wymagają dynamicznej aktualizacji kartotek materiałowych i procedur zakupowych.
+3. Złożona gospodarka magazynowa
+Obejmuje zarówno materiały własne i obce powierzane
+Wymaga rozdzielnego ewidencjonowania, kontroli stanów i rozchodów, a także obsługi różnic jednostek miary między dokumentami FV, PZ, WZ.
+Potrzebne są dodatkowe wirtualne magazyny i specjalne procedury inwentaryzacyjne dla określonych grup komponentów.
+4. Integracja wielu systemów IT
+Dotychczas procesy były rozproszone pomiędzy różne aplikacje:
+Cantor – system wspomagający projektowanie, kalkulacje i planowanie produkcji stolarki.
+Symfonia Handel / Symfonia Finanse i Księgowość / Symfonia Środki Trwałe – system ERP dla obsługi handlu, finansów, księgowości i majątku.
+Zewnętrzne platformy bankowe (MT940), systemy raportowe (Crystal Reports), moduły do obsługi Intrastat, sprawozdawczości NBP.
+Konieczne było opracowanie niestandardowych interfejsów i logiki wymiany danych, aby wszystkie systemy działały jako jedno spójne środowisko.
+5. Wymogi raportowania i kontroli jakości
+Potrzeba generowanie raportów produkcyjnych, magazynowych i finansowych w wielu przekrojach: produkt, zlecenie, klient, region, kanał sprzedaży.
+Raportowanie zgodne z wymaganiami prawa (np. KSeF, Intrastat, NBP) oraz wewnętrznymi procedurami kontroli jakości.
+
+Założono stworzenie kompleksowej platformy wspierającej zarządzanie produkcją, gospodarką magazynową, finansami, księgowością, logistyką oraz raportowaniem, przy jednoczesnej integracji z istniejącymi narzędziami (Cantor, Crystal Reports, systemy bankowe, platformy raportowe). Systemy wewnętrzne Spółki nie były dostosowane do współpracy, co wymagało opracowywania interfejsów i dodatkowych zasada i struktur komunikacji do wymiany danych. 
+Projekt w swoim charakterze szeroko wykraczał poza ramy wdrożenia otrzymanego systemu ERP, bo wymagał zintegrowania systemu do rozbudowanej i wieloskładnikowej infrastruktury IT, w której wcześniej nie istniało środowisko integrujące dane z wielu systemów. Była to pierwsza w historii przedsiębiorstwa tak głęboka i kompleksowa integracja struktury systemowej IT, oprogramowania do systemów, baz danych oraz obsługiwanych cyfrowo procesów operacyjnych. Implementacja wymagała dostosowania architektury, opracowania nowych modułów, budowy niestandardowych interfejsów wymiany danych oraz zapewnienia kompatybilności z dotychczasowymi narzędziami i procedurami. Charakter zrealizowanych prac rozwojowych wynikał jednoznacznie z :
+Opracowania unikatowych rozwiązań – wiele modułów i funkcji powstało od podstaw, w tym dedykowane mechanizmy wymianu danych, parowania dokumentów, automatyzacji księgowań i synchronizacji baz danych.
+Potrzeby eksploracji nowych rozwiązań – badano i testowano różne podejścia integracyjne, aby uzyskać pełną kompatybilność pomiędzy systemami o odmiennych strukturach i formatach danych (Cantor, Symfonia, systemy bankowe).
+Rozbudowa infrastruktury IT – projekt nie tylko zmienił logikę procesów, ale również wpłynął na architekturę sprzętowo-systemową, przygotowując ją do obsługi nowych, zautomatyzowanych procesów.
+Pierwsze tego typu przedsięwzięcie w firmie – brak wcześniejszych doświadczeń w implementacji systemu ERP na tak dużą skalę wymagał prowadzenia prac analitycznych i projektowych niemal od zera.
+Dla implementowanego systemu ERP założono wdrożenie nowych właściwości i funkcjonalności specyficznych dla rozwiązania
+Integracja systemów w ramach jednej architektury IT
+Połączenie modułów ERP z dedykowanymi narzędziami branżowymi i bazami danych, zapewniające spójny przepływ informacji w całej organizacji.
+Eliminacja problemów dublowania danych, braków w ewidencji magazynowej i niespójności rozrachunków.
+Automatyzacja procesów F-K
+Automatyczne importy wyciągów bankowych w formacie MT940.
+Automatyczne dekretowanie dokumentów magazynowych i księgowych.
+Obsługa sprawozdawczości NBP i KSeF.
+Zaawansowana obsługa gospodarki magazynowej i produkcji
+Mechanizmy automatycznego parowania FV–PZ oraz WZ–FV.
+Obsługa towarów obcych oraz materiałów o rozszerzonych parametrach (kolor, wymiar, profil).
+Rozbudowane arkusze inwentaryzacyjne z eksportem do ERP.
+Usprawnienie logistyki i raportowania
+Automatyczne generowanie dokumentów WZ z numerami referencyjnymi pozycji i uwagami klientów.
+Raporty Crystal Reports dedykowane stanowiskom produkcyjnym i logistycznym.
+Osiągnięcie głównego celu związane było z kompleksowym usprawnieniem i rozwojem systemu ERP, gdzie najważniejsze elementy obejmują:
+Cyfryzację obiegu dokumentów i integrację z księgowością – opracowanie nowej bazy danych oraz procedur importu/eksportu dokumentów umożliwiającą ewidencję stanów magazynowych i automatyczną dekretację w Symfonii.
+Nowe i dodatkowe moduły handlowe i logistyczne – uruchomienie funkcji wyceny rolet zewnętrznych w ERP w celu tworzenia kompleksowych ofert, wprowadzenie internetowego konfiguratora dla dealerów z dostępem do statusu zamówień, automatyzacja powiadomień klientów o dostawach oraz rozbudowa systemu o narzędzia analityczne do sprzedaży i zakupów.
+System wyceny rolet zewnętrznych, który:
+zautomatyzuje wycenę rolet w powiązaniu z projektowanymi oknami,
+wygeneruje jednolitą, kompletną ofertę dla klienta w jednym dokumencie,
+zintegruje dane ofertowe z systemami informatycznymi dostawcy rolet, systemem zamówień, produkcji i logistyki.
+ Zakres prac rozwojowych dla modułu dotyczył:
+Opracowanie bazy w formie parametrycznych reguł.
+Stworzenie interfejsu użytkownika z automatycznym doborem parametrów.
+Integrację z istniejącymi funkcjami ERP, w tym kartotekami towarów, cennikami, rabatami, terminami dostaw i powiązaniem z numerami zamówień.
+Rozbudowa o internetowy konfigurator umożliwiający:
+projektowanie okien z roletami online,
+wgląd w status zamówień,
+generowanie ofert PDF,
+automatyczne powiadamianie klientów o statusie realizacji i dostawach.
+Narzędzia analityczne do monitorowania sprzedaży rolet, analizę rentowności i optymalizację zakupów komponentów.
+Modernizację infrastruktury i integrację systemów – wymiana serwera bazodanowego oraz centralizacja usług i baz danych w jednym środowisku w celu przyspieszenia pracy, wprowadzenie dwukierunkowej integracji z programem logistycznym, automatyczne przesyłanie agregowanych danych magazynowych do księgowości oraz odtwarzanie szczegółowych danych sprzedażowych w systemie finansowym.
+Wdrożenia procesów produkcyjnych – dostosowanie dokumentacji ERP do etapów produkcji stolarki drewnianej oraz rozwój raportów produkcyjnych w narzędziu Crystal Reports.
+Realizacja projektu była prowadzona w oparciu o iteracyjno-przyrostową metodykę zarządzania, łączącą elementy klasycznego podejścia kaskadowego (waterfall) w obszarach wymagających sztywnej sekwencji działań (np. migracja danych, konfiguracja środowiska produkcyjnego) oraz elementy metodyk zwinnych (Agile/Scrum) w zadaniach dot. rozwoju, testowania i modyfikowania modułów funkcjonalnych. Wybór hybrydowej metodyki wynikał z charakterystyki projektu:
+konieczności zachowania ciągłości pracy firmy podczas implementacji,
+dużej liczby zależności między modułami i systemami,
+potrzeby reagowania na wyniki testów i zmieniające się wymagania operacyjne.
+Główne założenia: 
+Podział na fazy kontrolne
+Projekt został podzielony na wyraźne etapy, zgodne z kamieniami milowymi harmonogramu:
+• Analiza przedwdrożeniowa i modelowanie procesów
+• Projekt architektury i konfiguracji systemu
+• Implementacja i integracja modułów
+• Migracja i weryfikacja danych
+• Testy funkcjonalne i wydajnościowe
+• Etap pilotażowy i optymalizacja
+• Uruchomienie produkcyjne
+Każdy etap kończył się formalną akceptacją rezultatów przez zespół projektowy i kierownictwo.
+Iteracyjny rozwój modułów
+Moduły funkcjonalne (np. wycena rolet, integracja z programem logistycznym, automatyzacja raportowania) były rozwijane w krótkich iteracjach (1–3 tygodniowych), kończących się prezentacją działającej wersji prototypowej.
+Pozwalało to na szybkie wykrywanie i eliminowanie błędów oraz dostosowywanie funkcji do realnych potrzeb użytkowników.
+Równoległe strumienie prac
+W celu skrócenia czasu realizacji harmonogram zakładał równoległe prowadzenie prac w kilku obszarach:
+• Konfiguracja i rozwój modułów ERP
+• Budowa interfejsów integracyjnych z systemami zewnętrznymi
+• Modernizacja i centralizacja infrastruktury serwerowej
+• Opracowanie procedur migracji i czyszczenia danych
+Każdy strumień posiadał dedykowanego lidera odpowiedzialnego za postęp i raportowanie.
+Stała kontrola jakości i walidacja
+Po każdym przyroście funkcjonalności realizowano testy jednostkowe, integracyjne oraz akceptacyjne (UAT) z udziałem użytkowników końcowych.
+Do monitorowania jakości wykorzystano repozytorium błędów i zmian (change log), a priorytety ustalano na cotygodniowych spotkaniach zespołu.
+Zarządzanie zmianą
+W projekcie funkcjonowała formalna procedura wprowadzania zmian (Change Request Procedure), która obejmowała analizę wpływu na harmonogram, koszty, zależności techniczne i bezpieczeństwo danych.
+Decyzje o wdrożeniu zmian podejmował komitet sterujący projektu.
+Komunikacja i dokumentacja
+Harmonogram był uaktualniany w trybie ciągłym i udostępniany w centralnym repozytorium dokumentacji.
+Raporty postępu obejmowały: status zadań, ryzyka, problemy krytyczne, rekomendacje działań korygujących.
+Dla użytkowników przygotowano dokumentację systemową, instrukcje operacyjne oraz szkolenia online i stacjonarne.
+Zarządzanie ryzykiem
+Identyfikacja ryzyk odbywała się na początku projektu i była aktualizowana w trakcie każdej fazy.
+Najważniejsze ryzyka dotyczyły: niezgodności formatów danych między systemami, przerw w pracy operacyjnej, opóźnień w integracji modułów i problemów z wydajnością.
+Dla każdego ryzyka opracowano plan awaryjny (contingency plan).
+Efektem zastosowania tej metodyki było skrócenie czasu implementacji, zminimalizowanie liczby przerw w pracy firmy, zapewnienie jakości końcowego rozwiązania dzięki ciągłej weryfikacji i adaptacji rozwiązań.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Głównym celem projektu była implementacja zaawansowanego, zintegrowanego środowiska informatycznego opartego na systemie ERP Symfonia, dostosowanego do specyficznych potrzeb i procesów biznesowych, produkcyjnych i logistycznych Witraż Sp. z o.o. Firma działa w branży produkcji stolarki okiennej i drzwiowej w modelu zleceń, a to oznacza:
+
+1. Produkcja jednostkowa, małoseryjna, seryjna
+okno lub drzwi są projektowane i wytwarzane według indywidualnych konfiguracji zamówionej przez klienta.
+proces wymaga ścisłego śledzenia numerów referencyjnych zleceń od momentu przyjęcia zamówienia, przez produkcję, aż po dostawę i montaż.
+2. Duża zmienność materiałów i komponentów
+szeroka gama profili, okuć, szyb o różnych parametrach (energooszczędne, akustyczne, antywłamaniowe), wykończenia (kolory, forniry, struktury).
+zmiany dostawców lub parametrów technicznych wymagają dynamicznej aktualizacji kartotek materiałowych i procedur zakupowych.
+3. Złożona gospodarka magazynowa
+Obejmuje zarówno materiały własne i obce powierzane
+Wymaga rozdzielnego ewidencjonowania, kontroli stanów i rozchodów, a także obsługi różnic jednostek miary między dokumentami FV, PZ, WZ.
+Potrzebne są dodatkowe wirtualne magazyny i specjalne procedury inwentaryzacyjne dla określonych grup komponentów.
+4. Integracja wielu systemów IT
+Dotychczas procesy były rozproszone pomiędzy różne aplikacje:
+Cantor – system wspomagający projektowanie, kalkulacje i planowanie produkcji stolarki.
+Symfonia Handel / Symfonia Finanse i Księgowość / Symfonia Środki Trwałe – system ERP dla obsługi handlu, finansów, księgowości i majątku.
+Zewnętrzne platformy bankowe (MT940), systemy raportowe (Crystal Reports), moduły do obsługi Intrastat, sprawozdawczości NBP.
+Konieczne było opracowanie niestandardowych interfejsów i logiki wymiany danych, aby wszystkie systemy działały jako jedno spójne środowisko.
+5. Wymogi raportowania i kontroli jakości
+Potrzeba generowanie raportów produkcyjnych, magazynowych i finansowych w wielu przekrojach: produkt, zlecenie, klient, region, kanał sprzedaży.
+Raportowanie zgodne z wymaganiami prawa (np. KSeF, Intrastat, NBP) oraz wewnętrznymi procedurami kontroli jakości.
+
+Założono stworzenie kompleksowej platformy wspierającej zarządzanie produkcją, gospodarką magazynową, finansami, księgowością, logistyką oraz raportowaniem, przy jednoczesnej integracji z istniejącymi narzędziami (Cantor, Crystal Reports, systemy bankowe, platformy raportowe). Systemy wewnętrzne Spółki nie były dostosowane do współpracy, co wymagało opracowywania interfejsów i dodatkowych zasada i struktur komunikacji do wymiany danych. 
+Projekt w swoim charakterze szeroko wykraczał poza ramy wdrożenia otrzymanego systemu ERP, bo wymagał zintegrowania systemu do rozbudowanej i wieloskładnikowej infrastruktury IT, w której wcześniej nie istniało środowisko integrujące dane z wielu systemów. Była to pierwsza w historii przedsiębiorstwa tak głęboka i kompleksowa integracja struktury systemowej IT, oprogramowania do systemów, baz danych oraz obsługiwanych cyfrowo procesów operacyjnych. Implementacja wymagała dostosowania architektury, opracowania nowych modułów, budowy niestandardowych interfejsów wymiany danych oraz zapewnienia kompatybilności z dotychczasowymi narzędziami i procedurami. Charakter zrealizowanych prac rozwojowych wynikał jednoznacznie z :
+Opracowania unikatowych rozwiązań – wiele modułów i funkcji powstało od podstaw, w tym dedykowane mechanizmy wymianu danych, parowania dokumentów, automatyzacji księgowań i synchronizacji baz danych.
+Potrzeby eksploracji nowych rozwiązań – badano i testowano różne podejścia integracyjne, aby uzyskać pełną kompatybilność pomiędzy systemami o odmiennych strukturach i formatach danych (Cantor, Symfonia, systemy bankowe).
+Rozbudowa infrastruktury IT – projekt nie tylko zmienił logikę procesów, ale również wpłynął na architekturę sprzętowo-systemową, przygotowując ją do obsługi nowych, zautomatyzowanych procesów.
+Pierwsze tego typu przedsięwzięcie w firmie – brak wcześniejszych doświadczeń w implementacji systemu ERP na tak dużą skalę wymagał prowadzenia prac analitycznych i projektowych niemal od zera.
+Dla implementowanego systemu ERP założono wdrożenie nowych właściwości i funkcjonalności specyficznych dla rozwiązania
+Integracja systemów w ramach jednej architektury IT
+Połączenie modułów ERP z dedykowanymi narzędziami branżowymi i bazami danych, zapewniające spójny przepływ informacji w całej organizacji.
+Eliminacja problemów dublowania danych, braków w ewidencji magazynowej i niespójności rozrachunków.
+Automatyzacja procesów F-K
+Automatyczne importy wyciągów bankowych w formacie MT940.
+Automatyczne dekretowanie dokumentów magazynowych i księgowych.
+Obsługa sprawozdawczości NBP i KSeF.
+Zaawansowana obsługa gospodarki magazynowej i produkcji
+Mechanizmy automatycznego parowania FV–PZ oraz WZ–FV.
+Obsługa towarów obcych oraz materiałów o rozszerzonych parametrach (kolor, wymiar, profil).
+Rozbudowane arkusze inwentaryzacyjne z eksportem do ERP.
+Usprawnienie logistyki i raportowania
+Automatyczne generowanie dokumentów WZ z numerami referencyjnymi pozycji i uwagami klientów.
+Raporty Crystal Reports dedykowane stanowiskom produkcyjnym i logistycznym.
+Osiągnięcie głównego celu związane było z kompleksowym usprawnieniem i rozwojem systemu ERP, gdzie najważniejsze elementy obejmują:
+Cyfryzację obiegu dokumentów i integrację z księgowością – opracowanie nowej bazy danych oraz procedur importu/eksportu dokumentów umożliwiającą ewidencję stanów magazynowych i automatyczną dekretację w Symfonii.
+Nowe i dodatkowe moduły handlowe i logistyczne – uruchomienie funkcji wyceny rolet zewnętrznych w ERP w celu tworzenia kompleksowych ofert, wprowadzenie internetowego konfiguratora dla dealerów z dostępem do statusu zamówień, automatyzacja powiadomień klientów o dostawach oraz rozbudowa systemu o narzędzia analityczne do sprzedaży i zakupów.
+System wyceny rolet zewnętrznych, który:
+zautomatyzuje wycenę rolet w powiązaniu z projektowanymi oknami,
+wygeneruje jednolitą, kompletną ofertę dla klienta w jednym dokumencie,
+zintegruje dane ofertowe z systemami informatycznymi dostawcy rolet, systemem zamówień, produkcji i logistyki.
+ Zakres prac rozwojowych dla modułu dotyczył:
+Opracowanie bazy w formie parametrycznych reguł.
+Stworzenie interfejsu użytkownika z automatycznym doborem parametrów.
+Integrację z istniejącymi funkcjami ERP, w tym kartotekami towarów, cennikami, rabatami, terminami dostaw i powiązaniem z numerami zamówień.
+Rozbudowa o internetowy konfigurator umożliwiający:
+projektowanie okien z roletami online,
+wgląd w status zamówień,
+generowanie ofert PDF,
+automatyczne powiadamianie klientów o statusie realizacji i dostawach.
+Narzędzia analityczne do monitorowania sprzedaży rolet, analizę rentowności i optymalizację zakupów komponentów.
+Modernizację infrastruktury i integrację systemów – wymiana serwera bazodanowego oraz centralizacja usług i baz danych w jednym środowisku w celu przyspieszenia pracy, wprowadzenie dwukierunkowej integracji z programem logistycznym, automatyczne przesyłanie agregowanych danych magazynowych do księgowości oraz odtwarzanie szczegółowych danych sprzedażowych w systemie finansowym.
+Wdrożenia procesów produkcyjnych – dostosowanie dokumentacji ERP do etapów produkcji stolarki drewnianej oraz rozwój raportów produkcyjnych w narzędziu Crystal Reports.
+Realizacja projektu była prowadzona w oparciu o iteracyjno-przyrostową metodykę zarządzania, łączącą elementy klasycznego podejścia kaskadowego (waterfall) w obszarach wymagających sztywnej sekwencji działań (np. migracja danych, konfiguracja środowiska produkcyjnego) oraz elementy metodyk zwinnych (Agile/Scrum) w zadaniach dot. rozwoju, testowania i modyfikowania modułów funkcjonalnych. Wybór hybrydowej metodyki wynikał z charakterystyki projektu:
+konieczności zachowania ciągłości pracy firmy podczas implementacji,
+dużej liczby zależności między modułami i systemami,
+potrzeby reagowania na wyniki testów i zmieniające się wymagania operacyjne.
+Główne założenia: 
+Podział na fazy kontrolne
+Projekt został podzielony na wyraźne etapy, zgodne z kamieniami milowymi harmonogramu:
+• Analiza przedwdrożeniowa i modelowanie procesów
+• Projekt architektury i konfiguracji systemu
+• Implementacja i integracja modułów
+• Migracja i weryfikacja danych
+• Testy funkcjonalne i wydajnościowe
+• Etap pilotażowy i optymalizacja
+• Uruchomienie produkcyjne
+Każdy etap kończył się formalną akceptacją rezultatów przez zespół projektowy i kierownictwo.
+Iteracyjny rozwój modułów
+Moduły funkcjonalne (np. wycena rolet, integracja z programem logistycznym, automatyzacja raportowania) były rozwijane w krótkich iteracjach (1–3 tygodniowych), kończących się prezentacją działającej wersji prototypowej.
+Pozwalało to na szybkie wykrywanie i eliminowanie błędów oraz dostosowywanie funkcji do realnych potrzeb użytkowników.
+Równoległe strumienie prac
+W celu skrócenia czasu realizacji harmonogram zakładał równoległe prowadzenie prac w kilku obszarach:
+• Konfiguracja i rozwój modułów ERP
+• Budowa interfejsów integracyjnych z systemami zewnętrznymi
+• Modernizacja i centralizacja infrastruktury serwerowej
+• Opracowanie procedur migracji i czyszczenia danych
+Każdy strumień posiadał dedykowanego lidera odpowiedzialnego za postęp i raportowanie.
+Stała kontrola jakości i walidacja
+Po każdym przyroście funkcjonalności realizowano testy jednostkowe, integracyjne oraz akceptacyjne (UAT) z udziałem użytkowników końcowych.
+Do monitorowania jakości wykorzystano repozytorium błędów i zmian (change log), a priorytety ustalano na cotygodniowych spotkaniach zespołu.
+Zarządzanie zmianą
+W projekcie funkcjonowała formalna procedura wprowadzania zmian (Change Request Procedure), która obejmowała analizę wpływu na harmonogram, koszty, zależności techniczne i bezpieczeństwo danych.
+Decyzje o wdrożeniu zmian podejmował komitet sterujący projektu.
+Komunikacja i dokumentacja
+Harmonogram był uaktualniany w trybie ciągłym i udostępniany w centralnym repozytorium dokumentacji.
+Raporty postępu obejmowały: status zadań, ryzyka, problemy krytyczne, rekomendacje działań korygujących.
+Dla użytkowników przygotowano dokumentację systemową, instrukcje operacyjne oraz szkolenia online i stacjonarne.
+Zarządzanie ryzykiem
+Identyfikacja ryzyk odbywała się na początku projektu i była aktualizowana w trakcie każdej fazy.
+Najważniejsze ryzyka dotyczyły: niezgodności formatów danych między systemami, przerw w pracy operacyjnej, opóźnień w integracji modułów i problemów z wydajnością.
+Dla każdego ryzyka opracowano plan awaryjny (contingency plan).
+Efektem zastosowania tej metodyki było skrócenie czasu implementacji, zminimalizowanie liczby przerw w pracy firmy, zapewnienie jakości końcowego rozwiązania dzięki ciągłej weryfikacji i adaptacji rozwiązań.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Głównym celem projektu była implementacja zaawansowanego, zintegrowanego środowiska informatycznego opartego na systemie ERP Symfonia, dostosowanego do specyficznych potrzeb i procesów biznesowych, produkcyjnych i logistycznych Witraż Sp. z o.o. Firma działa w branży produkcji stolarki okiennej i drzwiowej w modelu zleceń, a to oznacza:
+
+1. Produkcja jednostkowa, małoseryjna, seryjna
+okno lub drzwi są projektowane i wytwarzane według indywidualnych konfiguracji zamówionej przez klienta.
+proces wymaga ścisłego śledzenia numerów referencyjnych zleceń od momentu przyjęcia zamówienia, przez produkcję, aż po dostawę i montaż.
+2. Duża zmienność materiałów i komponentów
+szeroka gama profili, okuć, szyb o różnych parametrach (energooszczędne, akustyczne, antywłamaniowe), wykończenia (kolory, forniry, struktury).
+zmiany dostawców lub parametrów technicznych wymagają dynamicznej aktualizacji kartotek materiałowych i procedur zakupowych.
+3. Złożona gospodarka magazynowa
+Obejmuje zarówno materiały własne i obce powierzane
+Wymaga rozdzielnego ewidencjonowania, kontroli stanów i rozchodów, a także obsługi różnic jednostek miary między dokumentami FV, PZ, WZ.
+Potrzebne są dodatkowe wirtualne magazyny i specjalne procedury inwentaryzacyjne dla określonych grup komponentów.
+4. Integracja wielu systemów IT
+Dotychczas procesy były rozproszone pomiędzy różne aplikacje:
+Cantor – system wspomagający projektowanie, kalkulacje i planowanie produkcji stolarki.
+Symfonia Handel / Symfonia Finanse i Księgowość / Symfonia Środki Trwałe – system ERP dla obsługi handlu, finansów, księgowości i majątku.
+Zewnętrzne platformy bankowe (MT940), systemy raportowe (Crystal Reports), moduły do obsługi Intrastat, sprawozdawczości NBP.
+Konieczne było opracowanie niestandardowych interfejsów i logiki wymiany danych, aby wszystkie systemy działały jako jedno spójne środowisko.
+5. Wymogi raportowania i kontroli jakości
+Potrzeba generowanie raportów produkcyjnych, magazynowych i finansowych w wielu przekrojach: produkt, zlecenie, klient, region, kanał sprzedaży.
+Raportowanie zgodne z wymaganiami prawa (np. KSeF, Intrastat, NBP) oraz wewnętrznymi procedurami kontroli jakości.
+
+Założono stworzenie kompleksowej platformy wspierającej zarządzanie produkcją, gospodarką magazynową, finansami, księgowością, logistyką oraz raportowaniem, przy jednoczesnej integracji z istniejącymi narzędziami (Cantor, Crystal Reports, systemy bankowe, platformy raportowe). Systemy wewnętrzne Spółki nie były dostosowane do współpracy, co wymagało opracowywania interfejsów i dodatkowych zasada i struktur komunikacji do wymiany danych. 
+Projekt w swoim charakterze szeroko wykraczał poza ramy wdrożenia otrzymanego systemu ERP, bo wymagał zintegrowania systemu do rozbudowanej i wieloskładnikowej infrastruktury IT, w której wcześniej nie istniało środowisko integrujące dane z wielu systemów. Była to pierwsza w historii przedsiębiorstwa tak głęboka i kompleksowa integracja struktury systemowej IT, oprogramowania do systemów, baz danych oraz obsługiwanych cyfrowo procesów operacyjnych. Implementacja wymagała dostosowania architektury, opracowania nowych modułów, budowy niestandardowych interfejsów wymiany danych oraz zapewnienia kompatybilności z dotychczasowymi narzędziami i procedurami. Charakter zrealizowanych prac rozwojowych wynikał jednoznacznie z :
+Opracowania unikatowych rozwiązań – wiele modułów i funkcji powstało od podstaw, w tym dedykowane mechanizmy wymianu danych, parowania dokumentów, automatyzacji księgowań i synchronizacji baz danych.
+Potrzeby eksploracji nowych rozwiązań – badano i testowano różne podejścia integracyjne, aby uzyskać pełną kompatybilność pomiędzy systemami o odmiennych strukturach i formatach danych (Cantor, Symfonia, systemy bankowe).
+Rozbudowa infrastruktury IT – projekt nie tylko zmienił logikę procesów, ale również wpłynął na architekturę sprzętowo-systemową, przygotowując ją do obsługi nowych, zautomatyzowanych procesów.
+Pierwsze tego typu przedsięwzięcie w firmie – brak wcześniejszych doświadczeń w implementacji systemu ERP na tak dużą skalę wymagał prowadzenia prac analitycznych i projektowych niemal od zera.
+Dla implementowanego systemu ERP założono wdrożenie nowych właściwości i funkcjonalności specyficznych dla rozwiązania
+Integracja systemów w ramach jednej architektury IT
+Połączenie modułów ERP z dedykowanymi narzędziami branżowymi i bazami danych, zapewniające spójny przepływ informacji w całej organizacji.
+Eliminacja problemów dublowania danych, braków w ewidencji magazynowej i niespójności rozrachunków.
+Automatyzacja procesów F-K
+Automatyczne importy wyciągów bankowych w formacie MT940.
+Automatyczne dekretowanie dokumentów magazynowych i księgowych.
+Obsługa sprawozdawczości NBP i KSeF.
+Zaawansowana obsługa gospodarki magazynowej i produkcji
+Mechanizmy automatycznego parowania FV–PZ oraz WZ–FV.
+Obsługa towarów obcych oraz materiałów o rozszerzonych parametrach (kolor, wymiar, profil).
+Rozbudowane arkusze inwentaryzacyjne z eksportem do ERP.
+Usprawnienie logistyki i raportowania
+Automatyczne generowanie dokumentów WZ z numerami referencyjnymi pozycji i uwagami klientów.
+Raporty Crystal Reports dedykowane stanowiskom produkcyjnym i logistycznym.
+Osiągnięcie głównego celu związane było z kompleksowym usprawnieniem i rozwojem systemu ERP, gdzie najważniejsze elementy obejmują:
+Cyfryzację obiegu dokumentów i integrację z księgowością – opracowanie nowej bazy danych oraz procedur importu/eksportu dokumentów umożliwiającą ewidencję stanów magazynowych i automatyczną dekretację w Symfonii.
+Nowe i dodatkowe moduły handlowe i logistyczne – uruchomienie funkcji wyceny rolet zewnętrznych w ERP w celu tworzenia kompleksowych ofert, wprowadzenie internetowego konfiguratora dla dealerów z dostępem do statusu zamówień, automatyzacja powiadomień klientów o dostawach oraz rozbudowa systemu o narzędzia analityczne do sprzedaży i zakupów.
+System wyceny rolet zewnętrznych, który:
+zautomatyzuje wycenę rolet w powiązaniu z projektowanymi oknami,
+wygeneruje jednolitą, kompletną ofertę dla klienta w jednym dokumencie,
+zintegruje dane ofertowe z systemami informatycznymi dostawcy rolet, systemem zamówień, produkcji i logistyki.
+ Zakres prac rozwojowych dla modułu dotyczył:
+Opracowanie bazy w formie parametrycznych reguł.
+Stworzenie interfejsu użytkownika z automatycznym doborem parametrów.
+Integrację z istniejącymi funkcjami ERP, w tym kartotekami towarów, cennikami, rabatami, terminami dostaw i powiązaniem z numerami zamówień.
+Rozbudowa o internetowy konfigurator umożliwiający:
+projektowanie okien z roletami online,
+wgląd w status zamówień,
+generowanie ofert PDF,
+automatyczne powiadamianie klientów o statusie realizacji i dostawach.
+Narzędzia analityczne do monitorowania sprzedaży rolet, analizę rentowności i optymalizację zakupów komponentów.
+Modernizację infrastruktury i integrację systemów – wymiana serwera bazodanowego oraz centralizacja usług i baz danych w jednym środowisku w celu przyspieszenia pracy, wprowadzenie dwukierunkowej integracji z programem logistycznym, automatyczne przesyłanie agregowanych danych magazynowych do księgowości oraz odtwarzanie szczegółowych danych sprzedażowych w systemie finansowym.
+Wdrożenia procesów produkcyjnych – dostosowanie dokumentacji ERP do etapów produkcji stolarki drewnianej oraz rozwój raportów produkcyjnych w narzędziu Crystal Reports.
+Realizacja projektu była prowadzona w oparciu o iteracyjno-przyrostową metodykę zarządzania, łączącą elementy klasycznego podejścia kaskadowego (waterfall) w obszarach wymagających sztywnej sekwencji działań (np. migracja danych, konfiguracja środowiska produkcyjnego) oraz elementy metodyk zwinnych (Agile/Scrum) w zadaniach dot. rozwoju, testowania i modyfikowania modułów funkcjonalnych. Wybór hybrydowej metodyki wynikał z charakterystyki projektu:
+konieczności zachowania ciągłości pracy firmy podczas implementacji,
+dużej liczby zależności między modułami i systemami,
+potrzeby reagowania na wyniki testów i zmieniające się wymagania operacyjne.
+Główne założenia: 
+Podział na fazy kontrolne
+Projekt został podzielony na wyraźne etapy, zgodne z kamieniami milowymi harmonogramu:
+• Analiza przedwdrożeniowa i modelowanie procesów
+• Projekt architektury i konfiguracji systemu
+• Implementacja i integracja modułów
+• Migracja i weryfikacja danych
+• Testy funkcjonalne i wydajnościowe
+• Etap pilotażowy i optymalizacja
+• Uruchomienie produkcyjne
+Każdy etap kończył się formalną akceptacją rezultatów przez zespół projektowy i kierownictwo.
+Iteracyjny rozwój modułów
+Moduły funkcjonalne (np. wycena rolet, integracja z programem logistycznym, automatyzacja raportowania) były rozwijane w krótkich iteracjach (1–3 tygodniowych), kończących się prezentacją działającej wersji prototypowej.
+Pozwalało to na szybkie wykrywanie i eliminowanie błędów oraz dostosowywanie funkcji do realnych potrzeb użytkowników.
+Równoległe strumienie prac
+W celu skrócenia czasu realizacji harmonogram zakładał równoległe prowadzenie prac w kilku obszarach:
+• Konfiguracja i rozwój modułów ERP
+• Budowa interfejsów integracyjnych z systemami zewnętrznymi
+• Modernizacja i centralizacja infrastruktury serwerowej
+• Opracowanie procedur migracji i czyszczenia danych
+Każdy strumień posiadał dedykowanego lidera odpowiedzialnego za postęp i raportowanie.
+Stała kontrola jakości i walidacja
+Po każdym przyroście funkcjonalności realizowano testy jednostkowe, integracyjne oraz akceptacyjne (UAT) z udziałem użytkowników końcowych.
+Do monitorowania jakości wykorzystano repozytorium błędów i zmian (change log), a priorytety ustalano na cotygodniowych spotkaniach zespołu.
+Zarządzanie zmianą
+W projekcie funkcjonowała formalna procedura wprowadzania zmian (Change Request Procedure), która obejmowała analizę wpływu na harmonogram, koszty, zależności techniczne i bezpieczeństwo danych.
+Decyzje o wdrożeniu zmian podejmował komitet sterujący projektu.
+Komunikacja i dokumentacja
+Harmonogram był uaktualniany w trybie ciągłym i udostępniany w centralnym repozytorium dokumentacji.
+Raporty postępu obejmowały: status zadań, ryzyka, problemy krytyczne, rekomendacje działań korygujących.
+Dla użytkowników przygotowano dokumentację systemową, instrukcje operacyjne oraz szkolenia online i stacjonarne.
+Zarządzanie ryzykiem
+Identyfikacja ryzyk odbywała się na początku projektu i była aktualizowana w trakcie każdej fazy.
+Najważniejsze ryzyka dotyczyły: niezgodności formatów danych między systemami, przerw w pracy operacyjnej, opóźnień w integracji modułów i problemów z wydajnością.
+Dla każdego ryzyka opracowano plan awaryjny (contingency plan).
+Efektem zastosowania tej metodyki było skrócenie czasu implementacji, zminimalizowanie liczby przerw w pracy firmy, zapewnienie jakości końcowego rozwiązania dzięki ciągłej weryfikacji i adaptacji rozwiązań.
+
+Cel/ Opis nowych zakładanych właściwości/ funkcjonalności  rozwiązania (produktu lub procesu): Głównym celem projektu była implementacja zaawansowanego, zintegrowanego środowiska informatycznego opartego na systemie ERP Symfonia, dostosowanego do specyficznych potrzeb i procesów biznesowych, produkcyjnych i logistycznych Witraż Sp. z o.o. Firma działa w branży produkcji stolarki okiennej i drzwiowej w modelu zleceń, a to oznacza:
+
+1. Produkcja jednostkowa, małoseryjna, seryjna
+okno lub drzwi są projektowane i wytwarzane według indywidualnych konfiguracji zamówionej przez klienta.
+proces wymaga ścisłego śledzenia numerów referencyjnych zleceń od momentu przyjęcia zamówienia, przez produkcję, aż po dostawę i montaż.
+2. Duża zmienność materiałów i komponentów
+szeroka gama profili, okuć, szyb o różnych parametrach (energooszczędne, akustyczne, antywłamaniowe), wykończenia (kolory, forniry, struktury).
+zmiany dostawców lub parametrów technicznych wymagają dynamicznej aktualizacji kartotek materiałowych i procedur zakupowych.
+3. Złożona gospodarka magazynowa
+Obejmuje zarówno materiały własne i obce powierzane
+Wymaga rozdzielnego ewidencjonowania, kontroli stanów i rozchodów, a także obsługi różnic jednostek miary między dokumentami FV, PZ, WZ.
+Potrzebne są dodatkowe wirtualne magazyny i specjalne procedury inwentaryzacyjne dla określonych grup komponentów.
+4. Integracja wielu systemów IT
+Dotychczas procesy były rozproszone pomiędzy różne aplikacje:
+Cantor – system wspomagający projektowanie, kalkulacje i planowanie produkcji stolarki.
+Symfonia Handel / Symfonia Finanse i Księgowość / Symfonia Środki Trwałe – system ERP dla obsługi handlu, finansów, księgowości i majątku.
+Zewnętrzne platformy bankowe (MT940), systemy raportowe (Crystal Reports), moduły do obsługi Intrastat, sprawozdawczości NBP.
+Konieczne było opracowanie niestandardowych interfejsów i logiki wymiany danych, aby wszystkie systemy działały jako jedno spójne środowisko.
+5. Wymogi raportowania i kontroli jakości
+Potrzeba generowanie raportów produkcyjnych, magazynowych i finansowych w wielu przekrojach: produkt, zlecenie, klient, region, kanał sprzedaży.
+Raportowanie zgodne z wymaganiami prawa (np. KSeF, Intrastat, NBP) oraz wewnętrznymi procedurami kontroli jakości.
+
+Założono stworzenie kompleksowej platformy wspierającej zarządzanie produkcją, gospodarką magazynową, finansami, księgowością, logistyką oraz raportowaniem, przy jednoczesnej integracji z istniejącymi narzędziami (Cantor, Crystal Reports, systemy bankowe, platformy raportowe). Systemy wewnętrzne Spółki nie były dostosowane do współpracy, co wymagało opracowywania interfejsów i dodatkowych zasada i struktur komunikacji do wymiany danych. 
+Projekt w swoim charakterze szeroko wykraczał poza ramy wdrożenia otrzymanego systemu ERP, bo wymagał zintegrowania systemu do rozbudowanej i wieloskładnikowej infrastruktury IT, w której wcześniej nie istniało środowisko integrujące dane z wielu systemów. Była to pierwsza w historii przedsiębiorstwa tak głęboka i kompleksowa integracja struktury systemowej IT, oprogramowania do systemów, baz danych oraz obsługiwanych cyfrowo procesów operacyjnych. Implementacja wymagała dostosowania architektury, opracowania nowych modułów, budowy niestandardowych interfejsów wymiany danych oraz zapewnienia kompatybilności z dotychczasowymi narzędziami i procedurami. Charakter zrealizowanych prac rozwojowych wynikał jednoznacznie z :
+Opracowania unikatowych rozwiązań – wiele modułów i funkcji powstało od podstaw, w tym dedykowane mechanizmy wymianu danych, parowania dokumentów, automatyzacji księgowań i synchronizacji baz danych.
+Potrzeby eksploracji nowych rozwiązań – badano i testowano różne podejścia integracyjne, aby uzyskać pełną kompatybilność pomiędzy systemami o odmiennych strukturach i formatach danych (Cantor, Symfonia, systemy bankowe).
+Rozbudowa infrastruktury IT – projekt nie tylko zmienił logikę procesów, ale również wpłynął na architekturę sprzętowo-systemową, przygotowując ją do obsługi nowych, zautomatyzowanych procesów.
+Pierwsze tego typu przedsięwzięcie w firmie – brak wcześniejszych doświadczeń w implementacji systemu ERP na tak dużą skalę wymagał prowadzenia prac analitycznych i projektowych niemal od zera.
+Dla implementowanego systemu ERP założono wdrożenie nowych właściwości i funkcjonalności specyficznych dla rozwiązania
+Integracja systemów w ramach jednej architektury IT
+Połączenie modułów ERP z dedykowanymi narzędziami branżowymi i bazami danych, zapewniające spójny przepływ informacji w całej organizacji.
+Eliminacja problemów dublowania danych, braków w ewidencji magazynowej i niespójności rozrachunków.
+Automatyzacja procesów F-K
+Automatyczne importy wyciągów bankowych w formacie MT940.
+Automatyczne dekretowanie dokumentów magazynowych i księgowych.
+Obsługa sprawozdawczości NBP i KSeF.
+Zaawansowana obsługa gospodarki magazynowej i produkcji
+Mechanizmy automatycznego parowania FV–PZ oraz WZ–FV.
+Obsługa towarów obcych oraz materiałów o rozszerzonych parametrach (kolor, wymiar, profil).
+Rozbudowane arkusze inwentaryzacyjne z eksportem do ERP.
+Usprawnienie logistyki i raportowania
+Automatyczne generowanie dokumentów WZ z numerami referencyjnymi pozycji i uwagami klientów.
+Raporty Crystal Reports dedykowane stanowiskom produkcyjnym i logistycznym.
+Osiągnięcie głównego celu związane było z kompleksowym usprawnieniem i rozwojem systemu ERP, gdzie najważniejsze elementy obejmują:
+Cyfryzację obiegu dokumentów i integrację z księgowością – opracowanie nowej bazy danych oraz procedur importu/eksportu dokumentów umożliwiającą ewidencję stanów magazynowych i automatyczną dekretację w Symfonii.
+Nowe i dodatkowe moduły handlowe i logistyczne – uruchomienie funkcji wyceny rolet zewnętrznych w ERP w celu tworzenia kompleksowych ofert, wprowadzenie internetowego konfiguratora dla dealerów z dostępem do statusu zamówień, automatyzacja powiadomień klientów o dostawach oraz rozbudowa systemu o narzędzia analityczne do sprzedaży i zakupów.
+System wyceny rolet zewnętrznych, który:
+zautomatyzuje wycenę rolet w powiązaniu z projektowanymi oknami,
+wygeneruje jednolitą, kompletną ofertę dla klienta w jednym dokumencie,
+zintegruje dane ofertowe z systemami informatycznymi dostawcy rolet, systemem zamówień, produkcji i logistyki.
+ Zakres prac rozwojowych dla modułu dotyczył:
+Opracowanie bazy w formie parametrycznych reguł.
+Stworzenie interfejsu użytkownika z automatycznym doborem parametrów.
+Integrację z istniejącymi funkcjami ERP, w tym kartotekami towarów, cennikami, rabatami, terminami dostaw i powiązaniem z numerami zamówień.
+Rozbudowa o internetowy konfigurator umożliwiający:
+projektowanie okien z roletami online,
+wgląd w status zamówień,
+generowanie ofert PDF,
+automatyczne powiadamianie klientów o statusie realizacji i dostawach.
+Narzędzia analityczne do monitorowania sprzedaży rolet, analizę rentowności i optymalizację zakupów komponentów.
+Modernizację infrastruktury i integrację systemów – wymiana serwera bazodanowego oraz centralizacja usług i baz danych w jednym środowisku w celu przyspieszenia pracy, wprowadzenie dwukierunkowej integracji z programem logistycznym, automatyczne przesyłanie agregowanych danych magazynowych do księgowości oraz odtwarzanie szczegółowych danych sprzedażowych w systemie finansowym.
+Wdrożenia procesów produkcyjnych – dostosowanie dokumentacji ERP do etapów produkcji stolarki drewnianej oraz rozwój raportów produkcyjnych w narzędziu Crystal Reports.
+Realizacja projektu była prowadzona w oparciu o iteracyjno-przyrostową metodykę zarządzania, łączącą elementy klasycznego podejścia kaskadowego (waterfall) w obszarach wymagających sztywnej sekwencji działań (np. migracja danych, konfiguracja środowiska produkcyjnego) oraz elementy metodyk zwinnych (Agile/Scrum) w zadaniach dot. rozwoju, testowania i modyfikowania modułów funkcjonalnych. Wybór hybrydowej metodyki wynikał z charakterystyki projektu:
+konieczności zachowania ciągłości pracy firmy podczas implementacji,
+dużej liczby zależności między modułami i systemami,
+potrzeby reagowania na wyniki testów i zmieniające się wymagania operacyjne.
+Główne założenia: 
+Podział na fazy kontrolne
+Projekt został podzielony na wyraźne etapy, zgodne z kamieniami milowymi harmonogramu:
+• Analiza przedwdrożeniowa i modelowanie procesów
+• Projekt architektury i konfiguracji systemu
+• Implementacja i integracja modułów
+• Migracja i weryfikacja danych
+• Testy funkcjonalne i wydajnościowe
+• Etap pilotażowy i optymalizacja
+• Uruchomienie produkcyjne
+Każdy etap kończył się formalną akceptacją rezultatów przez zespół projektowy i kierownictwo.
+Iteracyjny rozwój modułów
+Moduły funkcjonalne (np. wycena rolet, integracja z programem logistycznym, automatyzacja raportowania) były rozwijane w krótkich iteracjach (1–3 tygodniowych), kończących się prezentacją działającej wersji prototypowej.
+Pozwalało to na szybkie wykrywanie i eliminowanie błędów oraz dostosowywanie funkcji do realnych potrzeb użytkowników.
+Równoległe strumienie prac
+W celu skrócenia czasu realizacji harmonogram zakładał równoległe prowadzenie prac w kilku obszarach:
+• Konfiguracja i rozwój modułów ERP
+• Budowa interfejsów integracyjnych z systemami zewnętrznymi
+• Modernizacja i centralizacja infrastruktury serwerowej
+• Opracowanie procedur migracji i czyszczenia danych
+Każdy strumień posiadał dedykowanego lidera odpowiedzialnego za postęp i raportowanie.
+Stała kontrola jakości i walidacja
+Po każdym przyroście funkcjonalności realizowano testy jednostkowe, integracyjne oraz akceptacyjne (UAT) z udziałem użytkowników końcowych.
+Do monitorowania jakości wykorzystano repozytorium błędów i zmian (change log), a priorytety ustalano na cotygodniowych spotkaniach zespołu.
+Zarządzanie zmianą
+W projekcie funkcjonowała formalna procedura wprowadzania zmian (Change Request Procedure), która obejmowała analizę wpływu na harmonogram, koszty, zależności techniczne i bezpieczeństwo danych.
+Decyzje o wdrożeniu zmian podejmował komitet sterujący projektu.
+Komunikacja i dokumentacja
+Harmonogram był uaktualniany w trybie ciągłym i udostępniany w centralnym repozytorium dokumentacji.
+Raporty postępu obejmowały: status zadań, ryzyka, problemy krytyczne, rekomendacje działań korygujących.
+Dla użytkowników przygotowano dokumentację systemową, instrukcje operacyjne oraz szkolenia online i stacjonarne.
+Zarządzanie ryzykiem
+Identyfikacja ryzyk odbywała się na początku projektu i była aktualizowana w trakcie każdej fazy.
+Najważniejsze ryzyka dotyczyły: niezgodności formatów danych między systemami, przerw w pracy operacyjnej, opóźnień w integracji modułów i problemów z wydajnością.
+Dla każdego ryzyka opracowano plan awaryjny (contingency plan).
+Efektem zastosowania tej metodyki było skrócenie czasu implementacji, zminimalizowanie liczby przerw w pracy firmy, zapewnienie jakości końcowego rozwiązania dzięki ciągłej weryfikacji i adaptacji rozwiązań.
+
+Podstawowe etapy projektu
+
+Numer etapu
+Nazwa etapu
+Data realizacji
+
+1.
+Zestawienie dokumentacji produkcyjnej dla systemu ERP
+01/2019 - 06/2019
+
+2.
+Analiza przedwdrożeniowa i modelowanie procesów
+05/2022 – 08/2022
+
+3.
+Rozbudowa modułów handlowych i logistycznych (analiza potrzeb – opracowanie planu wdrożenia - programowanie – testy – szkolenia - wdrożenie)
+01/2020 - 06/2023
+
+4.
+Rozbudowa konfiguratora internetowego
+01/2022 - 03/2022
+
+5.
+Integracja systemu ERP z systemem księgowym i logistycznym
+06/2024 - 12/2024
+
+6.
+Implementacja technologii wyceny rolet oraz modernizacja systemu
+10/2024 - 12/2024
+
+Wykaz najważniejszych problemów badawczych oraz sposób ich rozwiązania: Integracja systemu ERP z rozproszoną infrastrukturą IT
+Przed rozpoczęciem projektu firma korzystała z wielu niezależnych systemów (m.in. Cantor do projektowania stolarki, Symfonia Handel/Finanse i Księgowość, zewnętrzne platformy bankowe MT940, Crystal Reports, moduły Intrastat i bankowe). Brakowało mechanizmu łączącego te narzędzia w jedną spójną platformę, co powodowało dublowanie danych, niespójność informacji oraz konieczność wykonywania wielu operacji ręcznie. Problem badawczy polegał na tym, że każdy system operował na innych strukturach danych i protokołach wymiany informacji, co wymagało analizy kompatybilności i zaprojektowania mechanizmów translacji danych. Rozwiązaniem było opracowanie od podstaw niestandardowych interfejsów API oraz skryptów mapujących struktury baz danych, a następnie wdrożenie procedur synchronizacji w czasie rzeczywistym, eliminujących błędy powstałe podczas importów ręcznych.
+Złożoność procesów produkcji stolarki okiennej i drzwiowej
+Konieczność utrzymywania ścisłego powiązania numerów referencyjnych od przyjęcia zamówienia po dostawę. Wcześniejsze systemy nie zapewniały takiej ciągłości identyfikacji. Problem badawczy dotyczył zaprojektowania struktury danych i algorytmów w ERP, które mogłyby odzwierciedlać tę specyfikę. Rozwiązanie obejmowało stworzenie mechanizmu parametrycznych reguł przypisywania referencji, integrację modułów produkcyjnych i magazynowych oraz automatyczne powiązanie dokumentów WZ, FV i PZ z numerami zamówień.
+Zarządzanie dużą zmiennością materiałów i komponentów
+Oferta firmy obejmuje setki profili, okuć, szyb o różnych parametrach technicznych i estetycznych. Częste zmiany dostawców, parametrów czy norm technicznych powodowały konieczność natychmiastowych aktualizacji w systemie. Problem badawczy polegał na opracowaniu takiej architektury ERP, która pozwala na dynamiczne wprowadzanie zmian w kartotekach materiałowych bez ryzyka utraty spójności danych. Rozwiązaniem było wprowadzenie rozszerzonych pól opisowych w kartotekach, powiązanie ich z modułami kontroli jakości i dostaw, a także mechanizmów automatycznych aktualizacji powiązanych procesów zakupowych i produkcyjnych.
+Obsługa towarów obcych i złożona gospodarka magazynowa
+Firma zarządza zarówno materiałami własnymi, jak i powierzonymi, co wymaga rozdzielnej ewidencji oraz odrębnych procedur księgowych. Dodatkowym problemem była różnica w jednostkach miary między dokumentami FV, PZ i WZ, co powodowało trudności w uzgadnianiu stanów magazynowych. Rozwiązanie obejmowało stworzenie wirtualnych magazynów w ERP, opracowanie specjalnych algorytmów przeliczania jednostek oraz automatycznego parowania dokumentów, co pozwoliło uniknąć błędów i rozbieżności.
+Brak narzędzia do kompleksowej wyceny rolet zewnętrznych
+Problem badawczy polegał na tym, aby przenieść całą logikę techniczną wyceny do systemu, w formie intuicyjnego modułu dostępnego nawet dla osób bez doświadczenia technicznego. Rozwiązaniem było stworzenie bazy parametrycznych reguł w ERP, interfejsu użytkownika z automatycznym doborem parametrów, integracji z cennikami, rabatami i zamówieniami, co umożliwiło generowanie pełnej oferty w jednym dokumencie.
+Brak integracji konfiguratora internetowego z ERP
+Problem badawczy dotyczył synchronizacji danych pomiędzy systemem online a ERP w czasie rzeczywistym, przy zachowaniu spójności informacji. Rozwiązaniem była rozbudowa konfiguratora o integrację z ERP, umożliwiająca projektowanie okien z roletami online, generowanie ofert PDF, wgląd w status zamówień oraz automatyczne wysyłanie powiadomień o dostawach.
+Ograniczona automatyzacja procesów finansowo-księgowych
+Wcześniej importy wyciągów bankowych czy dekretacja dokumentów były wykonywane ręcznie, co wydłużało procesy i zwiększało ryzyko błędów. Rozwiązaniem było wdrożenie automatycznych importów plików MT940, automatycznej dekretacji dokumentów oraz integracji z systemami raportowania NBP i KSeF, co skróciło czas obsługi i zwiększyło dokładność danych.
+Rozproszone raportowanie i brak narzędzi analitycznych
+Różne działy generowały raporty w odmiennych formatach i z różnych baz, co powodowało niespójność analiz. Problem badawczy dotyczył ujednolicenia źródeł danych i sposobów ich prezentacji. Rozwiązaniem była integracja środowiska raportowego Crystal Reports z ERP, stworzenie zestawu raportów produkcyjnych, logistycznych i finansowych oraz modułów analitycznych w ERP do monitorowania sprzedaży, zakupów i rentowności.
+Modernizacja infrastruktury serwerowej i bazodanowej
+Istniejąca infrastruktura ograniczała wydajność integracji i przetwarzania danych. Problem badawczy polegał na zapewnieniu architektury, która pozwoli na obsługę większych wolumenów danych i bardziej złożonych procesów integracyjnych. Rozwiązaniem była wymiana serwera bazodanowego, centralizacja usług i optymalizacja konfiguracji sprzętowej oraz bazodanowej w celu zwiększenia wydajności i bezpieczeństwa pracy.
+Pierwsze w historii firmy przedsięwzięcie integracyjne tej skali
+Brak wcześniejszych doświadczeń we wdrażaniu systemu ERP w tak złożonej infrastrukturze oznaczał konieczność prowadzenia prac analitycznych, prototypowania i testów praktycznie od zera. Rozwiązaniem było przyjęcie metodyki iteracyjno-badawczej – tworzenie i testowanie prototypów interfejsów, przeprowadzanie próbnych integracji, weryfikacja zgodności danych oraz sukcesywne rozszerzanie zakresu integracji po pozytywnej ocenie wyników testów.
+
+Podstawowe prace o charakterze twórczym w projekcie: Podstawowe prace o charakterze twórczym w projekcie obejmowały zaprojektowanie, implementację i optymalizację zintegrowanego środowiska informatycznego opartego na platformie ERP Symfonia, dostosowanego do złożonych i wieloetapowych procesów biznesowych, produkcyjnych oraz logistycznych Spółki. Było to pierwsze przedsięwzięcie o takiej skali w historii organizacji, wymagające nie tylko wdrożenia nowego oprogramowania, lecz przede wszystkim głębokiej ingerencji w istniejącą, rozproszoną infrastrukturę IT, w celu zapewnienia pełnej interoperacyjności systemów.
+Realizacja wymagała opracowania od podstaw niestandardowych modułów oraz warstw integracyjnych (middleware), umożliwiających interoperacyjność pomiędzy systemami o odmiennych modelach danych, protokołach komunikacyjnych i logice operacyjnej (m.in. Cantor, Symfonia Handel, Symfonia Finanse i Księgowość, zewnętrzne systemy bankowe w formacie MT940, moduły Intrastat, narzędzia Crystal Reports). Wymagało to zarówno refaktoryzacji kodu w istniejących komponentach, jak i stworzenia nowych struktur bazodanowych oraz mechanizmów ETL (Extract, Transform, Load) zapewniających spójność i integralność danych.
+
+Do kluczowych prac twórczych należało m.in.:
+zaprojektowanie i implementacja modułu parametrycznej wyceny rolet zewnętrznych, zintegrowanego z istniejącym modelem danych ERP, umożliwiającego generowanie kompleksowych ofert w formacie jednolitego dokumentu oraz powiązanie ich z numerami referencyjnymi zleceń,
+stworzenie internetowego konfiguratora B2B z pełną integracją API z systemem ERP, pozwalającego dealerom na projektowanie wyrobów w trybie online, monitorowanie statusów zamówień w czasie rzeczywistym i generowanie ofert w formacie PDF,
+budowa dwukierunkowych interfejsów komunikacyjnych pomiędzy ERP a systemami logistycznymi i finansowo-księgowymi, umożliwiających synchroniczny transfer danych magazynowych, sprzedażowych i zakupowych,
+implementacja mechanizmów automatyzacji procesów F-K, w tym automatycznego importu wyciągów bankowych MT940, dekretacji dokumentów magazynowych oraz obsługi raportów NBP i KSeF,
+modernizacja architektury infrastrukturalnej poprzez migrację na nowy serwer bazodanowy, centralizację usług oraz optymalizację wydajności zapytań SQL w celu skrócenia czasów operacji I/O,
+opracowanie zaawansowanych raportów analitycznych w Crystal Reports, powiązanych bezpośrednio z danymi ERP i dostosowanych do specyficznych wymagań produkcji, logistyki oraz sprzedaży.
+
+Uzasadnienie wyboru zakresu prac twórczych wynikało z następujących przesłanek:
+Brak gotowych rozwiązań rynkowych – standardowe instalacje ERP nie uwzględniały specyfiki produkcji jednostkowej i małoseryjnej stolarki otworowej, w której każdy wyrób jest projektowany indywidualnie. Konieczne było zaprojektowanie dedykowanych modułów oraz algorytmów łączenia danych pomiędzy projektowaniem (Cantor), sprzedażą, magazynem i logistyką.
+Heterogeniczne środowisko IT – dotychczasowe systemy (Cantor, Symfonia Handel/FK, zewnętrzne platformy bankowe, moduły Intrastat, raportowanie NBP, Crystal Reports) działały w izolacji. Integracja wymagała stworzenia niestandardowych interfejsów i warstw middleware, które umożliwiały wymianę danych pomiędzy systemami o różnych formatach, strukturach baz danych i protokołach komunikacji.
+Potrzeba optymalizacji procesów krytycznych – w działalności Spółki kluczowe były procesy związane z wyceną i ofertowaniem (w tym rolet zewnętrznych), planowaniem produkcji, kontrolą stanów magazynowych i obsługą dokumentacji. Stworzenie modułu parametrycznej wyceny rolet oraz integracja konfiguratora internetowego B2B z ERP pozwoliły na skrócenie czasu ofertowania i eliminację błędów wynikających z ręcznej obsługi danych.
+Wysokie wymagania w zakresie raportowania i zgodności z regulacjami – konieczne było opracowanie nowych raportów i narzędzi analitycznych zgodnych z wymaganiami prawnymi (KSeF, Intrastat, NBP) oraz wewnętrznymi standardami kontroli jakości, co wymagało budowy własnych procedur i zapytań bazodanowych, niedostępnych w standardowych modułach ERP.
+Rozwój infrastruktury sprzętowej i systemowej – wybór nowych serwerów bazodanowych i centralizacja usług był podyktowany potrzebą zapewnienia odpowiedniej wydajności i skalowalności w środowisku, w którym liczba transakcji, zapytań i operacji I/O znacząco wzrosła po implementacji nowych funkcji.
+Innowacyjny charakter działań – wszystkie prace miały charakter rozwojowy, ponieważ dotyczyły opracowania nowych lub istotnego ulepszenia istniejących funkcjonalności, które w tej formie wcześniej w firmie nie istniały. Rozwiązania te powstały w procesie badania wymagań, projektowania architektury, testowania prototypów i ich dostosowywania do specyfiki procesów.
+
+Poziom innowacyjności projektu
+Innowacja w skali przedsiębiorstwa
+Innowacja w skali kraju
+
+Poziom innowacyjności projektu
+Tak
+Nie
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Podsumowanie projektu: Projekt stanowił pierwszą w historii Spółki tak złożoną implementację systemu ERP w architekturze wielosystemowej, wymagającą równoczesnej integracji narzędzi do projektowania, produkcji, logistyki, finansów, księgowości, raportowania i bankowości. Jego realizacja obejmowała zarówno stworzenie dedykowanych modułów, interfejsów i mechanizmów automatyzacji, jak i modernizację infrastruktury IT oraz centralizację baz danych, co umożliwiło uzyskanie spójnego i wydajnego środowiska przetwarzania informacji.
+
+Projekt miał charakter badawczo-rozwojowy, gdyż wymagał opracowania unikalnych rozwiązań dostosowanych do specyfiki działalności Spółki w modelu zleceń, charakteryzującej się zmiennością konfiguracji produktów, materiałów i komponentów oraz koniecznością ścisłej kontroli procesów magazynowych, rozrachunków i raportowania. 
+
+Prace obejmowały eksplorację i testowanie różnych metod integracji systemów o odmiennych strukturach danych, tworzenie parametrycznych baz reguł oraz mechanizmów obsługi złożonych zależności technologiczno-logistycznych.
+
+Dzięki zastosowaniu iteracyjno-przyrostowej metodyki zarządzania możliwe było prowadzenie prac rozwojowych w sposób elastyczny, z równoległym rozwojem modułów i infrastruktur, bieżącą walidacją rezultatów i wprowadzaniem zmian w odpowiedzi na potrzeby operacyjne. 
+
+W efekcie powstała zintegrowana platforma ERP, która:
+- automatyzuje procesy finansowo-księgowe, magazynowe i produkcyjne,
+- wspiera pełen cykl realizacji zamówień od konfiguracji produktu po dostawę,
+- umożliwia dealerom i klientom dostęp do aktualnych informacji o zleceniach,
+- zapewnia narzędzia analityczne do optymalizacji sprzedaży, zakupów i marżowości,
+- integruje wszystkie kluczowe systemy IT w jednym środowisku.
+
+Rezultatem jest znaczące skrócenie czasu obsługi procesów, wyeliminowanie dublowania danych, poprawa jakości raportowania i zwiększenie efektywności operacyjnej przedsiębiorstwa, co przekłada się na jego konkurencyjność i gotowość do dalszego rozwoju technologicznego.
+
+Dokumentacja projektowa (załączniki do karty projektu)
+
+1.: Umowa wdrożeniowa ERP z dnia  02-05-2022 wraz z Aneksem z dnia 04-07-2022
+
+2.: ERP Service Witraż Analiza 2022 04 v.1.0
+
+3.: Umowa ERP Service z dnia 01-08-2022
+
+4.: Harmonogram prac
+
+5.: Dokumentacja techniczna i korespondencja mailowa

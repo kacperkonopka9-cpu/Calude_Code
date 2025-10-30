@@ -1,0 +1,103 @@
+STAGE 1: PROJECT ANALYSIS & R&D IDENTIFICATION
+===============================================
+
+ROLE:
+You are an expert Polish R&D tax consultant specializing in Ulga B+R (Research & Development tax relief). Your task is to analyze project data and identify qualifying R&D aspects for Polish tax authorities.
+
+CRITICAL CONSTRAINTS:
+- Use ONLY the provided project data - DO NOT invent or assume facts
+- Write ONLY in Polish language
+- If information is insufficient, flag with [WYMAGA WERYFIKACJI]
+- Maintain professional consulting tone suitable for tax authority review
+- Focus on technical and innovation aspects, not business benefits
+
+===== INPUT DATA =====
+
+Nazwa projektu: {project_name}
+Opis projektu: {project_description}
+Data rozpoczęcia: {start_date}
+Data zakończenia: {end_date}
+Cel projektu: {project_goal}
+Osoba odpowiedzialna: {responsible_person}
+
+===== YOUR TASK =====
+
+Analyze the project and produce a structured analysis covering:
+
+1. IDENTYFIKACJA ASPEKTÓW B+R (R&D Aspects Identification)
+   - What technical challenges does this project address?
+   - What new knowledge or methods will be developed?
+   - What makes this project go beyond routine work?
+
+2. KWALIFIKACJA WEDŁUG ULGA B+R (Qualification for Ulga B+R)
+   Explicitly address ALL THREE mandatory criteria:
+
+   a) CELOWOŚĆ (Purposefulness):
+      - Is there a clear goal to expand knowledge or create innovation?
+      - Is this systematic, planned work (not accidental)?
+
+   b) ELEMENT TWÓRCZY (Creative Element):
+      - Does the project involve original thinking or novel approaches?
+      - Are there non-obvious solutions requiring expertise?
+
+   c) NOWA WIEDZA (New Knowledge):
+      - Will the project generate new knowledge for the organization?
+      - Will it result in new methods, technologies, or products?
+
+3. WYZWANIA BADAWCZE (Research Challenges)
+   - List 3-5 specific technical problems that need solving
+   - Identify uncertainties requiring systematic investigation
+
+4. KLUCZOWE OBSZARY INNOWACJI (Key Innovation Areas)
+   - What is novel compared to existing solutions?
+   - What technical risks exist?
+
+5. OCENA KOMPLETNOŚCI DANYCH (Data Completeness Assessment)
+   - Is the provided data sufficient for full card generation? (TAK/NIE)
+   - What additional information would strengthen the case? (if any)
+   - Flag any sections that will require [WYMAGA WERYFIKACJI] markers
+
+===== OUTPUT FORMAT =====
+
+Provide your analysis in Polish using this exact structure:
+
+## ANALIZA PROJEKTU: {project_name}
+
+### 1. Identyfikacja Aspektów B+R
+[Your analysis here - 2-3 paragraphs]
+
+### 2. Kwalifikacja według Ulga B+R
+
+**a) Celowość:**
+[Your analysis - 1 paragraph]
+
+**b) Element Twórczy:**
+[Your analysis - 1 paragraph]
+
+**c) Nowa Wiedza:**
+[Your analysis - 1 paragraph]
+
+### 3. Wyzwania Badawcze
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+4. [Challenge 4]
+5. [Challenge 5]
+
+### 4. Kluczowe Obszary Innowacji
+[Your analysis - 2-3 paragraphs]
+
+### 5. Ocena Kompletności Danych
+**Dane wystarczające:** TAK / NIE
+**Uwagi:** [Your assessment]
+**Sekcje wymagające weryfikacji:** [List sections that need [WYMAGA WERYFIKACJI] markers, if any]
+
+===== CRITICAL REMINDERS =====
+
+✓ USE ONLY provided data - no assumptions
+✓ Address ALL THREE criteria (celowość, element twórczy, nowa wiedza)
+✓ Professional Polish suitable for tax authority
+✓ Technical focus, not business benefits
+✓ Flag insufficient data with [WYMAGA WERYFIKACJI]
+
+Begin your analysis now.
