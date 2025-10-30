@@ -90,6 +90,14 @@ Polska jest regularnie oceniana przez:
 - **Global Innovation Index** - Światowy indeks innowacyjności (WIPO)
 - **OECD Science, Technology and Industry Scoreboard** - Kompleksowe metryki B+R
 
+**European Innovation Scoreboard 2025** klasyfikuje Polskę jako **"Emerging Innovator"** (Wschodzący Innowator) z wynikiem **74.2 punktów** - znacznie poniżej średniej UE wynoszącej **100 punktów**.
+
+![European Innovation Scoreboard - Mapa Innowacyjności UE](../innovation%20index%20map.png)
+*Rysunek 1.1: Mapa innowacyjności krajów Unii Europejskiej (European Innovation Scoreboard 2025). Polska zaklasyfikowana jako "Emerging Innovator" z wynikiem 74.2 punktów, w grupie krajów o najniższych wskaźnikach innowacyjności w UE. Źródło: European Commission, https://projects.research-and-innovation.ec.europa.eu/en/statistics/performance-indicators/european-innovation-scoreboard/eis*
+
+![European Innovation Scoreboard - Pozycja Polski](../innovation%20index%20poland.png)
+*Rysunek 1.2: Ranking innowacyjności krajów UE według European Innovation Scoreboard 2025. Polska zajmuje jedno z ostatnich miejsc w kategorii "Emerging Innovators" (74.2 punktów), plasując się poniżej krajów takich jak Węgry (78.3), Czechy (90.8), a nawet znacznie poniżej średniej UE (100 punktów). Źródło: European Commission, https://projects.research-and-innovation.ec.europa.eu/en/statistics/performance-indicators/european-innovation-scoreboard/eis*
+
 Niskie rankingi skutkują:
 - Postrzeganiem Polski jako gospodarki "niskich kosztów", a nie "wysokiej wartości"
 - Trudnościami w przyciąganiu zagranicznych centrów B+R

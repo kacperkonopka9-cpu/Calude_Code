@@ -400,6 +400,15 @@ Francja posiada **największy w Europie system ulg podatkowych na B+R** pod wzgl
 
 ## 5.6 Lekcje dla Polski z Porównań Międzynarodowych
 
+### Kontekst: Pozycja Polski w Europejskim Rankingu Innowacyjności
+
+Zgodnie z **European Innovation Scoreboard 2025**, Polska jest klasyfikowana jako **"Emerging Innovator"** z wynikiem **74.2 punktów** - znacznie poniżej średniej UE (100 punktów) oraz krajów takich jak:
+- **Czechy:** 90.8 punktów (Moderate Innovator)
+- **Węgry:** 78.3 punktów (Emerging Innovator)
+- **Słowacja:** 70.5 punktów (Emerging Innovator)
+
+Ten niski ranking kontrastuje z **masywnym wydatkiem budżetowym** na ulgi podatkowe B+R (~2.4 miliarda PLN rocznie w 2024) i wskazuje na **lukę statystyczną** jako kluczowy problem strukturalny. Zobacz Rozdział 1, Rysunki 1.1 i 1.2 dla pełnej wizualizacji pozycji Polski w rankingu innowacyjności UE.
+
 ### Lekcja 1: Integracja jest możliwa przy różnych modelach prawnych
 
 **Obserwacja:**
