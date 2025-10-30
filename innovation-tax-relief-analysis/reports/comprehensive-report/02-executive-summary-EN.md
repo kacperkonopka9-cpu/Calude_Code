@@ -1,3 +1,16 @@
+<div align="center">
+
+![Inov Research & Development](../Inov%20logo%20(1800%20x%201000%20px)%20(10).png)
+
+</div>
+
+## Quick Navigation
+[Key Findings](#key-findings) | [The Innovation Paradox](#the-innovation-statistics-paradox) | [Consequences](#consequences-for-poland) | [Solutions](#solutions-options-for-poland) | [Recommendations](#strategic-recommendations)
+
+[📄 Wersja Polska](./01-executive-summary-PL.md) | [📑 Full Report](./03-chapter-1-introduction.md)
+
+---
+
 # Executive Summary (English)
 
 ## The Core Message
@@ -107,7 +120,11 @@ In 2022, Poland introduced four new reliefs:
 **If all R&D claimants reported:**
 - Poland's R&D spending could increase by additional **1.6-3.2B PLN** in official statistics
 - R&D/GDP ratio: 1.41% → **1.70-1.75%**
-- **Ranking impact:** Could move Poland from "Moderate Innovator" to "Strong Innovator" in EU
+- **European Innovation Scoreboard impact:**
+  - Score improvement: 74.2 → ~78-79 points (+4-5 pts)
+  - Approach "Moderate Innovator" category threshold (~80 points)
+  - Medium-term (2027-2028): Potential upgrade to "Moderate Innovator" category
+  - **Key value:** End paradox of rising tax relief uptake vs declining official R&D statistics
 
 ### Root Causes of Non-Reporting
 

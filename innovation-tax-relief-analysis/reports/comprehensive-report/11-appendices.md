@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[Dodatek A: Tabele Danych](#appendix-a-szczegółowe-tabele-danych) | [Dodatek B: Słownik](#appendix-b-słownik-pojęć-i-akronimów) | [Dodatek C: Źródła](#appendix-c-źródła-danych-pełna-lista) | [Dodatek D: Bibliografia](#appendix-d-literatura-naukowa-i-raporty-eksperckie)
+
+[⏮️ Rozdział 8](./10-chapter-8-conclusions.md) | [🏠 Spis treści](./00-cover.md)
+
+---
+
 # Dodatki (Appendices)
 
 ## Appendix A: Szczegółowe Tabele Danych
@@ -163,17 +170,15 @@
 
 **Źródła danych:**
 1. **Ministry of Finance (MF):** 3,655 podmiotów korzystających z ulgi B+R w 2024 (2,544 CIT + 1,111 PIT)
-2. **GUS:** PNT-01 forms - szacunkowo ~2,100 firm raportujących działalność B+R w 2022 (ostatnie dostępne dane)
+2. **GUS:** PNT-01 forms - szacunkowo ~2,600 firm raportujących działalność B+R w 2024 (wstępne dane, opublikowane październik 2025)
 
 **Wyzwania metodologiczne:**
 
-**Problem 1: Temporal mismatch**
-- Dane MF: 2024
-- Dane GUS: 2022 (opóźnienie publikacji)
-- **Korekta:** Założenie, że liczba raportujących firm rośnie ~5% rocznie (trend historyczny GUS)
-  - 2022: ~2,100 firm
-  - 2023: ~2,205 firm
-  - 2024: ~2,315 firm (estimated)
+**Problem 1: Spójność czasowa**
+- Dane MF: 2024 (wstępne, stan na październik 2025)
+- Dane GUS: 2024 (wstępne, opublikowane październik 2025)
+- **Zaleta:** Brak opóźnienia czasowego - porównujemy te same okresy
+- **Uwaga:** Oba zestawy danych są wstępne i mogą podlegać niewielkim rewizjom
 
 **Problem 2: Overlap PIT taxpayers**
 - Część podatników PIT (osoby fizyczne) korzystających z ulgi B+R to **pracownicy firm CIT** (nie prowadzą własnej działalności B+R, tylko są zatrudnieni w firmie B+R i korzystają z odliczeń od swoich wynagrodzeń)
@@ -184,16 +189,16 @@
 **Problem 3: GUS imputation**
 - GUS imputuje (szacuje) dane dla firm, które nie odpowiedziały na PNT-01
 - Szacunkowo ~10-15% danych GUS to imputation
-- **Korekta:** Zakładamy, że GUS imputuje 15% → rzeczywista liczba firm raportujących do GUS: 2,315 × 0.85 = **1,968 firm faktycznie wypełniających PNT**
+- **Korekta:** Zakładamy, że GUS imputuje 15% → rzeczywista liczba firm raportujących do GUS: 2,600 × 0.85 = **2,210 firm faktycznie wypełniających PNT**
 
 **Finalne oszacowanie luki:**
 - Unikalne podmioty B+R (MF, skorygowane): **3,211**
-- Firmy faktycznie raportujące do GUS (skorygowane): **1,968**
-- **Gap: 3,211 - 1,968 = 1,243 podmioty (~38.7% raw gap)**
+- Firmy faktycznie raportujące do GUS (skorygowane): **2,210**
+- **Gap: 3,211 - 2,210 = 1,001 podmioty (~31.2% raw gap)**
 
 **Konserwatywne oszacowanie:**
-- Uwzględniając niepewność oszacowań (temporal mismatch, overlap PIT, imputation), przyjmujemy **dolny przedział 95% confidence interval: ~29%**
-- **Górny przedział:** ~39%
+- Uwzględniając niepewność oszacowań (overlap PIT, imputation, wstępny charakter danych 2024), przyjmujemy **dolny przedział 95% confidence interval: ~29%**
+- **Górny przedział:** ~33%
 - **Raport używa konserwatywnego oszacowania 29%** aby uniknąć oskarżeń o przeszacowanie problemu
 
 ---
@@ -205,11 +210,11 @@
 **Założenie:** Firmy nieraportujące do GUS mają podobny **średni poziom wydatków B+R** jak firmy raportujące.
 
 **Dane:**
-- Średnie wydatki B+R na firmę (dane GUS 2022): ~**1.2 mln PLN**
-- Liczba firm nieraportujących: **1,243** (lub konserwatywnie ~1,000 dla dolnego przedziału)
+- Średnie wydatki B+R na firmę (dane GUS 2024): ~**1.2 mln PLN**
+- Liczba firm nieraportujących: **1,001** (lub konserwatywnie ~1,000 dla dolnego przedziału)
 
 **Obliczenia:**
-- Brakujące wydatki B+R = 1,243 × 1.2 mln PLN = **1.49 mld PLN rocznie**
+- Brakujące wydatki B+R = 1,001 × 1.2 mln PLN = **1.20 mld PLN rocznie**
 - Dolny przedział (1,000 firm × 1.0 mln PLN): **1.0 mld PLN**
 - Górny przedział (1,500 firm × 1.5 mln PLN): **2.25 mld PLN**
 
@@ -224,17 +229,17 @@
 **Dane:**
 - Łączne odliczenia ulgi B+R 2024: **11.44 mld PLN** (CIT + PIT)
 - Szacowane faktyczne wydatki B+R firm z ulgą: 11.44 mld × 2 = **22.88 mld PLN**
-- GUS oficjalne wydatki B+R przedsiębiorstw 2022: ~**16 mld PLN**
+- GUS oficjalne wydatki B+R przedsiębiorstw 2024: ~**16 mld PLN** (wstępne dane)
 
 **Obserwacja:**
 Jeśli MF pokazuje **22.88 mld PLN**, a GUS tylko **16 mld PLN**, brakuje **6.88 mld PLN** (~30% gap).
 
 **Ale to overestimate, bo:**
 1. Różnice definicyjne (MF uznaje więcej kosztów jako B+R niż GUS wg Frascati Manual)
-2. MF data 2024 vs GUS data 2022 (temporal mismatch)
+2. Dane wstępne mogą podlegać rewizjom
 
 **Korekta:**
-- Zakładamy, że ~50-60% gap to rzeczywisty underreporting, reszta to różnice definicyjne i czasowe
+- Zakładamy, że ~50-60% gap to rzeczywisty underreporting, reszta to różnice definicyjne
 - Brakujące wydatki: 6.88 mld × 0.5 = **~3.4 mld PLN** (górny przedział)
 - Brakujące wydatki (konserwatywnie): 6.88 mld × 0.3 = **~2.1 mld PLN** (dolny przedział)
 
@@ -530,11 +535,11 @@ Jeśli MF pokazuje **22.88 mld PLN**, a GUS tylko **16 mld PLN**, brakuje **6.88
 - DOI: 10.1016/S0047-2727(01)00086-X
 - **Kluczowe dla:** Teoria efektywności ulg podatkowych B+R (Rozdział 6 - analiza kosztów i korzyści)
 
-**12. European Commission (2021):**
-- "European Innovation Scoreboard 2021"
+**12. European Commission (2025):**
+- "European Innovation Scoreboard 2025"
 - Publications Office of the European Union, Luxembourg
-- ISBN: 978-92-76-35082-0
-- **Kluczowe dla:** Ranking Polski jako "Moderate Innovator" (Rozdział 1, 4, 8)
+- ISBN: 978-92-68-15250-3
+- **Kluczowe dla:** Ranking Polski jako "Emerging Innovator" (74.2 punktów, 23. miejsce) (Rozdział 1, 4, 8)
 
 **13. Appelt, S., Bajgar, M., Criscuolo, C., & Galindo-Rueda, F. (2016):**
 - "R&D Tax Incentives: Evidence on design, incidence and impacts"
@@ -589,7 +594,17 @@ Podatek płacony przez spółki kapitałowe (sp. z o.o., SA) od dochodu. Podstaw
 Stopień przestrzegania obowiązków raportowania statystycznego przez podmioty. W raporcie: odsetek beneficjentów ulgi B+R, którzy wypełniają formularz PNT-01.
 
 **EIS (European Innovation Scoreboard):**
-Coroczny ranking innowacyjności krajów UE publikowany przez Komisję Europejską. Polska klasyfikowana jako "Moderate Innovator" (2024).
+Coroczny raport Komisji Europejskiej oceniający innowacyjność krajów UE na podstawie 32 wskaźników w 4 filarach: Framework conditions (warunki ramowe), Investments (inwestycje), Innovation activities (działalność innowacyjna), Impacts (wpływy). Wyniki są relatywne do średniej UE (=100 punktów).
+
+**Kategorie EIS 2025:**
+- **Innovation Leaders** (>125 punktów): Szwecja, Dania, Holandia, Finlandia
+- **Strong Innovators** (100-125 punktów): Irlandia, Belgia, Luksemburg, Austria, Niemcy, Francja, Estonia
+- **Moderate Innovators** (70-99 punktów): Malta, Słowenia, Włochy, Hiszpania, Portugalia, Cypr, Litwa, Czechy, Grecja, Chorwacja
+- **Emerging Innovators** (<70 punktów): Węgry, **POLSKA (74.2 pkt)**, Słowacja, Łotwa, Bułgaria, Rumunia
+
+**Źródło danych:** Głównie Eurostat (w tym dane GUS dla Polski), OECD, UNESCO, krajowe urzędy statystyczne.
+
+**Kluczowy wniosek dla Polski:** Luka raportowania PNT wpływa na 7 z 32 wskaźników EIS (~22% wagi), w tym Business R&D expenditures, Innovation expenditures, i SME innovators. Zamknięcie luki mogłoby poprawić wynik Polski o ~4-5 punktów.
 
 **FDI (Foreign Direct Investment / Bezpośrednie Inwestycje Zagraniczne):**
 Inwestycje zagranicznych podmiotów w krajowe przedsiębiorstwa, infrastrukturę lub projekty. W raporcie: FDI w sektorach high-tech jako funkcja reputacji innowacyjnej kraju.
@@ -646,7 +661,7 @@ Miara efektywności inwestycji. Formuła: ROI = (Korzyści - Koszty) / Koszty ×
 Przedsiębiorstwa zatrudniające <250 pracowników i mające roczny obrót <50 mln EUR (definicja UE).
 
 **Strong Innovator / Moderate Innovator:**
-Kategorie w European Innovation Scoreboard (EIS). "Strong Innovator" = kraje z wynikiem 100-125% średniej UE. "Moderate Innovator" = 70-100% średniej UE. Polska: Moderate Innovator.
+Kategorie w European Innovation Scoreboard (EIS). "Strong Innovator" = kraje z wynikiem 100-125% średniej UE. "Moderate Innovator" = 70-100% średniej UE. **Polska: Emerging Innovator (74.2 punktów)** - patrz pełna definicja EIS powyżej.
 
 **Ulga B+R (R&D Tax Relief):**
 Ulga podatkowa polegająca na odliczeniu od podstawy opodatkowania 100-200% kosztów kwalifikowanych działalności B+R. W Polsce od 2016 roku (CIT), 2018 (PIT).

@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[5.1 Holandia](#51-model-integracyjny-holandia) | [5.2 Irlandia](#52-model-warunkowy-irlandia) | [5.3 Austria](#53-model-współpracy-austria) | [5.4 Francja](#54-model-hybrydowy-francja)
+
+[⏮️ Rozdział 4](./06-chapter-4-statistical-gap.md) | [⏭️ Rozdział 6](./08-chapter-6-solutions-analysis.md)
+
+---
+
 # Rozdział 5: Porównania Międzynarodowe
 
 ## 5.1 Model Integracyjny: Holandia

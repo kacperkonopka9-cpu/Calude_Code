@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[8.1 Kluczowe Przesłanie](#81-kluczowe-przesłanie-polska-jest-bardziej-innowacyjna-niż-pokazują-statystyki) | [8.2 Dziewięć Ustaleń](#82-dziewięć-kluczowych-ustaleń) | [8.3 Wezwanie do Działania](#83-ostateczne-wezwanie-do-działania)
+
+[⏮️ Rozdział 7](./09-chapter-7-implications-recommendations.md) | [⏭️ Dodatki](./11-appendices.md)
+
+---
+
 # Rozdział 8: Konkluzje
 
 ## 8.1 Kluczowe Przesłanie: Polska Jest Bardziej Innowacyjna Niż Pokazują Statystyki
@@ -49,13 +56,13 @@ Jednak ekosystem charakteryzuje się **ekstremalną koncentracją:**
 **Konsekwencje luki:**
 - **Brakujące wydatki B+R:** 1.6-3.2 miliarda PLN rocznie (konserwatywne oszacowanie)
 - **Zaniżony wskaźnik R&D/GDP:** 1.45% (oficjalnie) vs **1.70-1.75%** (po korekcie)
-- **Utrata pozycji międzynarodowej:** Polska postrzegana jako "Moderate Innovator" (20-22 miejsce w UE), mimo potencjału na "Strong Innovator" (15-18 miejsce)
+- **Utrata pozycji międzynarodowej:** Polska postrzegana jako "Emerging Innovator" (74.2 punktów, 23. miejsce w UE), mimo potencjału na "Moderate Innovator" (krótkoterminowo, 2027-2028) i "Strong Innovator" (długoterminowo, 2035+)
 
 **Przyczyny luki (Rozdział 4):**
-1. **Brak świadomości** (35-40%): Firmy nie wiedzą o obowiązku PNT
-2. **Strach przed kontrolą** (25-30%): Mylne przekonanie, że raportowanie zwiększa ryzyko audytu
-3. **Obciążenie administracyjne** (20-25%): PNT-01 zajmuje 6-12 godzin
-4. **Brak konsekwencji** (15-20%): Kara 5,000 PLN rzadko wymierzana
+1. **Brak świadomości**: Firmy nie wiedzą o obowiązku PNT
+2. **Strach przed kontrolą**: Mylne przekonanie, że raportowanie zwiększa ryzyko audytu
+3. **Obciążenie administracyjne**: PNT-01 zajmuje 6-12 godzin
+4. **Brak konsekwencji**: Kara 5,000 PLN rzadko wymierzana
 
 **Implikacja:** Problem jest **rozwiązywalny** - główne przyczyny to bariery informacyjne i proceduralne, nie fundamentalne opory.
 

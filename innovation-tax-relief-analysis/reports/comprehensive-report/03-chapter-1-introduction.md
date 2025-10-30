@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[1.1 Krajobraz Polityki](#11-krajobraz-polityki-innowacyjnej-polski) | [1.2 Główne Wyzwanie](#12-główne-wyzwanie-paradoks-statystyk-innowacyjności) | [1.3 Zakres Raportu](#13-zakres-tego-raportu) | [1.4 Ograniczenia](#14-ograniczenia-raportu)
+
+[⏮️ Streszczenie](./01-executive-summary-PL.md) | [⏭️ Rozdział 2](./04-chapter-2-methodology.md)
+
+---
+
 # ROZDZIAŁ 1: WPROWADZENIE I KONTEKST
 
 ## 1.1 Krajobraz Polityki Innowacyjnej Polski
@@ -137,6 +144,8 @@ Decydenci opierają strategie na danych statystycznych:
 
 **Jeśli dane są niedokładne, decyzje są błędne.**
 
+[🔝 Powrót do góry](#szybka-nawigacja)
+
 ---
 
 ## 1.2 Główne Wyzwanie: Paradoks Statystyk Innowacyjności
@@ -190,10 +199,11 @@ Ministerstwo Finansów wie, że firma X odliczyła 5 milionów PLN kosztów B+R 
 - Szacowane **~2,600 firm** raportujących działalność B+R (spadek z 7,549 podmiotów do 7,272 podmiotów R&D)
 
 **Źródło danych GUS:**
-- Działalność badawcza i rozwojowa w Polsce w 2024 roku: Publikacja GUS, październik 2025
+- Główny Urząd Statystyczny, "Działalność badawcza i rozwojowa w Polsce w 2024 r.", Informacje sygnalne, 30 października 2025, Urząd Statystyczny w Szczecinie
 - Baza danych GUS - Nauka i Technika: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/
 
-**🚨 PARADOKS - DOWÓD ISTNIENIA LUKI:**
+⚠️ **PARADOKS - DOWÓD ISTNIENIA LUKI:**
+
 To jest matematycznie niemożliwe bez masywnej luki raportowania:
 - **Ulgi podatkowe B+R:** ↗️ **ROSNĄ** (+3,8% w 2024 = 11,44 mld PLN)
 - **Oficjalne wydatki B+R (GUS):** ↘️ **SPADAJĄ** (-3,1% w 2024 = 51,5 mld PLN)
@@ -215,7 +225,7 @@ Więcej firm korzysta z ulg B+R, odliczają większe kwoty, ale oficjalne statys
 
 Badania, analizy przypadków i dane jakościowe sugerują cztery główne przyczyny:
 
-**1. Brak Świadomości (Szacunkowo 40% Przypadków)**
+**1. Brak Świadomości**
 
 Typowy scenariusz:
 - Firma zatrudnia doradcę podatkowego do rozliczenia ulgi B+R
@@ -228,7 +238,7 @@ Typowy scenariusz:
 - Doradcy podatkowi nie są wyszkoleni w zakresie obowiązków statystycznych
 - Formularze GUS przychodzą pocztą do działów finansowych, które mogą je zignorować
 
-**2. Obawa Przed Kontrolami (Szacunkowo 30%)**
+**2. Obawa Przed Kontrolami**
 
 Psychologia przedsiębiorcy: **"Im mniej formularzy, tym mniej zainteresowania ze strony urzędów"**
 
@@ -239,7 +249,7 @@ Typowe obawy:
 
 **Rzeczywistość:** Te obawy są w dużej mierze nieuzasadnione. Dane GUS podlegają **tajemnicy statystycznej** i nie są udostępniane organom podatkowym. Ale mit utrzymuje się w środowisku biznesowym.
 
-**3. Czasochłonność i Skomplikowanie (Szacunkowo 20%)**
+**3. Czasochłonność i Skomplikowanie**
 
 Wypełnienie PNT-01 wymaga:
 - Dokładnego rozbicia kosztów B+R według kategorii
@@ -249,7 +259,7 @@ Wypełnienie PNT-01 wymaga:
 
 Dla firm, które już mają przeciążenie dokumentacją (audyty podatkowe, kontrole, systemy jakości), dodatkowy formularz wydaje się niepotrzebnym obciążeniem.
 
-**4. Brak Konsekwencji (Szacunkowo 10%)**
+**4. Brak Konsekwencji**
 
 Pragmatyczne rachunki:
 - Opłata za brak złożenia sprawozdania statystycznego: 5,000 PLN (symboliczna)
@@ -274,6 +284,8 @@ To nie jest kwestia "złych firm" łamiących zasady. To **błąd konstrukcyjny 
 
 **Rezultat:** Przewidywalne nieraportowanie i zaniżone statystyki.
 
+[🔝 Powrót do góry](#szybka-nawigacja)
+
 ---
 
 ## 1.3 Cele Raportu
@@ -287,7 +299,7 @@ Ten raport ma na celu osiągnięcie pięciu kluczowych celów:
 **Metodologia:**
 - Analiza oficjalnych danych Ministerstwa Finansów (wszystkie 6 ulg, 2017-2024)
 - Porównanie z szacunkami populacji respondentów GUS
-- Triangulacja z danymi z ankiet Grant Thornton
+- Triangulacja z danymi z ankiet Ayming (Międzynarodowy Barometr Innowacji 2026)
 
 **Rezultat:** Oszacowanie **~29% luki**, reprezentujące około 1,055 podmiotów i potencjalnie 1,6-3,2 miliarda PLN w niedoszacowanych wydatkach na B+R rocznie.
 
@@ -297,7 +309,7 @@ Ten raport ma na celu osiągnięcie pięciu kluczowych celów:
 
 **Podejście:**
 - Badania literaturowe dotyczące zachowań w zakresie zgodności
-- Analiza wcześniejszych badań (Grant Thornton, izby handlowe)
+- Analiza wcześniejszych badań (Ayming, Grant Thornton, izby handlowe)
 - Studium strukturalnych zachęt i barier
 
 **Rezultat:** Czteroczynnikowy model (świadomość, obawa, obciążenie, konsekwencje) wyjaśniający nieraportowanie.
@@ -459,7 +471,7 @@ Wcześniejsze analizy (w tym cenione raporty Grant Thornton) skupiały się prze
 
 ### 1.6.2 Źródła Oficjalne, Nie Ankiety
 
-Większość raportów branżowych opiera się na **ankietach** (Grant Thornton, KPMG, PwC). Ten raport wykorzystuje **oficjalne dane podatkowe Ministerstwa Finansów**, zapewniając:
+Większość raportów branżowych opiera się na **ankietach** (Ayming, KPMG, PwC) lub analizie danych statystycznych MF (Grant Thornton). Ten raport wykorzystuje **oficjalne dane podatkowe Ministerstwa Finansów**, zapewniając:
 - Kompletne pokrycie (wszyscy wnioskodawcy, nie tylko respondenci ankiet)
 - Absolutną dokładność (rzeczywiste zeznania podatkowe, nie samooceny)
 - Transparentność (publiczne dane, reprodukowalne analizy)

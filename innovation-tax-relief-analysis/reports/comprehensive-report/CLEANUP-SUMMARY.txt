@@ -1,0 +1,139 @@
+================================================================
+CLEANUP SUMMARY - Comprehensive Report Folder Reorganization
+Data: 30 października 2025
+================================================================
+
+PRZED CLEANUP:
+- 50+ plików w głównym folderze
+- 30 plików .md (14 raport + 16 dokumentacja)
+- 3 stare HTML (1.2 MB)
+- Brak struktury katalogów
+- Credentials w głównym folderze
+
+PO CLEANUP:
+================================================================
+
+STRUKTURA KATALOGÓW:
+================================================================
+
+comprehensive-report/
+├── 📄 CORE FILES (14 markdown + 1 CSS)
+│   ├── 00-cover.md
+│   ├── 00-press-summary.md
+│   ├── 01-executive-summary-PL.md
+│   ├── 02-executive-summary-EN.md
+│   ├── 03-chapter-1-introduction.md
+│   ├── 04-chapter-2-methodology.md
+│   ├── 05-chapter-3-ecosystem-analysis.md
+│   ├── 06-chapter-4-statistical-gap.md
+│   ├── 07-chapter-5-international-comparisons.md
+│   ├── 08-chapter-6-solutions-analysis.md
+│   ├── 09-chapter-7-implications-recommendations.md
+│   ├── 10-chapter-8-conclusions.md
+│   ├── 11-appendices.md
+│   └── report-styles.css
+│
+├── 🛠️ scripts/
+│   ├── generate-html.sh (updated paths)
+│   ├── generate-pdf.sh
+│   ├── upload-to-server.sh (updated paths)
+│   ├── convert_to_pdf.py
+│   ├── create_html.py
+│   ├── .ftp-credentials (SECURE: chmod 600)
+│   └── .ftp-credentials.template
+│
+├── 📚 docs/
+│   ├── instructions/
+│   │   ├── INSTRUKCJA-PUBLIKACJI-RAPORTU.md
+│   │   ├── AUTOMATYCZNY-UPLOAD-FTP.md
+│   │   └── QUICK-START-UPLOAD.txt
+│   └── qa/
+│       ├── CITATION-VERIFICATION-FINDINGS.md
+│       ├── COMPLIANCE_CHECK_RESULTS.md
+│       ├── COMPREHENSIVE-REVIEW-AND-RECOMMENDATIONS.md
+│       ├── CORRECTIONS-SUMMARY-EIS-2025.md
+│       ├── CORRECTIONS_APPLIED.md
+│       └── RECOMMENDATIONS_SUMMARY.md
+│
+├── 📤 output/
+│   ├── html/ (generated HTML, 14 files)
+│   ├── pdf/ (for PDF output)
+│   ├── website/ (ready for upload, 14 files)
+│   └── archive/ (8 obsolete docs preserved)
+│
+└── 📝 Wrapper Scripts (w głównym folderze)
+    ├── generate-html.sh
+    └── upload-to-server.sh
+
+================================================================
+WYKONANE DZIAŁANIA:
+================================================================
+
+✅ UTWORZONE:
+- 5 nowych katalogów (scripts, docs, output z podkatalogami)
+- 2 wrapper scripts dla łatwiejszego użycia
+- Nowa organizacja output directories
+
+✅ PRZENIESIONE:
+- 7 plików → scripts/
+- 3 pliki → docs/instructions/
+- 6 plików → docs/qa/
+- 8 plików → output/archive/
+- output directories → output/{html,pdf,website}/
+
+✅ USUNIĘTE:
+- 3 stare HTML files (~1.2 MB)
+- 1 duplikat (00-cover-and-toc.md)
+
+✅ ZAKTUALIZOWANE:
+- Ścieżki w generate-html.sh
+- Ścieżki w upload-to-server.sh
+- Wszystkie skrypty nadal działają poprawnie!
+
+================================================================
+KORZYŚCI:
+================================================================
+
+🎯 ORGANIZACJA:
+- Czysty główny folder (tylko pliki raportu)
+- Logiczna struktura katalogów
+- Łatwe znalezienie plików
+
+🔒 BEZPIECZEŃSTWO:
+- Credentials przeniesione do scripts/
+- Nadal chmod 600 (tylko właściciel)
+- Oddzielone od głównego folderu
+
+💾 OSZCZĘDNOŚĆ MIEJSCA:
+- Usunięto ~1.2 MB starych HTML
+- Uporządkowano output directories
+- Archiwum dla przestarzałych plików
+
+⚙️ FUNKCJONALNOŚĆ:
+- Wszystkie skrypty działają ✅
+- HTML generation: 13/13 plików ✅
+- Wrapper scripts dla wygody ✅
+
+================================================================
+JAK UŻYWAĆ PO CLEANUP:
+================================================================
+
+GENEROWANIE HTML:
+$ ./generate-html.sh
+→ Output: output/html/*.html
+
+UPLOAD NA SERWER:
+$ ./upload-to-server.sh
+→ Uploads: output/website/* → server
+
+DOKUMENTACJA:
+- Instrukcje: docs/instructions/
+- Historia QA: docs/qa/
+
+SKRYPTY (zaawansowane):
+$ cd scripts/
+$ bash generate-html.sh
+
+================================================================
+STATUS: ✅ WSZYSTKO DZIAŁA POPRAWNIE
+================================================================

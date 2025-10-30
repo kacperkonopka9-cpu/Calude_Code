@@ -1,0 +1,44 @@
+=================================================================
+SZYBKI START - Automatyczny Upload Raportu
+=================================================================
+
+OPCJA 1: AUTOMATYCZNY UPLOAD (WYMAGA DANYCH FTP)
+-----------------------------------------------------------------
+
+1. Pobierz dane FTP z panelu cyber-folks.pl
+   → Szukaj: "Konta FTP" lub email powitalny
+
+2. Utwórz plik z danymi FTP:
+   cp .ftp-credentials.template .ftp-credentials
+   nano .ftp-credentials
+
+3. Wypełnij w pliku:
+   FTP_HOST="ftp.cyber-folks.pl"
+   FTP_USER="twoj_login"
+   FTP_PASS="twoje_haslo"
+   REMOTE_PATH="/public_html/raport-ulgi-br/"
+
+4. Uruchom upload:
+   ./upload-to-server.sh
+
+5. Otwórz: https://inovgroup.pl/raport-ulgi-br/
+
+=================================================================
+
+OPCJA 2: RĘCZNY UPLOAD (PRZEZ PRZEGLĄDARKĘ)
+-----------------------------------------------------------------
+
+1. Zaloguj się: panel.cyber-folks.pl
+2. Menedżer plików → /public_html/
+3. Utwórz folder: raport-ulgi-br
+4. Wgraj wszystkie pliki z folderu website-upload/
+5. Otwórz: https://inovgroup.pl/raport-ulgi-br/
+
+=================================================================
+
+DOKUMENTACJA:
+- Automatyczny upload: AUTOMATYCZNY-UPLOAD-FTP.md
+- Ręczny upload: INSTRUKCJA-PUBLIKACJI-RAPORTU.md
+
+WSPARCIE: kkonopka@inovgroup.pl
+=================================================================

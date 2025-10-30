@@ -1,3 +1,16 @@
+<div align="center">
+
+![Inov Research & Development](../Inov%20logo%20(1800%20x%201000%20px)%20(10).png)
+
+</div>
+
+## Szybka Nawigacja
+[Główne Ustalenia](#główne-ustalenia) | [Paradoks Innowacyjności](#paradoks-statystyk-innowacyjności) | [Konsekwencje](#konsekwencje-dla-polski) | [Rozwiązania](#rozwiązania-opcje-dla-polski) | [Rekomendacje](#rekomendacje-strategiczne)
+
+[📄 English Version](./02-executive-summary-EN.md) | [📑 Pełny Raport](./03-chapter-1-introduction.md)
+
+---
+
 # Streszczenie Wykonawcze (Polski)
 
 ## Kluczowe Przesłanie
@@ -111,16 +124,20 @@ W 2022 roku Polska wprowadziła cztery nowe ulgi:
 **Jeśli wszyscy wnioskodawcy B+R raportowali:**
 - Wydatki Polski na B+R mogłyby wzrosnąć o dodatkowe **1,6-3,2 mld PLN** w oficjalnych statystykach
 - Wskaźnik B+R/PKB: 1,41% → **1,70-1,75%**
-- **Wpływ na ranking:** Mogłaby przenieść Polskę z "Moderate Innovator" do "Strong Innovator" w EU
+- **Wpływ na European Innovation Scoreboard:**
+  - Poprawa wyniku: 74.2 → ~78-79 punktów (+4-5 pkt)
+  - Zbliżenie do kategorii "Umiarkowany innowator" (Moderate Innovator, próg: ~80 punktów)
+  - Średnioterminowo (2027-2028): Potencjalny awans do kategorii "Umiarkowany innowator"
+  - **Kluczowe:** Koniec paradoksu rosnących ulg podatkowych vs spadających statystyk B+R
 
 ### Główne Przyczyny Nieraportowania
 
 Według analiz i badań, firmy nie raportują z powodu:
 
-1. **Brak świadomości (40%)** - Wiele firm nie wie o istnieniu formularzy PNT-01/PNT-02
-2. **Obawy przed kontrolami (30%)** - Przekonanie, że raportowanie zwiększa prawdopodobieństwo audytu (w dużej mierze nieuzasadnione)
-3. **Czasochłonność (20%)** - Wypełnienie szczegółowych formularzy wymaga czasu i wiedzy
-4. **Brak konsekwencji (10%)** - Minimalne egzekwowanie, symboliczne kary
+1. **Brak świadomości** - Wiele firm nie wie o istnieniu formularzy PNT-01/PNT-02
+2. **Obawy przed kontrolami** - Przekonanie, że raportowanie zwiększa prawdopodobieństwo audytu (w dużej mierze nieuzasadnione)
+3. **Czasochłonność** - Wypełnienie szczegółowych formularzy wymaga czasu i wiedzy
+4. **Brak konsekwencji** - Minimalne egzekwowanie, symboliczne kary
 
 ---
 

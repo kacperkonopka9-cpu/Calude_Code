@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[7.1 Od Analizy do Działania](#71-wprowadzenie-od-analizy-do-działania) | [7.2 Rekomendacje dla Rządu](#72-rekomendacje-dla-rządu-i-gus) | [7.3 Rekomendacje dla Firm](#73-rekomendacje-dla-przedsiębiorców)
+
+[⏮️ Rozdział 6](./08-chapter-6-solutions-analysis.md) | [⏭️ Rozdział 8](./10-chapter-8-conclusions.md)
+
+---
+
 # Rozdział 7: Implikacje i Rekomendacje dla Interesariuszy
 
 ## 7.1 Wprowadzenie: Od Analizy do Działania
@@ -41,8 +48,11 @@ Poprzednie rozdziały wykazały:
    - **Kluczowe:** Budżet jest **chroniony** - nie podlega cięciom w razie oszczędności (zapis w uchwale Rady Ministrów)
 
 **Wskaźniki sukcesu (KPI dla rządu):**
-- R&D/GDP ratio: 1.45% (2024) → **1.75%** (2030)
-- Pozycja w European Innovation Scoreboard: "Moderate Innovator" → **"Strong Innovator"** (2030)
+- R&D/GDP ratio: 1.41% (2024) → **1.70-1.75%** (2030)
+- **Pozycja w European Innovation Scoreboard:**
+  - Aktualna (2025): "Wschodzący innowator" (Emerging Innovator) - 74.2 punktów
+  - Cel średnioterminowy (2027-2028): **"Umiarkowany innowator" (Moderate Innovator)** (~82-85 punktów)
+  - Cel długoterminowy (2035): **"Silny innowator" (Strong Innovator)** (100+ punktów)
 - FDI w sektorach high-tech: Wzrost o **25-30%** do 2030
 
 ---
@@ -614,9 +624,11 @@ Poprzednie rozdziały wykazały:
 **Konkretne przykłady:**
 
 **A) European Innovation Scoreboard (EIS):**
-- Obecna pozycja Polski (2024): **"Moderate Innovator"** (20-22 miejsce w UE)
-- Po poprawie R&D/GDP do 1.75%: Potencjalny awans do **"Strong Innovator"** (15-18 miejsce)
-- **Efekt reputacyjny:** Polska wymieniana w jednym szeregu z Hiszpanią, Włochami (obecnie: porównywana z Bułgarią, Rumunią, Grecją)
+- Obecna pozycja Polski (2025): **"Emerging Innovator"** (74.2 punktów, 23. miejsce w UE)
+- Krótkoterminowo: Poprawa do **~78-79 punktów**, zbliżenie do progu "Moderate Innovator"
+- Średnioterminowo (2027-2028): Awans do **"Moderate Innovator"** (~82-85 punktów)
+- Długoterminowo (2035+): Potencjalny awans do **"Strong Innovator"** (100+ punktów)
+- **Efekt reputacyjny:** Polska przestaje być postrzegana na równi z najsłabszymi gospodarkami UE (Bułgaria, Rumunia) i zbliża się do grupy krajów Moderate (Czechy, Chorwacja, Grecja), z perspektywą dołączenia do grupy Strong (Estonia, Hiszpania, Włochy)
 
 **B) OECD Main Science and Technology Indicators:**
 - Obecnie: Polska na **26 miejscu** (na 38 krajów OECD) w R&D/GDP

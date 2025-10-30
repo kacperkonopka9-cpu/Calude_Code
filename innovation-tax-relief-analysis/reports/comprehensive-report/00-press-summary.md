@@ -1,3 +1,9 @@
+<div align="center">
+
+![Inov Research & Development](../Inov%20logo%20(1800%20x%201000%20px)%20(10).png)
+
+</div>
+
 # Streszczenie dla Mediów (Press Summary)
 
 ## POLSKA TRACI MILIARDY NA NIEWIDZIALNEJ INNOWACYJNOŚCI
@@ -18,7 +24,7 @@
 
 ✅ **Rozwiązanie:** Automatyczna integracja danych podatkowych (Ministerstwo Finansów) i statystycznych (GUS) - model stosowany w Holandii, Irlandii, Austrii. Koszt wdrożenia: **19-23.5 mln PLN** przez 6 lat. **Zwrot z inwestycji: ~1,000%** (każda złotówka zainwestowana zwraca 9-11 złotych korzyści).
 
-🎯 **Efekt:** Po reformie, wskaźnik R&D/GDP Polski wzrośnie z **1.41% (2024) do ~1.70-1.75%** - awans z "Moderate Innovator" do **"Strong Innovator"** w rankingach UE.
+🎯 **Efekt:** Po reformie, wskaźnik R&D/GDP Polski wzrośnie z **1.41% (2024) do ~1.70-1.75%** - wynik European Innovation Scoreboard poprawiłby się z **74.2 punktów** (kategoria "Emerging Innovator") do **~78-79 punktów**, zbliżając Polskę do progu **"Moderate Innovator"** (cel: 2027-2028). Długoterminowo (2035+) możliwy awans do **"Strong Innovator"**.
 
 ---
 
@@ -67,7 +73,7 @@
 
 ### Angle 3: **"Co trzecia firma ukrywa swoje B+R - ale to nie jej wina"**
 - ~29% firm korzystających z ulg podatkowych B+R nie raportuje do GUS
-- Przyczyny: (1) Nie wiedzą, że muszą (40%), (2) Boją się kontroli (30%), (3) Za dużo biurokracji (20%)
+- Przyczyny: (1) Nie wiedzą, że muszą, (2) Boją się kontroli, (3) Za dużo biurokracji
 - Rozwiązanie: Automatyzacja - firma wypełnia dane raz (dla ulgi podatkowej), system automatycznie przekazuje do GUS
 
 ### Angle 4: **"Holandia zrobiła to 15 lat temu - Polska dopiero zaczyna"**
@@ -121,11 +127,11 @@ Zwrot: 1,300x
 A: **Nie.** Firmy legalnie korzystają z ulg podatkowych B+R, rozliczając się prawidłowo z Ministerstwem Finansów. Problem polega na tym, że te same firmy często **nie wypełniają oddzielnych formularzy statystycznych dla GUS**, mimo że mają taki obowiązek. To nie oszustwo, ale lukę administracyjna - brak integracji między systemem podatkowym a statystycznym.
 
 **Q: Dlaczego firmy nie raportują do GUS?**
-A: **Cztery główne przyczyny** (w kolejności ważności):
-1. **Brak świadomości (35-40%):** Nie wiedzą, że mają obowiązek wypełniać formularz PNT-01
-2. **Strach przed kontrolą (25-30%):** Mylne przekonanie, że raportowanie zwiększa ryzyko audytu skarbowego
-3. **Obciążenie administracyjne (20-25%):** Wypełnianie PNT-01 zajmuje 6-12 godzin
-4. **Brak konsekwencji (15-20%):** Kara za niewypełnienie (5,000 PLN) jest rzadko wymierzana
+A: **Cztery główne przyczyny:**
+1. **Brak świadomości:** Nie wiedzą, że mają obowiązek wypełniać formularz PNT-01
+2. **Strach przed kontrolą:** Mylne przekonanie, że raportowanie zwiększa ryzyko audytu skarbowego
+3. **Obciążenie administracyjne:** Wypełnianie PNT-01 zajmuje 6-12 godzin
+4. **Brak konsekwencji:** Kara za niewypełnienie (5,000 PLN) jest rzadko wymierzana
 
 **Q: Ile to będzie kosztować podatników?**
 A: **19-23.5 milionów PLN przez 6 lat wdrożenia** + około 2-3 milionów PLN rocznie na utrzymanie systemu. To mniej niż **1% rocznego kosztu samej ulgi B+R** (~2.4 mld PLN rocznie).
@@ -160,10 +166,10 @@ A: Polska będzie **systematycznie tracić na reputacji innowacyjnej** względem
 **2/6** Konsekwencje? Zaniżone statystyki (1.41% R&D/GDP w 2024, zamiast realnych 1.70-1.75%). Polska w rankingach EU jako "Moderate Innovator" (20-22 miejsce), mimo że powinna być "Strong Innovator" (15-18 miejsce). Intel i Google patrzą na te liczby, decydując gdzie otworzyć centrum B+R.
 
 **3/6** Dlaczego firmy nie raportują?
-• 40% - nie wie, że musi
-• 30% - boi się kontroli (mit!)
-• 20% - za dużo biurokracji (6-12h na formularz)
-• 15% - brak konsekwencji (kara 5k PLN rzadko wymierzana)
+• Nie wiedzą, że muszą
+• Boją się kontroli (mit!)
+• Za dużo biurokracji (6-12h na formularz)
+• Brak konsekwencji (kara 5k PLN rzadko wymierzana)
 
 **4/6** Rozwiązanie? Holandia, Irlandia, Austria zrobiły to lata temu: automatyczna integracja danych podatkowych + statystycznych. Firmy wypełniają raz (dla ulgi), system automatycznie przekazuje do GUS. Win-win-win.
 

@@ -57,3 +57,15 @@ pyvenv.cfg
 .DS_Store
 Thumbs.db
 nul
+
+# FTP/SFTP Credentials (NEVER COMMIT!)
+.ftp-credentials
+**/ftp-credentials
+**/.ftp-credentials
+
+# Generated output files (HTML, PDF, website packages)
+output/
+**/output/
+html-output/
+pdf-output/
+website-upload/

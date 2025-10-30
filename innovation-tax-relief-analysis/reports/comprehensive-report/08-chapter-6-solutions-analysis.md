@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[6.1 Trzy Ścieżki Reform](#61-wprowadzenie-trzy-ścieżki-reform) | [6.2 Plan Implementacji](#62-plan-implementacji-opcji-a) | [6.3 Analiza Kosztów](#63-analiza-kosztów-i-korzyści)
+
+[⏮️ Rozdział 5](./07-chapter-5-international-comparisons.md) | [⏭️ Rozdział 7](./09-chapter-7-implications-recommendations.md)
+
+---
+
 # Rozdział 6: Analiza Rozwiązań dla Polski
 
 ## 6.1 Wprowadzenie: Trzy Ścieżki Reform
@@ -89,7 +96,7 @@ W oparciu o międzynarodowe benchmarki (Rozdział 5) i analizę luki raportowani
 
 #### Cel Fazy 1
 Zwiększenie compliance z ~71% do **~85%** poprzez:
-- Redukcję "braku świadomości" (największa przyczyna non-compliance - 35-40%)
+- Redukcję "braku świadomości" (główna przyczyna non-compliance)
 - Ukierunkowanie formularzy PNT na znaną populację B+R
 - Zachęty dla dobrowolnych zgłoszeń
 
@@ -147,7 +154,7 @@ Art. 40a. [Transfer danych o beneficjentach ulg podatkowych B+R]
 
 **Krok 1.3: Kampania Informacyjna dla Przedsiębiorców**
 
-**Cel:** Zmniejszenie "braku świadomości" jako przyczyny non-compliance z 35-40% do **<15%**
+**Cel:** Znaczące zmniejszenie "braku świadomości" jako przyczyny non-compliance
 
 **Działania:**
 
@@ -552,8 +559,12 @@ Dodanie **Art. 18d ust. 9** (ustawa o CIT):
 - R&D/GDP ratio: **~1.70-1.75%** (wzrost z 1.45% - **+17-21%!**)
 - **Obciążenie firm:** Redukcja czasu wypełniania PNT-01 o **~85%** (z 6-12h do 0.5-1h)
 - **Pozycja Polski w rankingach:**
-  - European Innovation Scoreboard: Potencjalny awans z **"Moderate Innovator"** do **"Strong Innovator"** (wymaga przekroczenia 1.65% R&D/GDP)
-  - OECD Science & Technology Outlook: Wzrost z 20-22 miejsca do **17-19 miejsca** w UE
+  - **European Innovation Scoreboard (EIS 2025):**
+    - Aktualna kategoria: "Wschodzący innowator" (Emerging Innovator) - 74.2 punktów
+    - Krótkoterminowy wpływ: Wzrost do ~78-79 punktów (+4-5 pkt)
+    - Średnioterminowy cel (2027-2028): Awans do **"Umiarkowany innowator" (Moderate Innovator)** (~82-85 punktów)
+    - Długoterminowa perspektywa (2035+): "Silny innowator" (Strong Innovator) (100+ punktów)
+  - **OECD Science & Technology Outlook:** Wzrost z 20-22 miejsca do **17-19 miejsca** w UE
 
 ---
 
@@ -583,14 +594,27 @@ Dodanie **Art. 18d ust. 9** (ustawa o CIT):
 
 **Wartość:**
 - **Trudna do kwantyfikacji bezpośrednio**, ale analizy EIS (European Innovation Scoreboard) pokazują:
-  - Kraje z R&D/GDP >1.65% są klasyfikowane jako **"Strong Innovators"**
-  - "Strong Innovators" przyciągają **~30% więcej FDI (bezpośrednich inwestycji zagranicznych)** w sektorach high-tech niż "Moderate Innovators"
-- Jeśli Polska przekroczy próg 1.65% i zostanie uznana za "Strong Innovator":
-  - **Dodatkowy FDI w high-tech:** ~2-3 mld EUR rocznie (oszacowanie na podstawie różnic FDI między krajami "Moderate" i "Strong" w EIS)
-  - Mnożnik fiskalny FDI: ~0.25 (podatki od FDI = 25% wartości inwestycji przez 10 lat)
-  - **Dodatkowe wpływy podatkowe:** ~0.5-0.75 mld EUR rocznie = **~2.3-3.5 mld PLN rocznie**
+  - Kraje o wyższych wskaźnikach R&D/GDP i lepszych pozycjach w EIS przyciągają **~30-40% więcej FDI** w sektorach high-tech
+  - **"Strong Innovators"** (100+ punktów EIS) przyciągają znacząco więcej inwestycji niż **"Emerging Innovators"** (<70 punktów)
 
-**Wartość 10-letnia (zdyskontowana 5%):** **~18-27 mld PLN**
+**Scenariusz konserwatywny - Krótkoterminowy (2027-2028):**
+- Polska osiąga status "Umiarkowany innowator" (Moderate Innovator, ~82-85 punktów EIS)
+- R&D/GDP: ~1.85-2.0%
+- Zwiększona atrakcyjność dla inwestorów → **+10-15% wzrost FDI w sektorach innowacyjnych**
+- **Dodatkowy FDI w high-tech:** ~0.8-1.2 mld EUR rocznie
+- **Dodatkowe wpływy podatkowe:** ~0.2-0.3 mld EUR rocznie = **~0.9-1.4 mld PLN rocznie**
+
+**Wartość 10-letnia krótkoterminowa (zdyskontowana 5%):** **~7-11 mld PLN**
+
+**Scenariusz ambitny - Długoterminowy (2035+):**
+- Polska osiąga status "Silny innowator" (Strong Innovator, 100+ punktów EIS)
+- R&D/GDP: >2.3% (poziom średniej UE)
+- **Dodatkowy FDI w high-tech:** ~2-3 mld EUR rocznie (różnica między "Moderate" a "Strong")
+- **Dodatkowe wpływy podatkowe:** ~0.5-0.75 mld EUR rocznie = **~2.3-3.5 mld PLN rocznie**
+
+**Wartość 10-letnia długoterminowa (zdyskontowana 5%, od 2035):** **~18-27 mld PLN**
+
+**Uwaga metodologiczna:** EIS nie używa sztywnych progów R&D/GDP dla kategorii. Klasyfikacja jest względna (performance vs EU average) i oparta na 32 wskaźnikach (nie tylko R&D/GDP). Powyższe szacunki są konserwatywne i oparte na obserwowanych korelacjach między pozycją EIS a napływem FDI w sektorach innowacyjnych.
 
 ---
 
@@ -629,7 +653,7 @@ Dodanie **Art. 18d ust. 9** (ustawa o CIT):
 #### Korzyść 4: Eliminacja "Strachu" i Poprawa Klimatu dla Innowacji
 
 **Mechanizm:**
-- ~25-30% firm nie raportuje do GUS z powodu **"strachu przed kontrolą"** (percepcja, że raportowanie zwiększa prawdopodobieństwo audytu podatkowego)
+- Znacząca część firm nie raportuje do GUS z powodu **"strachu przed kontrolą"** (percepcja, że raportowanie zwiększa prawdopodobieństwo audytu podatkowego)
 - Automatyzacja eliminuje ten strach:
   - Firmy rozumieją, że GUS i MF już "współpracują" - nie ma sensu ukrywać
   - Pre-wypełnione formularze są postrzegane jako **"wsparcie"**, nie "inwigilacja"

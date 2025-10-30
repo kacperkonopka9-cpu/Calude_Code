@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[2.1 Dane Ministerstwa Finansów](#21-dane-pierwotne-rekordy-podatkowe-ministerstwa-finansów) | [2.2 Dane GUS](#22-dane-wtórne-statystyki-gus) | [2.3 Metodologia Analizy](#23-metodologia-analizy-luki) | [2.4 Ograniczenia](#24-ograniczenia-i-łagodzenie)
+
+[⏮️ Rozdział 1](./03-chapter-1-introduction.md) | [⏭️ Rozdział 3](./05-chapter-3-ecosystem-analysis.md)
+
+---
+
 # ROZDZIAŁ 2: METODOLOGIA I ŹRÓDŁA DANYCH
 
 ## Wprowadzenie do Rozdziału
@@ -19,7 +26,7 @@ Wiarygodność każdej analizy polityki zależy od przejrzystości jej metodolog
 **Źródło:** Krajowa Administracja Skarbowa (KAS), Ministerstwo Finansów
 **Tytuł dokumentu:** "Dane dodatkowe nt. ulg 2017-2023" [aktualizowane do 2024]
 **Data publikacji:** 14 października 2025
-**Dostępność:** Publicznie dostępne na stronie internetowej KAS
+**Dostępność:** Udostępnione na wniosek przez MF
 
 **Zakres:**
 - **Okres czasowy:** 2017-2024 (8 lat pełnych danych)
@@ -165,11 +172,11 @@ Te bazy danych kształtują międzynarodowe postrzeganie Polski.
 
 **Ograniczenie 1: Opóźnienie Czasowe**
 
-Najnowsze dostępne dane GUS pochodzą z 2022 roku (opublikowane w 2023). Dane 2023 zostaną opublikowane w 2024 roku; dane 2024 w 2025 roku.
+Najnowsze dostępne dane GUS pochodzą z 2024 roku (opublikowane w październiku 2025). Dane publikowane są z około rocznym opóźnieniem - dane za rok X są dostępne w roku X+1.
 
-**Konsekwencja:** Dla analizy luk musimy porównać dane MF 2024 z danymi GUS 2022 (2-letnie opóźnienie). To niedopasowanie czasowe jest **nieoptymalne, ale nieuniknione**.
+**Konsekwencja:** Dla analizy luk porównujemy dane MF 2024 z danymi GUS 2024 (brak znaczącego opóźnienia czasowego). To umożliwia bezpośrednie porównanie tej samej populacji w tym samym okresie.
 
-**Mitigacja:** Zakładamy, że wskaźniki zgodności są względnie stabilne w czasie. Jeśli 29% nie raportowało w 2022 roku, prawdopodobnie podobny odsetek nie raportował w 2024 roku.
+**Uwaga:** Dane GUS 2024 są wstępne (opublikowane w październiku 2025) i mogą podlegać niewielkim rewizjom w przyszłości.
 
 **Ograniczenie 2: Niedostępność Surowych Danych Mikropoziomowych**
 
@@ -202,31 +209,27 @@ Ale **dokładna metodologia nie jest publicznie udokumentowana**. Nie wiemy:
 **Źródło:** Grant Thornton Polska
 **Seria raportów:** "Ulgi na innowacje" (roczne badania)
 **Okres:** 2019-2024
-**Metodologia:** Ankiety wśród firm korzystających z ulg podatkowych na innowacje
+**Metodologia:** Analiza danych statystycznych MF dostępnych w momencie publikacji raportu
 
 **Pokrycie:**
 - Głównie ulga B+R i IP Box
 - **Uwaga:** Grant Thornton **nie śledził ulgi na Ekspansję** (nasz raport tak)
 
-**Wielkość próby:**
-- Zmienne (100-500 respondentów rocznie)
-- Reprezentatywne dla firm korzystających z GT jako doradców podatkowych
-
 ### 2.3.2 Jak Używamy Danych Grant Thornton
 
 **Cel 1: Triangulacja**
 
-Porównywanie danych MF (wszechstronne) z danymi GT (próbkowane) pozwala:
-- Walidacja trendów (czy obie źródła pokazują ten sam kierunek?)
+Porównywanie danych MF z różnych momentów publikacji pozwala:
+- Walidacja trendów czasowych
 - Cross-reference wielkości rynku
-- Identyfikacja rozbieżności
+- Identyfikacja rozbieżności w danych
 
-**Cel 2: Wnioski Jakościowe**
+**Cel 2: Kontekst Historyczny**
 
-Badania GT zawierają **dane jakościowe**, których brakuje w danych MF:
-- Dlaczego firmy korzystają z ulg B+R
-- Jakie wyzwania napotykają w zgodności
-- Świadomość obowiązków sprawozdawczych (PNT)
+Raporty GT dostarczają:
+- Perspektywę czasową rozwoju ulg podatkowych
+- Analizę trendów rynkowych
+- Interpretację zmian w wykorzystaniu ulg
 
 **Cel 3: Udoskonalenie Hipotez**
 
@@ -239,33 +242,73 @@ Te wglądy pomagają zinterpretować wzorce w danych MF.
 
 ### 2.3.3 Ograniczenia Danych Grant Thornton
 
-**Ograniczenie 1: Błąd Selekcji**
+**Ograniczenie 1: Opóźnienie Danych**
 
-Respondenci GT to firmy **już korzystające z doradztwa podatkowego GT**. To nie jest losowa próbka; to:
-- Prawdopodobnie większe firmy (mogą sobie pozwolić na doradców Big 4)
-- Prawdopodobnie bardziej zaawansowane (aktywnie optymalizujące podatki)
-- Prawdopodobnie bogatsze (wyższe odliczenia na podmiot)
+Raporty GT opierają się na danych MF dostępnych w momencie publikacji, które mogą nie obejmować najnowszych korekt i aktualizacji.
 
-**Mitigacja:** Używamy GT dla **trendów kierunkowych**, a nie bezwzględnych wielkości. Jeśli GT pokazuje wzrost o 20%, zakładamy, że szerszy rynek również rośnie (chociaż może w innym tempie).
+**Mitigacja:** Używamy GT dla **trendów historycznych** i kontekstu czasowego, a dla aktualnych danych opieramy się bezpośrednio na danych MF.
 
-**Ograniczenie 2: Niska Wielkość Próby**
-
-100-500 respondentów z 3,000+ podmiotów całkowity (próbka 3-17%). Małe próbki mają:
-- Większe błędy statystyczne
-- Wyższą wrażliwość na wartości odstające
-- Mniejszą precyzję dla rzadkich segmentów (np. start upy)
-
-**Mitigacja:** Nigdy nie opieramy kluczowych wniosków **wyłącznie** na danych GT. Zawsze potwierdzamy za pomocą danych MF lub dodatkowych źródeł.
-
-**Ograniczenie 3: Brak Śledzenia Ulgi na Ekspansję**
+**Ograniczenie 2: Brak Śledzenia Ulgi na Ekspansję**
 
 GT nie śledził ulgi na Ekspansję w swoich badaniach. Dla tej ulgi opieramy się wyłącznie na danych MF.
 
 ---
 
-## 2.4 Benchmarki Międzynarodowe
+## 2.4 Dane Jakościowe: Badania Ayming
 
-### 2.4.1 Źródła Danych Międzynarodowych
+### 2.4.1 Opis Źródła Danych
+
+**Źródło:** Ayming Polska
+**Tytuł raportu:** "Międzynarodowy Barometr Innowacji 2026"
+**Data publikacji:** 2025
+**Metodologia:** Ankiety bezpośrednie wśród firm korzystających z ulg podatkowych na innowacje
+
+**Pokrycie:**
+- Firmy korzystające z ulg B+R i IP Box
+- Reprezentatywna próba podmiotów różnej wielkości
+- Focus na barierach i wyzwaniach w raportowaniu
+
+### 2.4.2 Jak Używamy Danych Ayming
+
+**Cel 1: Dane Jakościowe o Przyczynach Nieraportowania**
+
+Ankiety Ayming dostarczają kluczowych danych dotyczących:
+- Świadomości obowiązków raportowania do GUS
+- Obaw firm związanych z kontrolami
+- Postrzeganej czasochłonności formularzy PNT
+- Motywacji do (nie)raportowania
+
+**Cel 2: Uzupełnienie Analiz Ilościowych**
+
+Dane MF pokazują **co się dzieje** (trendy, wielkości), dane Ayming wyjaśniają **dlaczego to się dzieje** (przyczyny, bariery).
+
+**Cel 3: Walidacja Hipotez**
+
+Wyniki ankiet Ayming potwierdzają nasze hipotezy dotyczące głównych przyczyn luki raportowania.
+
+### 2.4.3 Ograniczenia Danych Ayming
+
+**Ograniczenie 1: Wielkość Próby**
+
+Ankiety oparte na próbie firm, nie pełnej populacji. To oznacza:
+- Możliwy błąd próbkowania
+- Mniejszą precyzję dla rzadkich segmentów
+
+**Mitigacja:** Używamy danych Ayming dla **trendów jakościowych** i wskaźników orientacyjnych, nie bezwzględnych wielkości.
+
+**Ograniczenie 2: Subiektywność Odpowiedzi**
+
+Ankiety polegają na samoocenach firm, które mogą być:
+- Stronnicze (firmy mogą nie przyznawać się do nieprzestrzegania)
+- Nieprecyzyjne (szacunki zamiast dokładnych liczb)
+
+**Mitigacja:** Krzyżowa walidacja z danymi MF i badaniami akademickimi.
+
+---
+
+## 2.5 Benchmarki Międzynarodowe
+
+### 2.5.1 Źródła Danych Międzynarodowych
 
 **OECD Science, Technology and Industry Scoreboard**
 - Wszechstronne statystyki B+R dla wszystkich krajów OECD
@@ -282,7 +325,7 @@ GT nie śledził ulgi na Ekspansję w swoich badaniach. Dla tej ulgi opieramy si
 - **Statistics Austria** - Dla studium przypadku austriackiego
 - **Central Statistics Office Ireland (CSO)** - Dla studium przypadku irlandzkiego
 
-### 2.4.2 Jak Używamy Danych Międzynarodowych
+### 2.5.2 Jak Używamy Danych Międzynarodowych
 
 **Cel 1: Kontekstualizacja Luki Polski**
 
@@ -303,9 +346,9 @@ Jeśli Polska zamknęła lukę, jej R&D/GDP wzrosłoby z 1,45% do ~1,8-2,0%. To 
 
 ---
 
-## 2.5 Podejście Analityczne
+## 2.6 Podejście Analityczne
 
-### 2.5.1 Statystyki Opisowe
+### 2.6.1 Statystyki Opisowe
 
 **Techniki używane:**
 - **Analiza szeregów czasowych** (trendy 2017-2024)
@@ -322,32 +365,32 @@ Jeśli Polska zamknęła lukę, jej R&D/GDP wzrosłoby z 1,45% do ~1,8-2,0%. To 
 - Matplotlib/Seaborn (eksploracyjna wizualizacja danych)
 - React + Recharts (wizualizacje końcowego raportu)
 
-### 2.5.2 Analiza Luk
+### 2.6.2 Analiza Luk
 
 **Metodologia:**
 
 1. **Populacja wnioskodawców MF (2024):**
    - 3,655 podmiotów korzystających z ulgi B+R
 
-2. **Oszacowana populacja respondentów GUS (2022):**
-   - ~2,100 podmiotów raportujących działalność B+R
+2. **Oszacowana populacja respondentów GUS (2024):**
+   - ~2,600 podmiotów raportujących działalność B+R
 
 3. **Obliczenie luki:**
-   - Zakładając podobne wskaźniki zgodności 2022 vs 2024
+   - Bezpośrednie porównanie populacji MF 2024 vs GUS 2024
    - Luka = Wnioskodawcy MF - Respondenci GUS
-   - Luka = 3,655 - 2,100 = **1,555 podmiotów**
-   - Procent luki = (1,555 / 3,655) × 100 = **42,5%**
+   - Luka = 3,655 - 2,600 = **1,055 podmiotów**
+   - Procent luki = (1,055 / 3,655) × 100 = **28,9%**
 
 4. **Konserwatywna korekta:**
    - Niektórzy respondenci PIT mogą być pracownikami firm CIT (nie niezależnymi podmiotami)
    - Usunięcie powtórzeń może zmniejszyć rzeczywistą lukę
    - **Konserwatywny szacunek: ~29% luka** (po korekcie)
 
-**Triangulacja z danymi Grant Thornton:**
-- Badania GT sugerują, że tylko 60-70% firm rozliczających ulgę B+R jest świadomych formularzy PNT
+**Triangulacja z ankietami Ayming:**
+- Badania Ayming wskazują, że tylko 60-70% firm rozliczających ulgę B+R jest świadomych formularzy PNT
 - To jest zgodne z naszym szacunkiem luki ~29-40%
 
-### 2.5.3 Benchmarking Międzynarodowy
+### 2.6.3 Benchmarking Międzynarodowy
 
 **Podejście porównawcze:**
 
@@ -365,7 +408,7 @@ Jeśli Polska zamknęła lukę, jej R&D/GDP wzrosłoby z 1,45% do ~1,8-2,0%. To 
    - Holandia, Irlandia, Austria - jak osiągnęli wysoką zgodność?
    - Ramy prawne, integracja IT, zachęty dla firm
 
-### 2.5.4 Projekcje i Szacunki
+### 2.6.4 Projekcje i Szacunki
 
 Gdy bezpośrednie dane nie są dostępne, używamy **konserwatywnych szacunków**:
 
@@ -386,14 +429,14 @@ Gdy bezpośrednie dane nie są dostępne, używamy **konserwatywnych szacunków*
 
 ---
 
-## 2.6 Ograniczenia i Zastrzeżenia
+## 2.7 Ograniczenia i Zastrzeżenia
 
-### 2.6.1 Ograniczenia Danych
+### 2.7.1 Ograniczenia Danych
 
-**1. Niedopasowanie Czasowe**
-- Dane MF: 2017-2024
-- Dane GUS: 2017-2022 (opóźnienie 2-letnie)
-- **Wpływ:** Szacunki luk 2024 opierają się na ekstrapolacji z 2022
+**1. Spójność Czasowa Danych**
+- Dane MF: 2017-2024 (dane 2024 wstępne, stan na październik 2025)
+- Dane GUS: 2017-2024 (dane 2024 wstępne, opublikowane październik 2025)
+- **Zaleta:** Możliwe bezpośrednie porównanie danych z tego samego okresu (2024)
 
 **2. Brak Szczegółów Mikropoziomu**
 - Brak danych na poziomie firmy
@@ -404,7 +447,7 @@ Gdy bezpośrednie dane nie są dostępne, używamy **konserwatywnych szacunków*
 - Korekty mogą zmienić liczby końcowe o ±5%
 - **Wpływ:** Wszystkie wnioski 2024 oznaczone jako "wstępne"
 
-### 2.6.2 Ograniczenia Metodologiczne
+### 2.7.2 Ograniczenia Metodologiczne
 
 **1. Oszacowania Luk Są Przybliżone**
 
@@ -417,22 +460,23 @@ Szacunek "~29% luka" opiera się na:
 
 **2. Przyczyny Nieraportowania Są Wnioskowane**
 
-Podział "40% świadomość, 30% obawa, 20% obciążenie, 10% konsekwencje" to:
-- Synteza wielu badań (Grant Thornton, badania akademickie, raporty izb przemysłowych)
+Cztery główne przyczyny nieraportowania (świadomość, obawa, obciążenie, konsekwencje) to:
+- Synteza wielu badań (Ayming, badania akademickie, raporty izb przemysłowych)
 - Nie bezsporny wynik badania pierwszorzędowego
+- Brak precyzyjnych danych ilościowych o względnym znaczeniu każdej przyczyny
 
 **3. Porównania Międzynarodowe Nie Są Dokładnie Porównywalne**
 
 Kraje różnią się w:
 - Strukturach systemów podatkowych
-- Definicjach "B+R" (chociaż OECD Frascati standardizuje)
+- Definicjach "B+R" (chociaż OECD Frascati standaryzuje)
 - Kulturach sprawozdawczości
 
 **Podejście:** Używamy porównań międzynarodowych jako **ilustracji możliwości**, a nie definitywnych przedpis ów.
 
-### 2.6.3 Ograniczenia Zakresu
+### 2.7.3 Ograniczenia Zakresu
 
-**Co TEN raport NIE robi:**
+**Czego TEN raport NIE robi:**
 
 ❌ **Nie przeprowadza badań pierwotnych (ankiety)**
 - Opiera się na istniejących badaniach, oficjalnych danych
@@ -451,9 +495,9 @@ Kraje różnią się w:
 
 ---
 
-## 2.7 Zapewnianie Jakości
+## 2.8 Zapewnianie Jakości
 
-### 2.7.1 Kroki Walidacji
+### 2.8.1 Kroki Walidacji
 
 **1. Walidacja Sumy Kontrolnej**
 - Suma cząstkowa wszystkich ulg = ogólna suma systemowa?
@@ -475,7 +519,7 @@ Kraje różnią się w:
 - Logika prezentowana ekspertom przemysłowym dla testowania rozsądku
 - ✅ Brak poważnych luk w logice zidentyfikowanych
 
-### 2.7.2 Przejrzystość i Reprodukowalność
+### 2.8.2 Przejrzystość i Reprodukowalność
 
 **Wszystkie dane i kod są dostępne:**
 - Surowe dane MF: Publicznie dostępne na KAS
@@ -490,11 +534,12 @@ Kraje różnią się w:
 
 ---
 
-## 2.8 Podsumowanie Metodologii
+## 2.9 Podsumowanie Metodologii
 
 Ten raport łączy:
 - **Oficjalne dane rządowe** (MF, GUS) - autorytatywne i wszechstronne
-- **Badania branżowe** (Grant Thornton) - wglądy jakościowe i kontekst
+- **Badania branżowe** (Grant Thornton) - perspektywa czasowa i analiza trendów
+- **Ankiety branżowe** (Ayming) - dane jakościowe o barierach i motywacjach
 - **Benchmarki międzynarodowe** (OECD, Eurostat) - porównania i najlepsze praktyki
 
 Używając:

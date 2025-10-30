@@ -1,3 +1,10 @@
+## Szybka Nawigacja
+[3.1 Przegląd](#31-przegląd-sześciu-ulg) | [3.2 Ulga B+R](#32-ulga-br-analiza-głęboka) | [3.3 IP Box](#33-ip-box) | [3.4 Nowe Ulgi 2022](#34-fala-2022-cztery-nowe-ulgi)
+
+[⏮️ Rozdział 2](./04-chapter-2-methodology.md) | [⏭️ Rozdział 4](./06-chapter-4-statistical-gap.md)
+
+---
+
 # ROZDZIAŁ 3: POLSKI EKOSYSTEM ULG PODATKOWYCH NA INNOWACJE (2017-2024)
 
 ## Wprowadzenie do Rozdziału
@@ -287,7 +294,7 @@ Ulga pozwala odliczyć 100-200% kosztów. Konserwatywne założenie: średnie od
 **Łączne rzeczywiste wydatki 2017-2024:** ~**34.5 miliarda PLN**
 
 **Implikacja dla oficjalnych statystyk:**
-- GUS zgłasza R&D/GDP na poziomie **1.45%** (2022)
+- GUS zgłasza R&D/GDP na poziomie **1.41%** (2024, wstępne dane)
 - Ulga B+R sama reprezentuje dodatkowe **~0.24% PKB** (2024)
 - Jeśli wszystkie firmy raportowały do GUS, rzeczywisty wskaźnik może być **1.65-1.70%**
 
@@ -677,14 +684,14 @@ Odliczenie kosztów związanych z rozwojem, wytworzeniem i testowaniem prototyp�
 
 **Scenariusz 1: Status Quo (Obecne raportowanie)**
 
-- GUS zgłasza R&D/GDP: **1.45%** (2022)
-- Oparte na ~2,100 podmiotach raportujących
+- GUS zgłasza R&D/GDP: **1.41%** (2024, wstępne dane)
+- Oparte na ~2,600 podmiotach raportujących
 
 **Scenariusz 2: Jeśli Wszyscy Wnioskodawcy Ulgi B+R Raportowali**
 
-- Dodatkowe 1,555 podmiotów (luka 29%)
+- Dodatkowe ~1,055 podmiotów (luka 29%)
 - Dodatkowe wydatki: ~7.6 miliarda PLN (z odliczeń 2024)
-- Nowy R&D/GDP: **1.45% + 0.23% = ~1.68%**
+- Nowy R&D/GDP: **1.41% + 0.23% = ~1.64%**
 
 **Scenariusz 3: Jeśli Również Wnioskodawcy Innych Ulg Raportowali**
 
