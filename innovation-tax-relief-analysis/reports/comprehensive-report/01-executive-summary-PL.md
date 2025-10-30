@@ -41,12 +41,12 @@ Polska obsługuje **sześć odrębnych ulg podatkowych na innowacje**, reprezent
 **Punkt przełomowy 2021/2022:**
 Po konsekwentnym wzroście 2017-2021, uczestnictwo spadło, ale kwoty odliczeń gwałtownie wzrosły. **Rok 2022 był przełomowy ze względu na Polski Ład**:
 - **Główna zmiana:** Zwiększenie odliczenia kosztów osobowych z 100% do **200%** (od 2022 r.)
-- **Znaczenie dla UBR:** Koszty osobowe stanowią **85% wszystkich kosztów kwalifikowanych** ulgi B+R (wzrost z 83% w 2023)*
+- **Znaczenie dla UBR:** Koszty osobowe stanowią **85% wszystkich kosztów kwalifikowanych** ulgi B+R według szacunków branżowych (wzrost z 83% w 2023)*
 - **Nowe ulgi 2022:** Wprowadzono ulgę na robotyzację, prototyp, ekspansję - pakiet „Polskiego Ładu"
 - **Konsolidacja:** Poważni wykonawcy B+R pozostają, ubiegając się o znacznie większe kwoty (efekt 200%)
 - **Wzrost bariery:** Kontrola administracyjna odstraszająca marginalnych wnioskodawców
 
-*Źródło: Grant Thornton „Ulgi na innowacje", Edycja IV wrzesień 2025, dane Ministerstwa Finansów za 2024 r. (str. 7). Struktura kosztów kwalifikowanych: 85% wynagrodzenia pracowników, 10% materiały i surowce, 3% odpisy amortyzacyjne, 2% pozostałe.
+*Źródło: Grant Thornton „Ulgi na innowacje", Edycja IV wrzesień 2025, dane Ministerstwa Finansów za 2024 r. (str. 7). Wartość szacunkowa oparta na analizie branżowej. Struktura kosztów kwalifikowanych: 85% wynagrodzenia pracowników, 10% materiały i surowce, 3% odpisy amortyzacyjne, 2% pozostałe.
 
 ### 3. Dominacja CIT Rośnie
 
@@ -88,22 +88,30 @@ W 2022 roku Polska wprowadziła cztery nowe ulgi:
 
 **Dane Ministerstwa Finansów (2024):**
 - **3,655 podmiotów** korzystających z ulgi B+R (2,544 CIT + 1,111 PIT)
+- **Wartość odliczeń 2024:** 11,44 mld PLN (+3,8% rok do roku)
 
-**Oficjalne raportowanie GUS (2022, najnowsze dostępne):**
-- Szacowane **~2,100 firm** raportujących działalność B+R*
-
-*Oszacowanie oparte na publikacjach GUS, badaniach akademickich i raportach branżowych (szczegóły: Rozdział 4.2.2, Appendix B.1)
+**Dane GUS (nowy raport październik 2025 za 2024 rok):**
+- **Wskaźnik R&D/PKB 2024:** 1,41% (spadek z 1,56% w 2023!)
+- **GERD 2024:** 51,5 mld PLN (spadek o 3,1% rok do roku)
+- **BERD 2024:** 32,6 mld PLN (spadek o 5,0% rok do roku)
+- Szacowane **~2,600 firm** raportujących działalność B+R w 2024
 
 **Domniemana Luka:**
-- **~1,555 podmiotów (~29% wnioskodawców)** nie raportuje do GUS
+- **~1,055 podmiotów (~29% wnioskodawców)** nie raportuje do GUS
 - Nawet uwzględniając pracowników PIT i imputację GUS, luka jest znacząca
+
+**🚨 PARADOKS - DOWÓD ISTNIENIA LUKI:**
+- **Ulgi podatkowe B+R:** ↗️ ROSNĄ (+3,8% w 2024 = 11,44 mld PLN)
+- **Oficjalne wydatki B+R (GUS):** ↘️ SPADAJĄ (-3,1% w 2024 = 51,5 mld PLN)
+- **Wskaźnik R&D/PKB:** ↘️ SPADA (z 1,56% do 1,41% = -0,15 pp)
+- **To niemożliwe bez masywnej luki raportowania!**
 
 ### Wpływ na Wskaźniki
 
 **Jeśli wszyscy wnioskodawcy B+R raportowali:**
-- Wydatki Polski na B+R mogłyby wzrosnąć o **50-100%** w oficjalnych statystykach
-- Wskaźnik B+R/PKB: 1,45% → **1,8-2,0%**
-- **Wpływ na ranking:** Mogłaby przenieść Polskę z dolnego kwartyla do mediany UE
+- Wydatki Polski na B+R mogłyby wzrosnąć o dodatkowe **1,6-3,2 mld PLN** w oficjalnych statystykach
+- Wskaźnik B+R/PKB: 1,41% → **1,70-1,75%**
+- **Wpływ na ranking:** Mogłaby przenieść Polskę z "Moderate Innovator" do "Strong Innovator" w EU
 
 ### Główne Przyczyny Nieraportowania
 
@@ -246,14 +254,13 @@ Decydenci polityczni opierają strategię na zaniżonych danych:
 - To nie tylko kwestia statystyczna, ale strategia rozwoju kraju
 
 **Priorytet 2: Zapewnić zasoby na cyfryzację**
-- Inwestycje w IT i integrację systemów państwowych (szacunkowo 10-20 mln PLN)
+- Inwestycje w IT i integrację systemów państwowych
 - Projekty pilotażowe automatyzacji raportowania
 - Wparcie dla rozwoju standardów wymiany danych
 
 **Priorytet 3: Zmiany legislacyjne**
 - Przepisy umożliwiające automatyczną wymianę danych między organami
 - Uproszczenie procedur przy zachowaniu ochrony danych
-- Rozważenie powiązania ulgi B+R z obowiązkiem raportowania (z zachowaniem proporcjonalności)
 
 **Priorytet 4: Kampania informacyjna**
 - Edukacja przedsiębiorców o znaczeniu rzetelnych statystyk
@@ -291,8 +298,8 @@ Decydenci polityczni opierają strategię na zaniżonych danych:
 |---------|---------|-----------|
 | **Łączne odliczenia** | 54,58 mld PLN | Całkowita wartość ulg 2017-2024 |
 | **Dominacja B+R** | 94,8% | Udział ulgi B+R w całkowitej wartości |
-| **Luka raportowania** | ~29% | Odsetek wnioskodawców B+R nie raportujących do GUS |
-| **Potencjalny wzrost wskaźnika B+R/PKB** | +0,3-0,5 pp | Z 1,45% do 1,8-2,0% po zamknięciu luki |
+| **Luka raportowania** | ~29% | Szacunkowy % niezaraportowanych kosztów projektów innowacyjnych |
+| **Potencjalny wzrost wskaźnika B+R/PKB** | +0,29-0,34 pp | Z 1,41% (2024) do 1,70-1,75% po zamknięciu luki |
 | **Koszt dla budżetu** | 10,4 mld PLN | Utracone przychody podatkowe 2017-2024 |
 | **Uczestnictwo szczytowe** | 4,741 (2021) | Najwyższa liczba podmiotów korzystających z B+R |
 | **Obecne uczestnictwo** | 3,655 (2024) | Spadek o 23% od szczytu |

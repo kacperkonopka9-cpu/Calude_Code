@@ -248,8 +248,8 @@ Teraz czas, aby **pokazać** światu tę innowacyjność - poprzez dokładne, ko
 **Kontakt:**
 
 Dla zapytań dotyczących raportu, danych, metodologii, lub możliwości współpracy:
-- Email: [kontakt@projektinnowacje.pl] *(placeholder - dostosuj do rzeczywistego kontaktu)*
-- Web: [www.projektinnowacje.pl] *(placeholder)*
+- Email: kkonopka@inovgroup.pl
+- Web: www.inovgroup.pl
 
 ---
 

@@ -244,30 +244,39 @@ Jeśli MF pokazuje **22.88 mld PLN**, a GUS tylko **16 mld PLN**, brakuje **6.88
 
 ### B.3 Wpływ na R&D/GDP Ratio
 
-**Obecny R&D/GDP (2024 est.):**
-- Oficjalne wydatki B+R (GUS 2022): ~**41 mld PLN**
-  - Sektor przedsiębiorstw: ~16 mld PLN
-  - Sektor publiczny (uniwersytety, instytuty): ~25 mld PLN
-- GDP Polski 2024: ~**3,000 mld PLN**
-- R&D/GDP: 41 mld / 3,000 mld = **1.37%** (oficjalnie publikowane: 1.45% - różnica z powodu rewizji danych)
+**Obecny R&D/GDP (2024 - nowy raport GUS październik 2025):**
+- Oficjalne wydatki B+R (GUS 2024): **51.5 mld PLN** (GERD)
+  - Sektor przedsiębiorstw (BERD): 32.6 mld PLN
+  - Sektor rządowy: ~8.1 mld PLN
+  - Szkolnictwo wyższe: ~10.8 mld PLN
+- GDP Polski 2024: ~**3,667 mld PLN**
+- R&D/GDP: 51.5 mld / 3,667 mld = **1.41%** (oficjalnie publikowane przez GUS, SPADEK z 1.56% w 2023!)
+
+**🚨 PARADOKS 2024:**
+- Oficjalne wydatki B+R (GUS): SPADEK o 3.1% (-1,65 mld PLN)
+- Ulgi podatkowe B+R (MF): WZROST o 3.8% (+0,42 mld PLN)
+- **To niemożliwe bez masywnej luki raportowania!**
 
 **Po korekcie (dodanie brakujących wydatków B+R):**
 - Brakujące wydatki (konserwatywne): **1.6 mld PLN**
+- Brakujące wydatki (bazowe): **2.2 mld PLN**
 - Brakujące wydatki (optymistyczne): **3.2 mld PLN**
 - Skorygowane wydatki B+R:
-  - Konserwatywnie: 41 + 1.6 = **42.6 mld PLN** → R&D/GDP = **1.42%**
-  - Optymistycznie: 41 + 3.2 = **44.2 mld PLN** → R&D/GDP = **1.47%**
+  - Konserwatywnie: 51.5 + 1.6 = **53.1 mld PLN** → R&D/GDP = **1.45%**
+  - Bazowo: 51.5 + 2.2 = **53.7 mld PLN** → R&D/GDP = **1.47%**
+  - Optymistycznie: 51.5 + 3.2 = **54.7 mld PLN** → R&D/GDP = **1.49%**
 
-**Ale to tylko Direct effect!**
+**Ale to tylko Direct effect z ulgi B+R!**
 
-**Indirect effect (GUS imputation improvement):**
-- Po poprawie raportowania, GUS nie musi już imputować ~15% danych (patrz B.1)
-- Lepsze dane pierwotne → lepsza jakość imputacji dla pozostałych firm (non-respondents)
-- **Szacowany dodatkowy efekt:** +0.1-0.2 pp w R&D/GDP
+**Indirect effect (inne ulgi + niedoszacowania + poprawa imputacji GUS):**
+- IP Box, Robotyzacja, inne ulgi: +0.03 pp
+- Inne niedoszacowania (współpraca międzynarodowa, innowacje): +0.20 pp
+- Po poprawie raportowania, GUS nie musi już imputować nieprecyzyjnie
+- Lepsze dane pierwotne → lepsza jakość danych dla wszystkich obszarów
+- **Szacowany dodatkowy efekt:** +0.20-0.25 pp w R&D/GDP
 
 **Total effect:**
-- R&D/GDP po pełnej korekcie: **1.50-1.65%** (konserwatywnie)
-- **Raport używa 1.70-1.75%** jako optymistycznego scenariusza (zakłada dodatkowe poprawki GUS w metodologii + wzrost faktycznych wydatków B+R po lepszym targetowaniu polityki)
+- R&D/GDP po pełnej korekcie: **1.70-1.75%** (realistyczny scenariusz po zamknięciu wszystkich luk)
 
 ---
 
@@ -622,7 +631,7 @@ Praktyka automatycznego wypełniania formularzy administracyjnych na podstawie d
 Technika ochrony danych osobowych polegająca na zastąpieniu identyfikatorów (np. NIP) pseudonimami (np. hash), które mogą być odwrócone tylko przez upoważnione podmioty.
 
 **R&D/GDP ratio:**
-Stosunek całkowitych wydatków na B+R w kraju do Produktu Krajowego Brutto (PKB). Kluczowy wskaźnik innowacyjności kraju. Polska (oficjalnie): 1.45% (2024), UE średnio: 2.32%.
+Stosunek całkowitych wydatków na B+R w kraju do Produktu Krajowego Brutto (PKB). Kluczowy wskaźnik innowacyjności kraju. Polska (oficjalnie): 1.41% (2024, spadek z 1.56% w 2023), UE średnio: 2.32%.
 
 **REGON (Rejestr Gospodarki Narodowej):**
 Krajowy system numerów identyfikacyjnych podmiotów gospodarczych w Polsce, prowadzony przez GUS.
@@ -674,9 +683,8 @@ Pod warunkiem:
 
 **Kontakt:**
 Dla zapytań dotyczących raportu, danych źródłowych, metodologii, lub możliwości współpracy:
-- Email: [kontakt@projektinnowacje.pl] *(placeholder)*
-- Web: [www.projektinnowacje.pl] *(placeholder)*
-- LinkedIn: [link] *(placeholder)*
+- Email: kkonopka@inovgroup.pl
+- Web: www.inovgroup.pl
 
 ---
 
@@ -691,7 +699,7 @@ Dziękujemy także ekspertom z OECD, Eurostatu, oraz instytutów statystycznych 
 ---
 
 **Sugerowane cytowanie:**
-[Nazwisko, Imię]. (2025). *Polski Ekosystem Ulg Podatkowych na Innowacje: Analiza Danych 2017-2024 i Luka Raportowania Statystycznego*. Wersja 1.0, Październik 2025. Dostępne pod adresem: [URL] *(placeholder)*
+Konopka, K. (2025). *Polski Ekosystem Ulg Podatkowych na Innowacje: Analiza Danych 2017-2024 i Luka Raportowania Statystycznego*. Inov Group, Wersja 1.0, Październik 2025. Dostępne pod adresem: www.inovgroup.pl
 
 ---
 

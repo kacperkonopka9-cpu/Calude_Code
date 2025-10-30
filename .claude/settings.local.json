@@ -23,7 +23,12 @@
       "Bash(npm run dev:*)",
       "Bash(python:*)",
       "Bash(npm install:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(for file in COMPLIANCE_CHECK_PLAN.md DATA_COMPLIANCE_CHECK.md CORRECTIONS_SUMMARY.md COMPLIANCE_CHECK_RESULTS.md RECOMMENDATIONS_SUMMARY.md CORRECTIONS_APPLIED.md)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(head:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

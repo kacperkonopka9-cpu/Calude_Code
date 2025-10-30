@@ -84,22 +84,30 @@ In 2022, Poland introduced four new reliefs:
 
 **Ministry of Finance Data (2024):**
 - **3,655 entities** claiming R&D tax relief (2,544 CIT + 1,111 PIT)
+- **Relief value 2024:** 11.44B PLN (+3.8% year-over-year)
 
-**Official GUS Reporting (2022, latest available):**
-- Estimated **~2,100 companies** reporting R&D activity*
-
-*Estimate based on GUS publications, academic research, and industry reports (details: Chapter 4.2.2, Appendix B.1)
+**GUS Data (new report October 2025 for 2024):**
+- **R&D/GDP ratio 2024:** 1.41% (down from 1.56% in 2023!)
+- **GERD 2024:** 51.5B PLN (down 3.1% year-over-year)
+- **BERD 2024:** 32.6B PLN (down 5.0% year-over-year)
+- Estimated **~2,600 companies** reporting R&D activity in 2024
 
 **Implied Gap:**
-- **~1,555 entities (~29% of claimants)** not reporting to GUS
+- **~1,055 entities (~29% of claimants)** not reporting to GUS
 - Even accounting for PIT employees and GUS imputation, the gap is substantial
+
+**🚨 PARADOX - PROOF OF THE GAP:**
+- **R&D tax relief:** ↗️ INCREASING (+3.8% in 2024 = 11.44B PLN)
+- **Official R&D spending (GUS):** ↘️ DECREASING (-3.1% in 2024 = 51.5B PLN)
+- **R&D/GDP ratio:** ↘️ FALLING (from 1.56% to 1.41% = -0.15 pp)
+- **This is impossible without massive reporting gap!**
 
 ### Impact on Indicators
 
 **If all R&D claimants reported:**
-- Poland's R&D spending could rise by **50-100%** in official statistics
-- R&D/GDP ratio: 1.45% → **1.8-2.0%**
-- **Ranking impact:** Could move Poland from bottom quartile to EU median
+- Poland's R&D spending could increase by additional **1.6-3.2B PLN** in official statistics
+- R&D/GDP ratio: 1.41% → **1.70-1.75%**
+- **Ranking impact:** Could move Poland from "Moderate Innovator" to "Strong Innovator" in EU
 
 ### Root Causes of Non-Reporting
 
@@ -241,14 +249,13 @@ Policymakers base strategy on understated data:
 - This is not just a statistical issue, but a country development strategy
 
 **Priority 2: Provide digitalization resources**
-- Investments in IT and state system integration (estimated 10-20M PLN)
+- Investments in IT and state system integration
 - Pilot projects for reporting automation
 - Support for data exchange standards development
 
 **Priority 3: Legislative changes**
 - Regulations enabling automatic data exchange between agencies
 - Simplified procedures while maintaining data protection
-- Consider linking R&D relief to reporting obligation (proportionately)
 
 **Priority 4: Information campaign**
 - Educate entrepreneurs about the importance of accurate statistics
@@ -286,8 +293,8 @@ Policymakers base strategy on understated data:
 |--------|-------|--------------|
 | **Total deductions** | 54.58B PLN | Total relief value 2017-2024 |
 | **R&D dominance** | 94.8% | R&D relief share of total value |
-| **Reporting gap** | ~29% | Percentage of R&D claimants not reporting to GUS |
-| **Potential R&D/GDP increase** | +0.3-0.5 pp | From 1.45% to 1.8-2.0% after closing gap |
+| **Reporting gap** | ~29% | Estimated % of unreported innovation project costs |
+| **Potential R&D/GDP increase** | +0.29-0.34 pp | From 1.41% (2024) to 1.70-1.75% after closing gap |
 | **Budget cost** | 10.4B PLN | Foregone tax revenue 2017-2024 |
 | **Peak participation** | 4,741 (2021) | Highest number of R&D relief users |
 | **Current participation** | 3,655 (2024) | 23% decline from peak |

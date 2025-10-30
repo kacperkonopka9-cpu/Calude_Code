@@ -4,7 +4,7 @@
 ### Nowy raport ujawnia: 29% firm B+R nie raportuje działalności do GUS - Polska wygląda gorzej niż jest
 
 **Data publikacji:** Październik 2025
-**Kontakt mediowy:** [kontakt@projektinnowacje.pl] | Tel: [+48 XXX XXX XXX] *(placeholder)*
+**Kontakt mediowy:** kkonopka@inovgroup.pl | Web: www.inovgroup.pl
 
 ---
 
@@ -12,11 +12,13 @@
 
 🔴 **Problem:** Polska zainwestowała **54.58 miliarda złotych** w ulgi podatkowe na innowacje (2017-2024), ale **~29% beneficjentów** nie raportuje swojej działalności B+R do Głównego Urzędu Statystycznego (GUS).
 
+🚨 **PARADOKS:** Najnowsze dane GUS (październik 2025, raport za 2024) pokazują, że **ulgi podatkowe B+R ROSNĄ (+3.8% w 2024 = 11.44 mld PLN)**, podczas gdy **oficjalne wydatki B+R SPADAJĄ (-3.1% w 2024 = 51.5 mld PLN)**. Wskaźnik R&D/GDP spadł z 1.56% (2023) do 1.41% (2024). **To niemożliwe bez masywnej luki raportowania!**
+
 📉 **Konsekwencje:** Oficjalne statystyki zaniżają polską innowacyjność o **1.6-3.2 miliarda PLN wydatków B+R rocznie**. Polska wydaje się mniej innowacyjna niż faktycznie jest, tracąc inwestycje zagraniczne i prestiż międzynarodowy.
 
 ✅ **Rozwiązanie:** Automatyczna integracja danych podatkowych (Ministerstwo Finansów) i statystycznych (GUS) - model stosowany w Holandii, Irlandii, Austrii. Koszt wdrożenia: **19-23.5 mln PLN** przez 6 lat. **Zwrot z inwestycji: ~1,000%** (każda złotówka zainwestowana zwraca 9-11 złotych korzyści).
 
-🎯 **Efekt:** Po reformie, wskaźnik R&D/GDP Polski wzrośnie z **1.45% do ~1.75%** - awans z "Moderate Innovator" do **"Strong Innovator"** w rankingach UE.
+🎯 **Efekt:** Po reformie, wskaźnik R&D/GDP Polski wzrośnie z **1.41% (2024) do ~1.70-1.75%** - awans z "Moderate Innovator" do **"Strong Innovator"** w rankingach UE.
 
 ---
 
@@ -28,7 +30,7 @@
 | **Liczba firm korzystających z ulg** | **90,812** *(lata podmiotowe)* | Jedna z najszerszych baz beneficjentów w UE |
 | **Luka raportowania** | **~29%** | Prawie co trzecia firma B+R nie raportuje do GUS |
 | **Brakujące wydatki B+R rocznie** | **1.6-3.2 mld PLN** | Ukryta innowacyjność Polski |
-| **Potencjalny wzrost R&D/GDP** | **+0.25-0.30 pp** | Z 1.45% do 1.70-1.75% |
+| **Potencjalny wzrost R&D/GDP** | **+0.29-0.34 pp** | Z 1.41% (2024) do 1.70-1.75% |
 | **Pozycja Polski w EU po korekcie** | **15-18 miejsce** | Awans z obecnych 20-22 |
 | **Dodatkowe inwestycje zagraniczne (FDI) przez 10 lat** | **2-3 mld EUR** | Przyciągnięte przez lepszą reputację innowacyjną |
 | **Koszt wdrożenia rozwiązania** | **19-23.5 mln PLN** | Mniej niż 1% rocznego kosztu budżetowego ulgi B+R |
@@ -42,7 +44,7 @@
 > "Polska wydała ponad 50 miliardów złotych na zachęty podatkowe dla innowacji, ale prawie jedna trzecia firm korzystających z tych ulg nie pokazuje swojej działalności w oficjalnych statystykach. To jak prowadzić kosztowną kampanię marketingową i ukryć jej rezultaty przed światem."
 
 💬 **O konsekwencjach:**
-> "Gdy Intel, Google czy ASML decydują, gdzie otworzyć nowe centrum badawcze w Europie, patrzą na rankingi innowacyjności. Polska z 1.45% R&D/GDP wygląda gorzej niż Czechy (1.94%), Estonia (1.79%), czy Węgry (1.61%). Po korekcie statystyk bylibyśmy na równi z Hiszpanią i Włochami - to całkowicie inna liga."
+> "Gdy Intel, Google czy ASML decydują, gdzie otworzyć nowe centrum badawcze w Europie, patrzą na rankingi innowacyjności. Polska z 1.41% R&D/GDP (2024) wygląda gorzej niż Czechy (1.94%), Estonia (1.79%), czy Węgry (1.61%). Po korekcie statystyk bylibyśmy na równi z Hiszpanią i Włochami - to całkowicie inna liga."
 
 💬 **O rozwiązaniu:**
 > "Holandia, Irlandia i Austria już to rozwiązały - ich urzędy skarbowe automatycznie przekazują dane o firmach B+R do instytutów statystycznych. Firmy wypełniają jeden formularz zamiast dwóch, administracja ma kompletne dane, a kraj pokazuje prawdziwy potencjał innowacyjny. To win-win-win."
@@ -75,7 +77,7 @@
 
 ### Angle 5: **"Inwestorzy patrzą na liczby - a polskie liczby kłamią"**
 - Wywiad z przedstawicielem zagranicznej firmy technologicznej: Jak rankingi innowacyjności wpływają na decyzje inwestycyjne
-- Polska z 1.45% R&D/GDP vs Polska z 1.75% R&D/GDP - **drastycznie inna percepcja**
+- Polska z 1.41% R&D/GDP vs Polska z 1.70-1.75% R&D/GDP - **drastycznie inna percepcja**
 - Przykłady straconych inwestycji (centra B+R, które poszły do Czech czy Estonii, bo "wyglądały bardziej innowacyjnie")
 
 ---
@@ -100,8 +102,8 @@ Brakuje: ██████ ~29% (~1,000+ firm)
 ```
 Średnia UE: ██████████████████████ 2.32%
 Hiszpania: ███████████████ 1.43%
-Polska (oficjalnie): ████████████ 1.45%
-Polska (po korekcie): ███████████████ 1.75% ← TUTAJ POWINNIŚMY BYĆ
+Polska (oficjalnie 2024): ████████████ 1.41%
+Polska (po korekcie): ███████████████ 1.70-1.75% ← TUTAJ POWINNIŚMY BYĆ
 ```
 
 ### Wykres 4: "ROI Reformy: 1,000%"
@@ -155,7 +157,7 @@ A: Polska będzie **systematycznie tracić na reputacji innowacyjnej** względem
 
 🧵 **1/6** Polska wydała 54.5 MILIARDA złotych na ulgi podatkowe dla innowacji (2017-2024). Ale ~29% firm korzystających z tych ulg nie raportuje swojej działalności B+R do GUS. Efekt? Polska wygląda MNIEJ innowacyjnie niż jest. 📉
 
-**2/6** Konsekwencje? Zaniżone statystyki (1.45% R&D/GDP zamiast realnych 1.70-1.75%). Polska w rankingach EU jako "Moderate Innovator" (20-22 miejsce), mimo że powinna być "Strong Innovator" (15-18 miejsce). Intel i Google patrzą na te liczby, decydując gdzie otworzyć centrum B+R.
+**2/6** Konsekwencje? Zaniżone statystyki (1.41% R&D/GDP w 2024, zamiast realnych 1.70-1.75%). Polska w rankingach EU jako "Moderate Innovator" (20-22 miejsce), mimo że powinna być "Strong Innovator" (15-18 miejsce). Intel i Google patrzą na te liczby, decydując gdzie otworzyć centrum B+R.
 
 **3/6** Dlaczego firmy nie raportują?
 • 40% - nie wie, że musi
@@ -198,11 +200,8 @@ Polska jest bardziej innowacyjna, niż myślisz. Czas, aby wszyscy to zobaczyli.
 
 **Dla wywiadów, komentarzy eksperckich, i dodatkowych danych:**
 
-📧 Email: kontakt@projektinnowacje.pl *(placeholder)*
-📞 Tel: +48 XXX XXX XXX *(placeholder)*
-🌐 Web: www.projektinnowacje.pl *(placeholder)*
-💼 LinkedIn: [link do profilu eksperta] *(placeholder)*
-🐦 Twitter/X: @projekt_innowacje *(placeholder)*
+📧 Email: kkonopka@inovgroup.pl
+🌐 Web: www.inovgroup.pl
 
 **Dostępność dla mediów:** Pon-Pt, 9:00-18:00 CET
 **Język:** Polski, English

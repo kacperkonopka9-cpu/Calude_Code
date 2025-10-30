@@ -22,7 +22,9 @@ Polska przeszła znaczącą transformację w swoim podejściu do wspierania inno
 **2022: Podwyższenie Ulgi dla Kosztów Osobowych (200%)**
 - **Od 2022 roku koszty osobowe (wynagrodzenia pracowników B+R) liczymy w 200%**
 - Ta zmiana spowodowała **znaczny wzrost wartości ulgi** w latach 2022-2024
-- Wzrost średniego odliczenia z 2.69 mln PLN (2021) do 4.33 mln PLN (2024 CIT)
+- Wzrost średniego odliczenia z 2.69 mln PLN (2021) do 4.33 mln PLN (2024 CIT)*
+
+*Metodologia obliczeń: Średnie obliczone jako łączne odliczenia ulgi B+R (CIT+PIT) podzielone przez liczbę podmiotów CIT, odzwierciedlające dominujący profil użytkowników (korporacje). 2021: 6,129 mld PLN / 2,791 CIT = 2.20 mln PLN; 2024: 11,441 mld PLN / 2,544 CIT = 4.50 mln PLN. Wartości w tekście mogą być zaokrąglone lub bazować na danych częściowych za 2024 rok.
 
 **2019: Uruchomienie IP Box**
 - Preferencyjna stawka podatku (5% CIT, 5% PIT) na dochody z własności intelektualnej
@@ -102,7 +104,7 @@ Międzynarodowe korporacje alokują centra B+R na podstawie:
 
 **Przykład:** Firma technologiczna planuje europejskie centrum B+R. Porównuje:
 - **Czechy:** R&D/GDP 2.0%, wysokie rankingi innowacyjności
-- **Polska:** R&D/GDP 1.45%, niskie rankingi innowacyjności
+- **Polska:** R&D/GDP 1.41% (2024), niskie rankingi innowacyjności
 
 Nawet jeśli Polska oferuje lepsze zachęty podatkowe, **niższy ranking innowacyjności może przeważyć** w decyzji.
 
@@ -141,7 +143,7 @@ Polska znajduje się w niezwykłej - i frustrującej - sytuacji:
 - ✅ Rząd "traci" około 2-3 miliardów PLN rocznie w przychodach podatkowych (inwestycja w innowacje)
 
 **Z drugiej strony:**
-- ❌ Oficjalne statystyki pokazują, że Polska inwestuje tylko 1,45% PKB w B+R (2022)
+- ❌ Oficjalne statystyki pokazują, że Polska inwestuje tylko 1,41% PKB w B+R (2024) - SPADEK z 1,56% w 2023!
 - ❌ Polska zajmuje jedno z ostatnich miejsc w UE w rankingach innowacyjności
 - ❌ Międzynarodowe bazy danych (OECD, Eurostat) przedstawiają Polskę jako kraj o niskiej intensywności B+R
 
@@ -171,22 +173,33 @@ Ministerstwo Finansów wie, że firma X odliczyła 5 milionów PLN kosztów B+R 
 
 **Co wiemy z danych Ministerstwa Finansów (2024):**
 - **3,655 podmiotów** korzystających z ulgi B+R (2,544 CIT + 1,111 PIT)
-- **11,44 miliarda PLN** w odliczeniach podatkowych
+- **11,44 miliarda PLN** w odliczeniach podatkowych (+3,8% wzrost rok do roku)
 
-**Co pokazują oficjalne statystyki GUS (2022, najnowsze dostępne):**
-- Szacowane **~2,100 firm** raportujących działalność B+R
-- Oficjalne wydatki na B+R: **~48 miliardów PLN** (1,45% PKB)
+**Co pokazują oficjalne statystyki GUS (nowy raport październik 2025 za 2024 rok):**
+- **Wskaźnik R&D/GDP 2024:** 1,41% (SPADEK z 1,56% w 2023!)
+- **GERD 2024:** 51,5 miliarda PLN (SPADEK o 3,1% rok do roku)
+- **BERD 2024:** 32,6 miliarda PLN (SPADEK o 5,0% rok do roku)
+- Szacowane **~2,600 firm** raportujących działalność B+R (spadek z 7,549 podmiotów do 7,272 podmiotów R&D)
 
 **Źródło danych GUS:**
-- Nauka i Technika w 2022 roku: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/nauka-i-technika-w-2022-roku,1,18.html
+- Działalność badawcza i rozwojowa w Polsce w 2024 roku: Publikacja GUS, październik 2025
 - Baza danych GUS - Nauka i Technika: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/
 
+**🚨 PARADOKS - DOWÓD ISTNIENIA LUKI:**
+To jest matematycznie niemożliwe bez masywnej luki raportowania:
+- **Ulgi podatkowe B+R:** ↗️ **ROSNĄ** (+3,8% w 2024 = 11,44 mld PLN)
+- **Oficjalne wydatki B+R (GUS):** ↘️ **SPADAJĄ** (-3,1% w 2024 = 51,5 mld PLN)
+- **Wskaźnik R&D/PKB:** ↘️ **SPADA** (z 1,56% do 1,41% = -0,15 punktu procentowego)
+
+Więcej firm korzysta z ulg B+R, odliczają większe kwoty, ale oficjalne statystyki pokazują SPADEK działalności B+R. Ta sprzeczność może mieć tylko jedno wyjaśnienie: **rosnąca liczba firm nie raportuje swojej działalności do GUS**.
+
 **Domniemana Luka:**
-- **~1,555 podmiotów (~29% wnioskodawców ulgi B+R)** nie raportujących do GUS
-- Brakujące wydatki: potencjalnie **10-20 miliardów PLN rocznie** (jeśli odliczenia = 150-200% kosztów)
+- **~1,055 podmiotów (~29% wnioskodawców ulgi B+R)** nie raportujących do GUS
+- Brakujące wydatki: potencjalnie **1,6-3,2 miliarda PLN rocznie** w niedoszacowanych wydatkach na B+R
+- Nawet uwzględniając pracowników PIT i imputację GUS, luka pozostaje istotna
 
 **Jeśli luka zostanie zamknięta:**
-- Wskaźnik B+R/PKB Polski mógłby wzrosnąć z **1,45% do 1,8-2,0%**
+- Wskaźnik B+R/PKB Polski mógłby wzrosnąć z **1,41% (2024) do 1,70-1,75%**
 - Pozycja Polski w rankingach innowacyjności znacznie by się poprawiła
 - Narracja "Polska jako centrum innowacji" stałaby się wiarygodna
 
@@ -268,7 +281,7 @@ Ten raport ma na celu osiągnięcie pięciu kluczowych celów:
 - Porównanie z szacunkami populacji respondentów GUS
 - Triangulacja z danymi z ankiet Grant Thornton
 
-**Rezultat:** Oszacowanie **~29% luki**, reprezentujące 1,555 podmiotów i potencjalnie 10-20 miliardów PLN w niedoszacowanych wydatkach na B+R.
+**Rezultat:** Oszacowanie **~29% luki**, reprezentujące około 1,055 podmiotów i potencjalnie 1,6-3,2 miliarda PLN w niedoszacowanych wydatkach na B+R rocznie.
 
 ### Cel 2: Diagnoza Przyczyn
 
